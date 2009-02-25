@@ -21,6 +21,7 @@
 - (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) {
         // Initialization code
+			cellSelected = NO;
     }
     return self;
 }
@@ -42,39 +43,34 @@
 #pragma mark - 
 #pragma mark Gestures
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	UITouch *touch = [touches anyObject]; 
-	gestureStartPoint = [touch locationInView:self];	
-}
-
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event { 
-	UIAlertView *alert = [[UIAlertView alloc] 
-												initWithTitle:@"Time reset!"
-												message:@"blarg blarg blarg"
-												delegate:nil 
-												cancelButtonTitle:@"Yep, I did." 
-												otherButtonTitles:nil]; 
-	[alert show]; 
-	[alert release];
-	
-	UITouch *touch = [touches anyObject]; 
-	CGPoint currentPosition = [touch locationInView:self]; 
-	CGFloat deltaX = fabsf(gestureStartPoint.x - currentPosition.x); 
-	CGFloat deltaY = fabsf(gestureStartPoint.y - currentPosition.y); 
-	if (deltaX >= kMinimumGestureLength && deltaY <= kMaximumVariance) {
-		UIAlertView *alert = [[UIAlertView alloc] 
-													initWithTitle:@"Time reset!"
-													message:@"blarg blarg blarg"
-													delegate:nil 
-													cancelButtonTitle:@"Yep, I did." 
-													otherButtonTitles:nil]; 
-		[alert show]; 
-		[alert release];
+	if(cellSelected == NO) {
+		cellSelected = YES;
 		
-		[self performSelector:@selector(setReminderTimeToNow)
-							 withObject:self afterDelay:2]; 
-	} 
+		UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+		// button normal state
+		[button setTitle:@"Set" forState:UIControlStateNormal];
+		[button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+		
+		UIFont *buttonFont = [UIFont boldSystemFontOfSize:12];
+		[button setFont:buttonFont];
+		
+		
+		[button setFrame:CGRectMake(0, 0, 50, 30)];
+		UIImage *buttonImageNormal = [UIImage imageNamed:@"blueButton.png"];
+		UIImage *stretchableButtonImageNormal = [buttonImageNormal stretchableImageWithLeftCapWidth:12 topCapHeight:0];
+		[button setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];
+		
+		[self setAccessoryView:button];
+	}
+	else {
+		cellSelected = NO;
+		[self setAccessoryView:nil];
+	}
 }
 
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
+
+}
 
 #pragma mark data manipulation
 -(void)setReminderTimeToNow

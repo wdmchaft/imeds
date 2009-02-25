@@ -269,6 +269,7 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>6536BD450F5049BC00E381FD</string>
+								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
@@ -301,7 +302,7 @@
 							<real>258</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>28 374 977 751 0 0 1920 1178 </string>
+						<string>28 373 977 751 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,7 +332,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>65C1352F0F51A3A900259C26</string>
+										<string>65C136110F51FEF000259C26</string>
 										<key>history</key>
 										<array>
 											<string>656BC4420F48573000FF25A5</string>
@@ -352,9 +353,9 @@
 											<string>6536C00D0F50BE1C00E381FD</string>
 											<string>6536C0350F50BF1800E381FD</string>
 											<string>6536C0360F50BF1800E381FD</string>
-											<string>6536C0370F50BF1800E381FD</string>
-											<string>65F6A4110F51A34C00D5878A</string>
-											<string>65F6A4190F51A39900D5878A</string>
+											<string>65C135790F51ACDE00259C26</string>
+											<string>65C135C40F51B63F00259C26</string>
+											<string>65C135DA0F51B70000259C26</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -379,6 +380,19 @@
 											<string>6536BD570F5049F200E381FD</string>
 											<string>6536BEDC0F509C1F00E381FD</string>
 											<string>6536BEDF0F509C1F00E381FD</string>
+											<string>65C1354F0F51A8DF00259C26</string>
+											<string>65C135500F51A8DF00259C26</string>
+											<string>65C1355E0F51AA8100259C26</string>
+											<string>65C1355F0F51AA8100259C26</string>
+											<string>65C1357B0F51ACDE00259C26</string>
+											<string>65C1357C0F51ACDE00259C26</string>
+											<string>65C135B10F51B43000259C26</string>
+											<string>65C135B20F51B43000259C26</string>
+											<string>65C135BD0F51B5F600259C26</string>
+											<string>65C135BE0F51B5F600259C26</string>
+											<string>65C135BF0F51B5F600259C26</string>
+											<string>65C135C50F51B63F00259C26</string>
+											<string>65C135DB0F51B70000259C26</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -392,7 +406,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {697, 705}}</string>
 								<key>RubberWindowFrame</key>
-								<string>28 374 977 751 0 0 1920 1178 </string>
+								<string>28 373 977 751 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -412,7 +426,7 @@
 								<key>Frame</key>
 								<string>{{0, 710}, {697, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>28 374 977 751 0 0 1920 1178 </string>
+								<string>28 373 977 751 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -572,10 +586,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>65C135830F51AD3A00259C26</string>
+		<string>65C135840F51AD3A00259C26</string>
+		<string>656BC32F0F47AA1A00FF25A5</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/daniel/cocoa/iphone/RegularReminder/RegularReminder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>28 374 977 751 0 0 1920 1178 </string>
+	<string>28 373 977 751 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -652,7 +671,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>656BC32F0F47AA1A00FF25A5</string>
-				<string>65F6A4030F51A0A300D5878A</string>
+				<string>65C135520F51A8DF00259C26</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -772,13 +791,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>65F6A4040F51A0A300D5878A</string>
+				<string>65C135450F51A8C000259C26</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>65F6A4050F51A0A300D5878A</string>
-				<string>65F6A4060F51A0A300D5878A</string>
-				<string>65F6A4070F51A0A300D5878A</string>
-				<string>65F6A4080F51A0A300D5878A</string>
-				<string>65F6A4090F51A0A300D5878A</string>
+				<string>65C135460F51A8C000259C26</string>
+				<string>65C135470F51A8C000259C26</string>
+				<string>65C135480F51A8C000259C26</string>
+				<string>65C135490F51A8C000259C26</string>
+				<string>65C1354A0F51A8C000259C26</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -934,7 +953,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>65F6A40A0F51A0A300D5878A</string>
+				<string>65C135530F51A8DF00259C26</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

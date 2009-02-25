@@ -19,6 +19,8 @@
 	IBOutlet UILabel *lastLabel;
 	
 	CGPoint gestureStartPoint;
+	
+	BOOL cellSelected;
 }
 
 @property (nonatomic, retain) Reminder *reminder;

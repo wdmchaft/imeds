@@ -36,6 +36,7 @@
 		6536BD440F50492300E381FD /* ReminderIntervalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BD430F50492300E381FD /* ReminderIntervalPicker.m */; };
 		6536BEB60F506CA300E381FD /* ReminderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BEB50F506CA300E381FD /* ReminderCell.m */; };
 		6536BEB80F506CBE00E381FD /* ReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6536BEB70F506CBE00E381FD /* ReminderCell.xib */; };
+		654597D50F54FAC80098678A /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 654597D40F54FAC80098678A /* blueButton.png */; };
 		656BC31D0F47A79800FF25A5 /* ReminderDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC31C0F47A79800FF25A5 /* ReminderDetailsController.m */; };
 		656BC3790F47AD1300FF25A5 /* ReminderDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */; };
 		656BC4120F48525800FF25A5 /* ReminderEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC4110F48525800FF25A5 /* ReminderEditController.m */; };
@@ -96,6 +97,7 @@
 		6536BEB40F506CA300E381FD /* ReminderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderCell.h; path = ../ReminderCell.h; sourceTree = "<group>"; };
 		6536BEB50F506CA300E381FD /* ReminderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderCell.m; path = ../ReminderCell.m; sourceTree = "<group>"; };
 		6536BEB70F506CBE00E381FD /* ReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderCell.xib; sourceTree = "<group>"; };
+		654597D40F54FAC80098678A /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		656BC31B0F47A79800FF25A5 /* ReminderDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderDetailsController.h; sourceTree = "<group>"; };
 		656BC31C0F47A79800FF25A5 /* ReminderDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderDetailsController.m; sourceTree = "<group>"; };
 		656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderDetails.xib; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				654597D40F54FAC80098678A /* blueButton.png */,
 				6536BB9D0F502FFC00E381FD /* sqlite-persistent */,
 				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
@@ -300,6 +303,7 @@
 				656BC3790F47AD1300FF25A5 /* ReminderDetails.xib in Resources */,
 				651EAAD60F4BB2CC000D9C76 /* ReminderNew.xib in Resources */,
 				6536BEB80F506CBE00E381FD /* ReminderCell.xib in Resources */,
+				654597D50F54FAC80098678A /* blueButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
