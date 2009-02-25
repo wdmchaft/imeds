@@ -8,6 +8,7 @@
 
 #define kMinimumGestureLength       25 
 #define kMaximumVariance            5 
+#define kAnimationKey @"transitionViewAnimation"
 
 #import <UIKit/UIKit.h>
 @class Reminder;
@@ -18,9 +19,10 @@
 	IBOutlet UILabel *nextLabel;
 	IBOutlet UILabel *lastLabel;
 	
-	CGPoint gestureStartPoint;
-	
 	BOOL cellSelected;
+  
+@private
+	BOOL transitioning;
 }
 
 @property (nonatomic, retain) Reminder *reminder;
@@ -28,7 +30,7 @@
 @property (nonatomic, retain) IBOutlet UILabel *nextLabel;
 @property (nonatomic, retain) IBOutlet UILabel *lastLabel;
 
-@property CGPoint gestureStartPoint;
+@property (readonly, getter=isTransitioning) BOOL transitioning;
 
 -(void)setReminderTimeToNow;
 

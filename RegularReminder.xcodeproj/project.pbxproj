@@ -37,6 +37,7 @@
 		6536BEB60F506CA300E381FD /* ReminderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BEB50F506CA300E381FD /* ReminderCell.m */; };
 		6536BEB80F506CBE00E381FD /* ReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6536BEB70F506CBE00E381FD /* ReminderCell.xib */; };
 		654597D50F54FAC80098678A /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 654597D40F54FAC80098678A /* blueButton.png */; };
+		654598820F55133F0098678A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654598810F55133F0098678A /* QuartzCore.framework */; };
 		656BC31D0F47A79800FF25A5 /* ReminderDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC31C0F47A79800FF25A5 /* ReminderDetailsController.m */; };
 		656BC3790F47AD1300FF25A5 /* ReminderDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */; };
 		656BC4120F48525800FF25A5 /* ReminderEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC4110F48525800FF25A5 /* ReminderEditController.m */; };
@@ -98,6 +99,7 @@
 		6536BEB50F506CA300E381FD /* ReminderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderCell.m; path = ../ReminderCell.m; sourceTree = "<group>"; };
 		6536BEB70F506CBE00E381FD /* ReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderCell.xib; sourceTree = "<group>"; };
 		654597D40F54FAC80098678A /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		654598810F55133F0098678A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		656BC31B0F47A79800FF25A5 /* ReminderDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderDetailsController.h; sourceTree = "<group>"; };
 		656BC31C0F47A79800FF25A5 /* ReminderDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderDetailsController.m; sourceTree = "<group>"; };
 		656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderDetails.xib; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				65BC32620F4B9CF7007A38C6 /* libsqlite3.dylib in Frameworks */,
+				654598820F55133F0098678A /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +194,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				654598810F55133F0098678A /* QuartzCore.framework */,
 				65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
