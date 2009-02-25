@@ -332,7 +332,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>65C136110F51FEF000259C26</string>
+										<string>6569AFDB0F55B65600063A21</string>
 										<key>history</key>
 										<array>
 											<string>656BC4420F48573000FF25A5</string>
@@ -355,7 +355,7 @@
 											<string>6536C0360F50BF1800E381FD</string>
 											<string>65C135790F51ACDE00259C26</string>
 											<string>65C135C40F51B63F00259C26</string>
-											<string>65C135DA0F51B70000259C26</string>
+											<string>65C136110F51FEF000259C26</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -380,19 +380,6 @@
 											<string>6536BD570F5049F200E381FD</string>
 											<string>6536BEDC0F509C1F00E381FD</string>
 											<string>6536BEDF0F509C1F00E381FD</string>
-											<string>65C1354F0F51A8DF00259C26</string>
-											<string>65C135500F51A8DF00259C26</string>
-											<string>65C1355E0F51AA8100259C26</string>
-											<string>65C1355F0F51AA8100259C26</string>
-											<string>65C1357B0F51ACDE00259C26</string>
-											<string>65C1357C0F51ACDE00259C26</string>
-											<string>65C135B10F51B43000259C26</string>
-											<string>65C135B20F51B43000259C26</string>
-											<string>65C135BD0F51B5F600259C26</string>
-											<string>65C135BE0F51B5F600259C26</string>
-											<string>65C135BF0F51B5F600259C26</string>
-											<string>65C135C50F51B63F00259C26</string>
-											<string>65C135DB0F51B70000259C26</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -450,9 +437,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>65C135300F51A3A900259C26</string>
+				<string>6569AFDC0F55B65600063A21</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>65C135310F51A3A900259C26</string>
+				<string>6569AFDD0F55B65600063A21</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -586,12 +573,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>65C135830F51AD3A00259C26</string>
-		<string>65C135840F51AD3A00259C26</string>
 		<string>656BC32F0F47AA1A00FF25A5</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>/Users/daniel/cocoa/iphone/RegularReminder/RegularReminder.xcodeproj</string>
+		<string>/Users/daniel/cocoa/iphone/imeds/RegularReminder.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>28 373 977 751 0 0 1920 1178 </string>
@@ -671,7 +654,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>656BC32F0F47AA1A00FF25A5</string>
-				<string>65C135520F51A8DF00259C26</string>
+				<string>6569AFDE0F55B65600063A21</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
