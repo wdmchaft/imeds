@@ -237,7 +237,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>ReminderDetailsController</string>
 					<string>UIResponder</string>
-					<string>{{254, 415}, {320, 480}}</string>
+					<string>{{254, 276}, {320, 480}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>ReminderIntervalPicker</string>
@@ -266,7 +266,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">21</int>
+			<int key="maxID">22</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

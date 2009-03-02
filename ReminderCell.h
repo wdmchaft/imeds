@@ -21,6 +21,9 @@
 	
 	BOOL cellSelected;
   
+  UIButton *medTakenButton;
+  UIButton *detailDisclosureButton;
+  
 @private
 	BOOL transitioning;
 }
@@ -33,5 +36,5 @@
 @property (readonly, getter=isTransitioning) BOOL transitioning;
 
 -(void)setReminderTimeToNow;
-
+-(UIButton *)medTakenButton;
 @end

@@ -130,6 +130,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				65C34F2E0F5B903100D4A125 /* Models */,
 				6536BD450F5049BC00E381FD /* Views */,
 				656BC4130F48526000FF25A5 /* ReminderNewController.h */,
 				656BC4140F48526000FF25A5 /* ReminderNewController.m */,
@@ -141,8 +142,6 @@
 				656BC31C0F47A79800FF25A5 /* ReminderDetailsController.m */,
 				656BC4100F48525800FF25A5 /* ReminderEditController.h */,
 				656BC4110F48525800FF25A5 /* ReminderEditController.m */,
-				651EAA300F4BA068000D9C76 /* Reminder.h */,
-				651EAA310F4BA068000D9C76 /* Reminder.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -251,6 +250,15 @@
 				6536BD430F50492300E381FD /* ReminderIntervalPicker.m */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		65C34F2E0F5B903100D4A125 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				651EAA300F4BA068000D9C76 /* Reminder.h */,
+				651EAA310F4BA068000D9C76 /* Reminder.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
