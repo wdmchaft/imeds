@@ -42,14 +42,13 @@
 #pragma mark - 
 #pragma mark Gestures
 - (UIButton *) medTakenButton {
-  NSLog(@"medTakenButton class:", [medTakenButton className]);
   if(medTakenButton != nil)
   {
     return medTakenButton;
   }
   medTakenButton = [UIButton buttonWithType:UIButtonTypeCustom];
   // button normal state
-  [medTakenButton setTitle:@"Set" forState:UIControlStateNormal];
+  [medTakenButton setTitle:@"Take" forState:UIControlStateNormal];
   [medTakenButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
   
   UIFont *buttonFont = [UIFont boldSystemFontOfSize:12];
@@ -61,34 +60,60 @@
   UIImage *stretchableButtonImageNormal = [buttonImageNormal stretchableImageWithLeftCapWidth:12 topCapHeight:0];
   [medTakenButton setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];
   [medTakenButton retain];
+  [medTakenButton addTarget:self action:@selector(medTaken) forControlEvents:UIControlEventTouchUpInside];
   return medTakenButton;
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 	if(cellSelected == NO) {
 		cellSelected = YES;
+    
     [self setAccessoryView:[self medTakenButton]];
+    [UIView beginAnimations:nil context:nil];
+    [self medTakenButton].alpha = 0;
+    [self medTakenButton].alpha = 100;
+    [UIView commitAnimations];
 	}
 	else {
-		cellSelected = NO;
-		[self setAccessoryView:nil];
+    [self hideMedTakenButton];
 	}
 }
 
-#pragma mark data manipulation
--(void)setReminderTimeToNow
-{ 
-	UIAlertView *alert = [[UIAlertView alloc] 
-												initWithTitle:@"Time reset!"
-												message:@"blarg blarg blarg"
-												delegate:nil 
-												cancelButtonTitle:@"Yep, I did." 
-												otherButtonTitles:nil]; 
-	[alert show]; 
-	[alert release];
-//	reminder.lastSet = [NSDate date];
-//	reminder.save;
+- (void)animationDidStop:(CAAnimation *)theAnimation finished:(BOOL)flag
+{
+  cellSelected = NO;
+  [self setAccessoryView:nil];
 }
 
+- (void)hideMedTakenButton
+{
+  [UIView beginAnimations:nil context:nil];
+  [UIView setAnimationDelegate: self];
+  [self medTakenButton].alpha = 0;
+  [UIView commitAnimations];
+}
+
+
+#pragma mark data manipulation
+-(void)medTaken
+{ 
+  NSLog(@"Set");
+  NSDate *now = [NSDate date];
+	reminder.lastSet = now;
+  NSLog(@"Date: %@", reminder.lastSet);
+  NSLog(@"More Date: %@", [NSDate date]);
+  NSLog(@"More Date: %@", now);
+	reminder.save;
+  [self setupLabels];
+  [self hideMedTakenButton];
+}
+
+#pragma mark Labels
+-(void)setupLabels
+{
+  nameLabel.text = reminder.name;
+	nextLabel.text = [reminder takeAgain];
+	lastLabel.text = [reminder lastTaken];
+}
 
 @end

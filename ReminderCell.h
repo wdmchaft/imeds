@@ -35,6 +35,8 @@
 
 @property (readonly, getter=isTransitioning) BOOL transitioning;
 
--(void)setReminderTimeToNow;
+-(void)medTaken;
+-(void)hideMedTakenButton;
+-(void)setupLabels;
 -(UIButton *)medTakenButton;
 @end

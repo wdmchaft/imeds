@@ -55,10 +55,14 @@
 		return @"never";
 	}
 	
-	NSCalendarDate *now = [NSCalendarDate date];
-	[now setCalendarFormat:@"%m-%d-%y %I:%M %p"];
-	return [NSString stringWithFormat:@"%@", now];
+	return [NSString stringWithFormat:@"%@", [self lastSetCalendarDate]];
 }
+                                     
+- (NSCalendarDate *)lastSetCalendarDate
+{
+  return [lastSet dateWithCalendarFormat:kDateFormat timeZone:[NSTimeZone localTimeZone]];
+}
+                                     
 
 -(void)dealloc
 {
@@ -74,11 +78,11 @@
 	if(lastSet == nil) {
 		lastSetDate = [NSCalendarDate date];
 	} else {
-		lastSetDate = [lastSet dateWithCalendarFormat:@"%I:%M %p" timeZone:[NSTimeZone localTimeZone]];
+		lastSetDate = [self lastSetCalendarDate];
 	}
 	
 	NSCalendarDate *nextTime = [lastSetDate addTimeInterval:interval];
-	[nextTime setCalendarFormat:@"%I:%M %p"];	
+	[nextTime setCalendarFormat:kDateFormat];	
 	return nextTime;
 }
 

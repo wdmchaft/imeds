@@ -7,6 +7,7 @@
 //
 
 #define kDaySeconds 86400
+#define kDateFormat @"%I:%M %p"
 
 #import <Foundation/Foundation.h>
 #import "SQLitePersistentObject.h"
@@ -30,5 +31,6 @@
 - (NSString *)takeAgain;
 - (NSString *)lastTaken;
 - (NSCalendarDate *)takeAgainDate;
+- (NSCalendarDate *)lastSetCalendarDate;
 
 @end

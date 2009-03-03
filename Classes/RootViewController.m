@@ -89,9 +89,8 @@
 	}
 	
 	Reminder *reminder = [self.reminders objectAtIndex:[indexPath row]];
-	cell.nameLabel.text = reminder.name;
-	cell.nextLabel.text = [reminder takeAgain];
-	cell.lastLabel.text = [reminder lastTaken];
+  cell.reminder = reminder;
+  [cell setupLabels];
 	cell.tag = [indexPath row];
 	
 	
