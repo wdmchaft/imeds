@@ -11,7 +11,7 @@
 @class Medication;
 @class ReminderIntervalPicker;
 
-@interface ReminderDetailsController : UIViewController
+@interface MedicationDetailsController : UIViewController
 	<UITextFieldDelegate> {
 		IBOutlet UITextField *name;
 		IBOutlet ReminderIntervalPicker *intervalPicker;

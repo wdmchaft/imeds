@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "RegularReminderAppDelegate.h"
-#import "ReminderDetailsController.h"
+#import "MedicationDetailsController.h"
 #import "MedicationNewController.h"
 #import "Medication.h"
 #import "ReminderCell.h"
@@ -109,7 +109,7 @@ accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
 {
 	if (childController == nil)
 	{
-		childController = [[ReminderDetailsController alloc] initWithNibName:@"ReminderDetails"
+		childController = [[MedicationDetailsController alloc] initWithNibName:@"ReminderDetails"
 																																	 bundle:nil];
 	}
 	NSUInteger row = [indexPath row];
