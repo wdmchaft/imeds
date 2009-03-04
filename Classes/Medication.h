@@ -32,5 +32,7 @@
 - (NSString *)lastTaken;
 - (NSCalendarDate *)takeAgainDate;
 - (NSCalendarDate *)lastSetCalendarDate;
+- (BOOL)overdue;
+
 
 @end

@@ -62,7 +62,15 @@
 {
   return [lastSet dateWithCalendarFormat:kDateFormat timeZone:[NSTimeZone localTimeZone]];
 }
-                                     
+
+- (BOOL)overdue
+{
+  NSDate *now = [NSDate date];
+  if([now compare:[self takeAgainDate]] == NSOrderedDescending)
+    return YES;
+  else
+    return NO;
+}
 
 -(void)dealloc
 {

@@ -114,6 +114,11 @@
   nameLabel.text = medication.name;
 	nextLabel.text = [medication takeAgain];
 	lastLabel.text = [medication lastTaken];
+  
+  if([medication overdue])
+    nextLabel.textColor = [UIColor redColor];
+  else
+    nextLabel.textColor = [UIColor blackColor];
 }
 
 @end
