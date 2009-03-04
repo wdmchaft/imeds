@@ -8,7 +8,7 @@
 
 #import "ReminderDetailsController.h"
 #import "RegularReminderAppDelegate.h"
-#import "Reminder.h"
+#import "Medication.h"
 #import "ReminderIntervalPicker.h"
 
 @implementation ReminderDetailsController

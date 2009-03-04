@@ -6,11 +6,11 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import "Reminder.h"
+#import "Medication.h"
 #import "SQLitePersistentObject.h"
 
 
-@implementation Reminder
+@implementation Medication
 @synthesize name;
 @synthesize interval;
 @synthesize lastSet;

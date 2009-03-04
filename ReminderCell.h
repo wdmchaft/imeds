@@ -11,10 +11,10 @@
 #define kAnimationKey @"transitionViewAnimation"
 
 #import <UIKit/UIKit.h>
-@class Reminder;
+@class Medication;
 
 @interface ReminderCell : UITableViewCell {
-	Reminder *reminder;
+	Medication *medication;
 	IBOutlet UILabel *nameLabel;
 	IBOutlet UILabel *nextLabel;
 	IBOutlet UILabel *lastLabel;
@@ -28,7 +28,7 @@
 	BOOL transitioning;
 }
 
-@property (nonatomic, retain) Reminder *reminder;
+@property (nonatomic, retain) Medication *medication;
 @property (nonatomic, retain) IBOutlet UILabel *nameLabel;
 @property (nonatomic, retain) IBOutlet UILabel *nextLabel;
 @property (nonatomic, retain) IBOutlet UILabel *lastLabel;

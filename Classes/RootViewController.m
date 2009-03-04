@@ -10,12 +10,12 @@
 #import "RegularReminderAppDelegate.h"
 #import "ReminderDetailsController.h"
 #import "ReminderNewController.h"
-#import "Reminder.h"
+#import "Medication.h"
 #import "ReminderCell.h"
 
 
 @implementation RootViewController
-@synthesize reminders;
+@synthesize medications;
 @synthesize childController;
 
 #pragma mark -
@@ -24,7 +24,7 @@
 
 // TODO is it really necessary to have tempReminders?
 - (void)loadReminders {
-	self.reminders = [Reminder allObjects];
+	self.medications = [Medication allObjects];
 }
 
 
@@ -73,7 +73,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-  return [reminders count];
+  return [medications count];
 }
 
 
@@ -88,8 +88,8 @@
 		cell = [nib objectAtIndex:0]; 
 	}
 	
-	Reminder *reminder = [self.reminders objectAtIndex:[indexPath row]];
-  cell.reminder = reminder;
+	Medication *medication = [self.medications objectAtIndex:[indexPath row]];
+  cell.medication = medication;
   [cell setupLabels];
 	cell.tag = [indexPath row];
 	
@@ -114,7 +114,7 @@ accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
 	}
 	NSUInteger row = [indexPath row];
 	
-	Reminder *selectedReminder = [reminders objectAtIndex:row];
+	Medication *selectedReminder = [medications objectAtIndex:row];
 	
 	childController.reminder = selectedReminder;
 	
@@ -140,7 +140,7 @@ tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *) index
 
 - (void)dealloc {
 	[childController dealloc];
-	[reminders dealloc];
+	[medications dealloc];
   [super dealloc];
 }
 

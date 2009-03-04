@@ -14,7 +14,7 @@
 
 
 
-@interface Reminder : SQLitePersistentObject {
+@interface Medication : SQLitePersistentObject {
 	NSString *name;	
 	int interval;
 	NSDate *lastSet;

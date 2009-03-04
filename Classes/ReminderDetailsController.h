@@ -8,16 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@class Reminder;
+@class Medication;
 @class ReminderIntervalPicker;
 
 @interface ReminderDetailsController : UIViewController
 	<UITextFieldDelegate> {
 		IBOutlet UITextField *name;
 		IBOutlet ReminderIntervalPicker *intervalPicker;
-		Reminder *reminder;
+		Medication *reminder;
 }
-@property (nonatomic, retain) Reminder *reminder;
+@property (nonatomic, retain) Medication *reminder;
 @property (nonatomic, retain) UITextField *name;
 @property (nonatomic, retain) ReminderIntervalPicker *intervalPicker;
 

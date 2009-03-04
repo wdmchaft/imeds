@@ -7,7 +7,7 @@
 //
 
 #import "ReminderIntervalPicker.h"
-#import "Reminder.h"
+#import "Medication.h"
 
 @implementation ReminderIntervalPicker
 @synthesize reminder;

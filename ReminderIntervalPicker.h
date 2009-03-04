@@ -12,15 +12,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class Reminder;
+@class Medication;
 
 @interface ReminderIntervalPicker : UIPickerView
 <UIPickerViewDelegate, UIPickerViewDataSource>
 {
-	Reminder *reminder;
+	Medication *reminder;
 }
 
-@property (nonatomic, retain) Reminder *reminder;
+@property (nonatomic, retain) Medication *reminder;
 
 -(NSInteger)valueInSeconds;
 

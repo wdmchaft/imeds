@@ -15,10 +15,10 @@
 @class ReminderDetailsController;
 
 @interface RootViewController : UITableViewController {
-	NSArray *reminders;
+	NSArray *medications;
 	ReminderDetailsController *childController;
 }
-@property (nonatomic, retain) NSArray *reminders;
+@property (nonatomic, retain) NSArray *medications;
 @property (nonatomic, retain) ReminderDetailsController *childController;
 
 -(void)loadReminders;

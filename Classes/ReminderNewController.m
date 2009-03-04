@@ -9,7 +9,7 @@
 #import "ReminderNewController.h"
 #import "RegularReminderAppDelegate.h"
 #import "RootViewController.h"
-#import "Reminder.h"
+#import "Medication.h"
 #import "ReminderIntervalPicker.h"
 
 @implementation ReminderNewController
@@ -54,7 +54,7 @@
 																 action:@selector(save:)];
 	self.navigationItem.rightBarButtonItem = saveButton;
 	[saveButton release];
-	reminder = [[Reminder alloc] init];
+	reminder = [[Medication alloc] init];
 	intervalPicker.reminder = reminder;
 	[super viewDidLoad];
 }

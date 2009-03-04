@@ -8,11 +8,11 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import "ReminderCell.h"
-#import "Reminder.h"
+#import "Medication.h"
 
 @implementation ReminderCell
 
-@synthesize reminder;
+@synthesize medication;
 @synthesize nameLabel;
 @synthesize nextLabel;
 @synthesize lastLabel;
@@ -99,11 +99,11 @@
 { 
   NSLog(@"Set");
   NSDate *now = [NSDate date];
-	reminder.lastSet = now;
-  NSLog(@"Date: %@", reminder.lastSet);
+	medication.lastSet = now;
+  NSLog(@"Date: %@",  medication.lastSet);
   NSLog(@"More Date: %@", [NSDate date]);
   NSLog(@"More Date: %@", now);
-	reminder.save;
+	medication.save;
   [self setupLabels];
   [self hideMedTakenButton];
 }
@@ -111,9 +111,9 @@
 #pragma mark Labels
 -(void)setupLabels
 {
-  nameLabel.text = reminder.name;
-	nextLabel.text = [reminder takeAgain];
-	lastLabel.text = [reminder lastTaken];
+  nameLabel.text = medication.name;
+	nextLabel.text = [medication takeAgain];
+	lastLabel.text = [medication lastTaken];
 }
 
 @end
