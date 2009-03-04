@@ -22,9 +22,13 @@
 #pragma mark Database
 
 
-// TODO is it really necessary to have tempReminders?
-- (void)loadReminders {
-	self.medications = [Medication allObjects];
+NSInteger medicationSort(id med1, id med2, void *context)
+{
+  return [[med1 takeAgainDate] compare:[med2 takeAgainDate]];
+}
+
+- (void)loadMedications {
+	self.medications = [[Medication allObjects] sortedArrayUsingFunction:medicationSort context:NULL];
 }
 
 
@@ -45,7 +49,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated { 
-	[self loadReminders];
+	[self loadMedications];
 	[self.tableView reloadData];
 	[super viewWillAppear:animated]; 
 } 

@@ -21,7 +21,7 @@
 @property (nonatomic, retain) NSArray *medications;
 @property (nonatomic, retain) MedicationDetailsController *childController;
 
--(void)loadReminders;
+-(void)loadMedications;
 
 
 @end
