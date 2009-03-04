@@ -41,7 +41,7 @@
 		656BC31D0F47A79800FF25A5 /* ReminderDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC31C0F47A79800FF25A5 /* ReminderDetailsController.m */; };
 		656BC3790F47AD1300FF25A5 /* ReminderDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */; };
 		656BC4120F48525800FF25A5 /* ReminderEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC4110F48525800FF25A5 /* ReminderEditController.m */; };
-		656BC4150F48526000FF25A5 /* ReminderNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC4140F48526000FF25A5 /* ReminderNewController.m */; };
+		656BC4150F48526000FF25A5 /* MedicationNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC4140F48526000FF25A5 /* MedicationNewController.m */; };
 		65BC32620F4B9CF7007A38C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
@@ -105,8 +105,8 @@
 		656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderDetails.xib; sourceTree = "<group>"; };
 		656BC4100F48525800FF25A5 /* ReminderEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderEditController.h; sourceTree = "<group>"; };
 		656BC4110F48525800FF25A5 /* ReminderEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderEditController.m; sourceTree = "<group>"; };
-		656BC4130F48526000FF25A5 /* ReminderNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderNewController.h; sourceTree = "<group>"; };
-		656BC4140F48526000FF25A5 /* ReminderNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderNewController.m; sourceTree = "<group>"; };
+		656BC4130F48526000FF25A5 /* MedicationNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationNewController.h; sourceTree = "<group>"; };
+		656BC4140F48526000FF25A5 /* MedicationNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationNewController.m; sourceTree = "<group>"; };
 		65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../Users/daniel/cocoa/iphone/RegularReminder/libsqlite3.dylib; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,8 +132,8 @@
 			children = (
 				65C34F2E0F5B903100D4A125 /* Models */,
 				6536BD450F5049BC00E381FD /* Views */,
-				656BC4130F48526000FF25A5 /* ReminderNewController.h */,
-				656BC4140F48526000FF25A5 /* ReminderNewController.m */,
+				656BC4130F48526000FF25A5 /* MedicationNewController.h */,
+				656BC4140F48526000FF25A5 /* MedicationNewController.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* RegularReminderAppDelegate.h */,
@@ -331,7 +331,7 @@
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				656BC31D0F47A79800FF25A5 /* ReminderDetailsController.m in Sources */,
 				656BC4120F48525800FF25A5 /* ReminderEditController.m in Sources */,
-				656BC4150F48526000FF25A5 /* ReminderNewController.m in Sources */,
+				656BC4150F48526000FF25A5 /* MedicationNewController.m in Sources */,
 				651EAA320F4BA068000D9C76 /* Medication.m in Sources */,
 				6536BCEB0F503B8D00E381FD /* NSData-SQLitePersistence.m in Sources */,
 				6536BCEC0F503B8D00E381FD /* NSDate-SQLitePersistence.m in Sources */,

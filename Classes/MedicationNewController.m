@@ -6,13 +6,13 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import "ReminderNewController.h"
+#import "MedicationNewController.h"
 #import "RegularReminderAppDelegate.h"
 #import "RootViewController.h"
 #import "Medication.h"
 #import "ReminderIntervalPicker.h"
 
-@implementation ReminderNewController
+@implementation MedicationNewController
 @synthesize name;
 @synthesize intervalPicker;
 @synthesize reminder;

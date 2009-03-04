@@ -9,7 +9,7 @@
 #import "RootViewController.h"
 #import "RegularReminderAppDelegate.h"
 #import "ReminderDetailsController.h"
-#import "ReminderNewController.h"
+#import "MedicationNewController.h"
 #import "Medication.h"
 #import "ReminderCell.h"
 
@@ -57,7 +57,7 @@
 }
 
 - (void)new {
-	ReminderNewController *newController = [[ReminderNewController alloc] initWithNibName:@"ReminderNew"
+	MedicationNewController *newController = [[MedicationNewController alloc] initWithNibName:@"ReminderNew"
 																																								 bundle:nil];
 	
 	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
