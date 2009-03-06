@@ -33,17 +33,28 @@
 	NSString *prefix;
 	
 	NSCalendarDate *takeAgainDate = [self takeAgainDate];
+  NSDate *today = [NSDate date];
 	
-	int sinceNow = [takeAgainDate timeIntervalSinceNow];
+  NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init]  autorelease];
+  [dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+  [dateFormatter setTimeStyle:NSDateFormatterNoStyle];
 	
-	if (sinceNow < kDaySeconds) {
+  NSString *takeAgainDateString = [dateFormatter stringFromDate:takeAgainDate];
+  
+	if ([takeAgainDateString isEqualToString:[dateFormatter stringFromDate:today]]) {
 		prefix = @"Today";
-	} else if (sinceNow > kDaySeconds && sinceNow < (kDaySeconds * 2)) {
+	} else if ([takeAgainDateString isEqualToString:
+              [dateFormatter stringFromDate:
+               [today addTimeInterval:kDaySeconds]]]) {
 		prefix = @"Tomorrow";
 	} else {
-		prefix = [NSString stringWithFormat:@"In %d days", (sinceNow / kDaySeconds)];
+    int dayDifference = [takeAgainDate timeIntervalSinceNow] / kDaySeconds;
+    if(dayDifference > 0)
+      prefix = [NSString stringWithFormat:@"In %d days", dayDifference];
+    else
+      prefix = [NSString stringWithFormat:@"%d days ago", (dayDifference * -1)];
 	}
-		
+  
 	
 	return [NSString stringWithFormat:@"%@ @ %@", prefix, takeAgainDate];
 }
@@ -74,6 +85,9 @@
   timeSinceLastTaken -= minutes * 60;
   if(minutes > 0)
     [timePieces addObject:[NSString stringWithFormat:@"%d mins", minutes]];
+  
+  if([timePieces count] == 0)
+    [timePieces addObject:[NSString stringWithString:@"less than a minute"]];
   
   return [NSString stringWithFormat:@"%@ ago", [timePieces componentsJoinedByString:@", "]];
   
