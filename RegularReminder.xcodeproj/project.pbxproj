@@ -43,6 +43,7 @@
 		656BC4120F48525800FF25A5 /* ReminderEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC4110F48525800FF25A5 /* ReminderEditController.m */; };
 		656BC4150F48526000FF25A5 /* MedicationNewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC4140F48526000FF25A5 /* MedicationNewController.m */; };
 		65BC32620F4B9CF7007A38C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */; };
+		65FBB7990F6205AA000A43F1 /* MedicationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FBB7980F6205AA000A43F1 /* MedicationLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,8 @@
 		656BC4130F48526000FF25A5 /* MedicationNewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationNewController.h; sourceTree = "<group>"; };
 		656BC4140F48526000FF25A5 /* MedicationNewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationNewController.m; sourceTree = "<group>"; };
 		65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../Users/daniel/cocoa/iphone/RegularReminder/libsqlite3.dylib; sourceTree = SDKROOT; };
+		65FBB7970F6205AA000A43F1 /* MedicationLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationLog.h; sourceTree = "<group>"; };
+		65FBB7980F6205AA000A43F1 /* MedicationLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationLog.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -257,6 +260,8 @@
 			children = (
 				651EAA300F4BA068000D9C76 /* Medication.h */,
 				651EAA310F4BA068000D9C76 /* Medication.m */,
+				65FBB7970F6205AA000A43F1 /* MedicationLog.h */,
+				65FBB7980F6205AA000A43F1 /* MedicationLog.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				6536BCFA0F503B8D00E381FD /* UIImage-SQLitePersistence.m in Sources */,
 				6536BD440F50492300E381FD /* ReminderIntervalPicker.m in Sources */,
 				6536BEB60F506CA300E381FD /* ReminderCell.m in Sources */,
+				65FBB7990F6205AA000A43F1 /* MedicationLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
