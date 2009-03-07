@@ -11,4 +11,6 @@
 
 @implementation MedicationLog
 
+@synthesize medication, createdAt;
+
 @end

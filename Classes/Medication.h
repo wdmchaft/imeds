@@ -12,17 +12,17 @@
 #import <Foundation/Foundation.h>
 #import "SQLitePersistentObject.h"
 
-
-
 @interface Medication : SQLitePersistentObject {
 	NSString *name;	
 	int interval;
 	NSDate *lastSet;
+  NSArray *medicationLogs;
 }
 
 @property (nonatomic, retain) NSString *name;
 @property int interval;
 @property (nonatomic, retain) NSDate *lastSet;
+@property (nonatomic, retain) NSArray *medicationLogs;
 
 -(int)intervalDays;
 -(int)intervalHours;

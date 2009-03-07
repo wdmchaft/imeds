@@ -7,10 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SQLitePersistentObject.h"
 
+@class Medication;
 
-@interface MedicationLog : NSObject {
-
+@interface MedicationLog : SQLitePersistentObject {
+  Medication *medication;
+  NSDate *createdAt;
 }
+
+@property (nonatomic,readwrite,retain) NSDate *createdAt;
+@property (nonatomic,readwrite,retain) Medication *medication;
 
 @end

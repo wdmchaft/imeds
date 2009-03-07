@@ -7,13 +7,10 @@
 //
 
 #import "Medication.h"
-#import "SQLitePersistentObject.h"
 
 
 @implementation Medication
-@synthesize name;
-@synthesize interval;
-@synthesize lastSet;
+@synthesize name, interval, lastSet, medicationLogs;
 
 - (int)intervalDays
 {
