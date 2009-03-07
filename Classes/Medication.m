@@ -10,7 +10,7 @@
 
 
 @implementation Medication
-@synthesize name, interval, lastSet, medicationLogs;
+@synthesize name, interval, lastTaken;
 
 - (int)intervalDays
 {
@@ -56,17 +56,17 @@
 	return [NSString stringWithFormat:@"%@ @ %@", prefix, takeAgainDate];
 }
 
-- (NSString *)lastTaken
+- (NSString *)lastTakenString 
 {	
   NSUInteger days, hours, minutes;
   NSMutableArray *timePieces = [NSMutableArray arrayWithCapacity:3];
   
-	if(lastSet == nil)
+	if(lastTaken == nil)
 	{
 		return @"never";
 	}
 	
-  NSTimeInterval timeSinceLastTaken = [[NSDate date] timeIntervalSinceDate:[self lastSet]];
+  NSTimeInterval timeSinceLastTaken = [[NSDate date] timeIntervalSinceDate:[self lastTaken]];
   
   days = timeSinceLastTaken / 86400;
   timeSinceLastTaken -= days * 86400;
@@ -88,12 +88,12 @@
   
   return [NSString stringWithFormat:@"%@ ago", [timePieces componentsJoinedByString:@", "]];
   
-//	return [NSString stringWithFormat:@"%@", [self lastSetCalendarDate]];
+//	return [NSString stringWithFormat:@"%@", [self lastTakenCalendarDate]];
 }
                                      
-- (NSCalendarDate *)lastSetCalendarDate
+- (NSCalendarDate *)lastTakenCalendarDate
 {
-  return [lastSet dateWithCalendarFormat:kDateFormat timeZone:[NSTimeZone localTimeZone]];
+  return [lastTaken dateWithCalendarFormat:kDateFormat timeZone:[NSTimeZone localTimeZone]];
 }
 
 - (BOOL)overdue
@@ -108,21 +108,21 @@
 -(void)dealloc
 {
 	[name release];
-	[lastSet release];
+	[lastTaken release];
 	[super dealloc];
 }
 
 - (NSCalendarDate *)takeAgainDate
 {
-	NSCalendarDate *lastSetDate;
+	NSCalendarDate *lastTakenDate;
 	
-	if(lastSet == nil) {
-		lastSetDate = [NSCalendarDate date];
+	if(lastTaken == nil) {
+		lastTakenDate = [NSCalendarDate date];
 	} else {
-		lastSetDate = [self lastSetCalendarDate];
+		lastTakenDate = [self lastTakenCalendarDate];
 	}
 	
-	NSCalendarDate *nextTime = [lastSetDate addTimeInterval:interval];
+	NSCalendarDate *nextTime = [lastTakenDate addTimeInterval:interval];
 	[nextTime setCalendarFormat:kDateFormat];	
 	return nextTime;
 }

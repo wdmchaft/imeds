@@ -15,23 +15,21 @@
 @interface Medication : SQLitePersistentObject {
 	NSString *name;	
 	int interval;
-	NSDate *lastSet;
-  NSArray *medicationLogs;
+	NSDate *lastTaken;
 }
 
 @property (nonatomic, retain) NSString *name;
 @property int interval;
-@property (nonatomic, retain) NSDate *lastSet;
-@property (nonatomic, retain) NSArray *medicationLogs;
+@property (nonatomic, retain) NSDate *lastTaken;
 
 -(int)intervalDays;
 -(int)intervalHours;
 -(int)intervalMinutes;
 
 - (NSString *)takeAgain;
-- (NSString *)lastTaken;
+- (NSString *)lastTakenString;
 - (NSCalendarDate *)takeAgainDate;
-- (NSCalendarDate *)lastSetCalendarDate;
+- (NSCalendarDate *)lastTakenCalendarDate;
 - (BOOL)overdue;
 
 

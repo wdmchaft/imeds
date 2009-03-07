@@ -9,6 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "ReminderCell.h"
 #import "Medication.h"
+#import "MedicationLog.h"
 
 @implementation ReminderCell
 
@@ -99,11 +100,18 @@
 { 
   NSLog(@"Set");
   NSDate *now = [NSDate date];
-	medication.lastSet = now;
-  NSLog(@"Date: %@",  medication.lastSet);
+	medication.lastTaken = now;
+  NSLog(@"Date: %@",  medication.lastTaken);
   NSLog(@"More Date: %@", [NSDate date]);
   NSLog(@"More Date: %@", now);
 	medication.save;
+  
+  MedicationLog *medicationLog = [[MedicationLog alloc] init];
+  medicationLog.medication = medication;
+  medicationLog.createdAt = [NSDate date];
+  [medicationLog save];
+  [medicationLog release];
+  
   [self setupLabels];
   [self hideMedTakenButton];
 }
@@ -113,7 +121,7 @@
 {
   nameLabel.text = medication.name;
 	nextLabel.text = [medication takeAgain];
-	lastLabel.text = [medication lastTaken];
+	lastLabel.text = [medication lastTakenString];
   
   if([medication overdue])
     nextLabel.textColor = [UIColor redColor];
