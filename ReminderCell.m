@@ -64,7 +64,7 @@
   return medTakenButton;
 }
 
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+- (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
 	if(cellSelected == NO) {
 		cellSelected = YES;
     
