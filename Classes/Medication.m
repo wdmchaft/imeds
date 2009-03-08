@@ -29,7 +29,7 @@
 {	
 	NSString *prefix;
 	
-	NSCalendarDate *takeAgainDate = [self takeAgainDate];
+	NSDate *takeAgainDate = [self takeAgainDate];
   NSDate *today = [NSDate date];
 	
   NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init]  autorelease];
@@ -53,7 +53,7 @@
 	}
   
 	
-	return [NSString stringWithFormat:@"%@ @ %@", prefix, takeAgainDate];
+	return [NSString stringWithFormat:@"%@ @ %@", prefix, [self takeAgainTimeString]];
 }
 
 - (NSString *)lastTakenString 
@@ -91,11 +91,6 @@
 //	return [NSString stringWithFormat:@"%@", [self lastTakenCalendarDate]];
 }
                                      
-- (NSCalendarDate *)lastTakenCalendarDate
-{
-  return [lastTaken dateWithCalendarFormat:kDateFormat timeZone:[NSTimeZone localTimeZone]];
-}
-
 - (BOOL)overdue
 {
   NSDate *now = [NSDate date];
@@ -112,19 +107,26 @@
 	[super dealloc];
 }
 
-- (NSCalendarDate *)takeAgainDate
+- (NSDate *)takeAgainDate
 {
-	NSCalendarDate *lastTakenDate;
+	NSDate *lastTakenDate;
 	
 	if(lastTaken == nil) {
-		lastTakenDate = [NSCalendarDate date];
+		lastTakenDate = [NSDate date];
 	} else {
-		lastTakenDate = [self lastTakenCalendarDate];
+		lastTakenDate = [self lastTaken];
 	}
 	
-	NSCalendarDate *nextTime = [lastTakenDate addTimeInterval:interval];
-	[nextTime setCalendarFormat:kDateFormat];	
+	NSDate *nextTime = [lastTakenDate addTimeInterval:interval];
 	return nextTime;
+}
+
+- (NSString *)takeAgainTimeString
+{
+	NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init]  autorelease];
+  [dateFormatter setDateFormat:kTimeFormat];
+	
+  return [dateFormatter stringFromDate:[self takeAgainDate]];
 }
 
 @end
