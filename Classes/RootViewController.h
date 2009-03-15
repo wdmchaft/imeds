@@ -17,11 +17,13 @@
 @interface RootViewController : UITableViewController {
 	NSArray *medications;
 	MedicationDetailsController *childController;
+	NSTimer *refreshTimer;
 }
 @property (nonatomic, retain) NSArray *medications;
 @property (nonatomic, retain) MedicationDetailsController *childController;
 
 -(void)loadMedications;
+-(void)refreshMedicationCells:(NSTimer *)theTimer;
 
 
 @end

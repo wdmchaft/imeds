@@ -31,6 +31,14 @@ NSInteger medicationSort(id med1, id med2, void *context)
 	self.medications = [[Medication allObjects] sortedArrayUsingFunction:medicationSort context:NULL];
 }
 
+- (void)refreshMedicationCells:(NSTimer *)theTimer {
+	NSArray * s = [[self view] subviews];
+	for(ReminderCell *rc in s) {
+		if([rc respondsToSelector:@selector(setupLabels)])
+			[rc setupLabels];
+	}	
+}
+
 
 #pragma mark -
 #pragma mark standard
@@ -46,6 +54,20 @@ NSInteger medicationSort(id med1, id med2, void *context)
 	self.navigationItem.rightBarButtonItem = newButton;
 	
 	[super viewDidLoad];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+	refreshTimer = [NSTimer scheduledTimerWithTimeInterval:45
+																									target:self
+																								selector:@selector(refreshMedicationCells:)
+																								userInfo:nil
+																								 repeats:YES];
+	[super viewDidAppear:animated];
+}
+
+- (void)viewDidDisappear {
+	[refreshTimer invalidate];
+	refreshTimer = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated { 

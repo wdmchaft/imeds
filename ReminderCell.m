@@ -98,7 +98,6 @@
 #pragma mark data manipulation
 -(void)medTaken
 { 
-  NSLog(@"Set");
   NSDate *now = [NSDate date];
 	medication.save;
   

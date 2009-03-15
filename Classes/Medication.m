@@ -80,17 +80,24 @@
   days = timeSinceLastTaken / 86400;
   timeSinceLastTaken -= days * 86400;
   if(days > 0)
+	{
     [timePieces addObject:[NSString stringWithFormat:@"%d days", days]];
+	}
   
   hours = timeSinceLastTaken / 3600;
   timeSinceLastTaken -= hours * 3600;
   if(hours > 0)
+	{
+		
     [timePieces addObject:[NSString stringWithFormat:@"%d hrs", hours]];
+	}
   
   minutes = timeSinceLastTaken / 60;
   timeSinceLastTaken -= minutes * 60;
   if(minutes > 0)
+	{
     [timePieces addObject:[NSString stringWithFormat:@"%d mins", minutes]];
+	}
   
   if([timePieces count] == 0)
     [timePieces addObject:[NSString stringWithString:@"less than a minute"]];
