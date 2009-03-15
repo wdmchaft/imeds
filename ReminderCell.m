@@ -100,10 +100,6 @@
 { 
   NSLog(@"Set");
   NSDate *now = [NSDate date];
-	medication.lastTaken = now;
-  NSLog(@"Date: %@",  medication.lastTaken);
-  NSLog(@"More Date: %@", [NSDate date]);
-  NSLog(@"More Date: %@", now);
 	medication.save;
   
   MedicationLog *medicationLog = [[MedicationLog alloc] init];

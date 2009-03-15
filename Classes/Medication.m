@@ -7,10 +7,10 @@
 //
 
 #import "Medication.h"
-
+#import "MedicationLog.h"
 
 @implementation Medication
-@synthesize name, interval, lastTaken;
+@synthesize name, interval;
 
 - (int)intervalDays
 {
@@ -56,17 +56,26 @@
 	return [NSString stringWithFormat:@"%@ @ %@", prefix, [self takeAgainTimeString]];
 }
 
+- (MedicationLog *)lastLog
+{
+	NSString *condition = [[NSString alloc] initWithFormat:@"WHERE medication='Medication-%d' ORDER BY created_at DESC", [self pk]];
+	MedicationLog *log = [MedicationLog findFirstByCriteria:condition];
+	[condition release];
+	return log;
+}
+
 - (NSString *)lastTakenString 
 {	
   NSUInteger days, hours, minutes;
   NSMutableArray *timePieces = [NSMutableArray arrayWithCapacity:3];
   
-	if(lastTaken == nil)
+	MedicationLog *log = [self lastLog];
+	if(log == nil)
 	{
 		return @"never";
 	}
 	
-  NSTimeInterval timeSinceLastTaken = [[NSDate date] timeIntervalSinceDate:[self lastTaken]];
+  NSTimeInterval timeSinceLastTaken = [[NSDate date] timeIntervalSinceDate:[log createdAt]];
   
   days = timeSinceLastTaken / 86400;
   timeSinceLastTaken -= days * 86400;
@@ -103,7 +112,6 @@
 -(void)dealloc
 {
 	[name release];
-	[lastTaken release];
 	[super dealloc];
 }
 
@@ -111,10 +119,12 @@
 {
 	NSDate *lastTakenDate;
 	
-	if(lastTaken == nil) {
+	MedicationLog *log = [self lastLog];
+	
+	if(log== nil) {
 		lastTakenDate = [NSDate date];
 	} else {
-		lastTakenDate = [self lastTaken];
+		lastTakenDate = [log createdAt];
 	}
 	
 	NSDate *nextTime = [lastTakenDate addTimeInterval:interval];

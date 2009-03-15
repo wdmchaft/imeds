@@ -11,16 +11,15 @@
 
 #import <Foundation/Foundation.h>
 #import "SQLitePersistentObject.h"
+@class MedicationLog;
 
 @interface Medication : SQLitePersistentObject {
 	NSString *name;	
 	int interval;
-	NSDate *lastTaken;
 }
 
 @property (nonatomic, retain) NSString *name;
 @property int interval;
-@property (nonatomic, retain) NSDate *lastTaken;
 
 -(int)intervalDays;
 -(int)intervalHours;
@@ -30,6 +29,7 @@
 - (NSString *)lastTakenString;
 - (NSDate *)takeAgainDate;
 - (NSString *)takeAgainTimeString;
+- (MedicationLog *)lastLog;
 - (BOOL)overdue;
 
 

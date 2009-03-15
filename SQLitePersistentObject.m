@@ -212,6 +212,7 @@ NSMutableArray *checkedTables;
 	sqlite3 *database = [[SQLiteInstanceManager sharedManager] database];
 	
 	NSString *query = [NSString stringWithFormat:@"SELECT * FROM %@ %@", [[self class] tableName], criteriaString];
+	NSLog(@"Query: %@", query);
 	sqlite3_stmt *statement;
 	if (sqlite3_prepare_v2( database, [query UTF8String], -1, &statement, NULL) == SQLITE_OK)
 	{
