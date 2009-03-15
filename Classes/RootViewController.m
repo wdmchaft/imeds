@@ -47,8 +47,7 @@ NSInteger medicationSort(id med1, id med2, void *context)
 	
 	// set up "new" button
 	UIBarButtonItem *newButton = [[UIBarButtonItem alloc]
-																	 initWithTitle:@"New"
-																	 style:UIBarButtonItemStylePlain
+																	 initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
 																	 target:self
 																	 action:@selector(new)];
 	self.navigationItem.rightBarButtonItem = newButton;
