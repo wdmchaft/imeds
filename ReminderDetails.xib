@@ -103,7 +103,7 @@
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 					</object>
 				</object>
-				<string key="NSFrameSize">{320, 480}</string>
+				<string key="NSFrameSize">{320, 416}</string>
 				<reference key="NSSuperview"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -238,7 +238,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>MedicationDetailsController</string>
 					<string>UIResponder</string>
-					<string>{{254, 276}, {320, 480}}</string>
+					<string>{{254, 340}, {320, 416}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>ReminderIntervalPicker</string>
