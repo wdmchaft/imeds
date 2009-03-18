@@ -141,7 +141,7 @@ accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
 	
 	Medication *selectedReminder = [medications objectAtIndex:row];
 	
-	childController.reminder = selectedReminder;
+	childController.medication = selectedReminder;
 	
 	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
 	[delegate.navigationController pushViewController:childController animated:YES];
