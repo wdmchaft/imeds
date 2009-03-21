@@ -92,6 +92,7 @@
 	if (cell == nil) {
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero 
 																	 reuseIdentifier:MedicationCellIdentifier] autorelease];
+		
 		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 75, 25)];
 		label.textAlignment = UITextAlignmentRight;
 		label.font = [UIFont boldSystemFontOfSize:14];

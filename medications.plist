@@ -1,0 +1,2981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>A</key>
+  <array>
+    <string>abacavir sulfate (solution)</string>
+    <string>abacavir sulfate (tablet)</string>
+    <string>abacavir sulfate</string>
+    <string>abarelix (injectable)</string>
+    <string>acamprosate calcium (tablet, delayed release)</string>
+    <string>acarbose (tablet)</string>
+    <string>acebutolol hydrochloride (capsule)</string>
+    <string>acetaminophen (injectable)</string>
+    <string>acetaminophen (suppository)</string>
+    <string>acetaminophen (tablet, extended release)</string>
+    <string>acetaminophen</string>
+    <string>acetazolamide (capsule, extended release)</string>
+    <string>acetazolamide (tablet)</string>
+    <string>acetazolamide sodium (injectable)</string>
+    <string>acetic acid, glacial (solution/drops)</string>
+    <string>acetic acid, glacial (solution)</string>
+    <string>acetic acid, glacial</string>
+    <string>acetohexamide (tablet)</string>
+    <string>acetohydroxamic acid (tablet)</string>
+    <string>acetophenazine maleate (tablet)</string>
+    <string>acetrizoate sodium (solution)</string>
+    <string>acetylcholine chloride (for solution)</string>
+    <string>acetylcysteine (injectable)</string>
+    <string>acetylcysteine (solution)</string>
+    <string>acetylcysteine</string>
+    <string>acetyldigitoxin (tablet)</string>
+    <string>acitretin (capsule)</string>
+    <string>acrisorcin (cream)</string>
+    <string>acrivastine</string>
+    <string>acyclovir (capsule)</string>
+    <string>acyclovir (cream)</string>
+    <string>acyclovir (ointment)</string>
+    <string>acyclovir (suspension)</string>
+    <string>acyclovir (tablet)</string>
+    <string>acyclovir sodium (injectable)</string>
+    <string>adapalene (cream)</string>
+    <string>adapalene (gel)</string>
+    <string>adapalene (solution)</string>
+    <string>adapalene</string>
+    <string>adefovir dipivoxil (tablet)</string>
+    <string>adenosine (injectable)</string>
+    <string>alatrofloxacin mesylate (injectable)</string>
+    <string>albendazole (tablet)</string>
+    <string>albumin chromated cr-51 serum (injectable)</string>
+    <string>albumin human (injectable)</string>
+    <string>albumin iodinated i-125 serum (injectable)</string>
+    <string>albumin iodinated i-131 serum (injectable)</string>
+    <string>albuterol (aerosol, metered)</string>
+    <string>albuterol sulfate (aerosol, metered)</string>
+    <string>albuterol sulfate (capsule)</string>
+    <string>albuterol sulfate (solution)</string>
+    <string>albuterol sulfate (syrup)</string>
+    <string>albuterol sulfate (tablet, extended release)</string>
+    <string>albuterol sulfate (tablet)</string>
+    <string>albuterol sulfate</string>
+    <string>alclometasone dipropionate (cream)</string>
+    <string>alclometasone dipropionate (ointment)</string>
+    <string>alcohol (injectable)</string>
+    <string>alcohol</string>
+    <string>alendronate sodium (solution)</string>
+    <string>alendronate sodium (tablet)</string>
+    <string>alendronate sodium</string>
+    <string>alfentanil hydrochloride (injectable)</string>
+    <string>alfuzosin hydrochloride (tablet, extended release)</string>
+    <string>alglucerase (injectable)</string>
+    <string>aliskiren hemifumarate (tablet)</string>
+    <string>aliskiren hemifumarate</string>
+    <string>alitretinoin (gel)</string>
+    <string>alkavervir (tablet)</string>
+    <string>allopurinol (tablet)</string>
+    <string>allopurinol sodium (injectable)</string>
+    <string>almotriptan malate (tablet)</string>
+    <string>alosetron hydrochloride (tablet)</string>
+    <string>alpha-tocopherol acetate</string>
+    <string>alpha-tocopherol</string>
+    <string>alprazolam (concentrate)</string>
+    <string>alprazolam (solution)</string>
+    <string>alprazolam (tablet, extended release)</string>
+    <string>alprazolam (tablet, orally disintegrating)</string>
+    <string>alprazolam (tablet)</string>
+    <string>alprostadil (injectable)</string>
+    <string>alprostadil (suppository)</string>
+    <string>alseroxylon (tablet)</string>
+    <string>altretamine (capsule)</string>
+    <string>aluminum hydroxide</string>
+    <string>alvimopan (capsule)</string>
+    <string>amantadine hydrochloride (capsule)</string>
+    <string>amantadine hydrochloride (syrup)</string>
+    <string>amantadine hydrochloride (tablet)</string>
+    <string>ambenonium chloride (tablet)</string>
+    <string>ambrisentan (tablet)</string>
+    <string>amcinonide (cream)</string>
+    <string>amcinonide (lotion)</string>
+    <string>amcinonide (ointment)</string>
+    <string>amdinocillin (injectable)</string>
+    <string>amifostine (injectable)</string>
+    <string>amikacin sulfate (injectable)</string>
+    <string>amiloride hydrochloride (tablet)</string>
+    <string>amiloride hydrochloride</string>
+    <string>amino acids (injectable)</string>
+    <string>amino acids</string>
+    <string>aminocaproic acid (injectable)</string>
+    <string>aminocaproic acid (syrup)</string>
+    <string>aminocaproic acid (tablet)</string>
+    <string>aminoglutethimide (tablet)</string>
+    <string>aminohippurate sodium (injectable)</string>
+    <string>aminolevulinic acid hydrochloride (solution)</string>
+    <string>aminophylline (enema)</string>
+    <string>aminophylline (injectable)</string>
+    <string>aminophylline (solution)</string>
+    <string>aminophylline (suppository)</string>
+    <string>aminophylline (tablet, delayed release)</string>
+    <string>aminophylline (tablet, extended release)</string>
+    <string>aminophylline (tablet)</string>
+    <string>aminosalicylate sodium (powder)</string>
+    <string>aminosalicylate sodium (tablet)</string>
+    <string>aminosalicylate sodium</string>
+    <string>aminosalicylic acid (granule, delayed release)</string>
+    <string>aminosalicylic acid (tablet)</string>
+    <string>aminosalicylic acid resin complex (powder)</string>
+    <string>amiodarone hydrochloride (injectable)</string>
+    <string>amiodarone hydrochloride (tablet)</string>
+    <string>amitriptyline hydrochloride (concentrate)</string>
+    <string>amitriptyline hydrochloride (injectable)</string>
+    <string>amitriptyline hydrochloride (tablet)</string>
+    <string>amitriptyline hydrochloride</string>
+    <string>amlexanox (paste)</string>
+    <string>amlexanox (patch)</string>
+    <string>amlodipine besylate (tablet, orally disintegrating)</string>
+    <string>amlodipine besylate (tablet)</string>
+    <string>amlodipine besylate</string>
+    <string>amlodipine maleate (tablet)</string>
+    <string>ammonia, n-13 (injectable)</string>
+    <string>ammonium chloride (injectable)</string>
+    <string>ammonium lactate (cream)</string>
+    <string>ammonium lactate (lotion)</string>
+    <string>amodiaquine hydrochloride (tablet)</string>
+    <string>amoxapine (tablet)</string>
+    <string>amoxicillin (capsule)</string>
+    <string>amoxicillin (for solution)</string>
+    <string>amoxicillin (for suspension)</string>
+    <string>amoxicillin (tablet, chewable)</string>
+    <string>amoxicillin (tablet, extended release)</string>
+    <string>amoxicillin (tablet, for suspension)</string>
+    <string>amoxicillin (tablet)</string>
+    <string>amoxicillin</string>
+    <string>amphetamine adipate</string>
+    <string>amphetamine aspartate</string>
+    <string>amphetamine resin complex</string>
+    <string>amphetamine sulfate (tablet)</string>
+    <string>amphotericin b (cream)</string>
+    <string>amphotericin b (injectable, lipid complex)</string>
+    <string>amphotericin b (injectable, liposomal)</string>
+    <string>amphotericin b (injectable)</string>
+    <string>amphotericin b (lotion)</string>
+    <string>amphotericin b (ointment)</string>
+    <string>amphotericin b (suspension)</string>
+    <string>ampicillin sodium (injectable)</string>
+    <string>ampicillin sodium</string>
+    <string>ampicillin/ampicillin trihydrate (capsule)</string>
+    <string>ampicillin/ampicillin trihydrate (for suspension)</string>
+    <string>ampicillin/ampicillin trihydrate (tablet, chewable)</string>
+    <string>ampicillin/ampicillin trihydrate</string>
+    <string>amprenavir (capsule)</string>
+    <string>amprenavir (solution)</string>
+    <string>anagrelide hydrochloride (capsule)</string>
+    <string>anastrozole (tablet)</string>
+    <string>anidulafungin (injectable)</string>
+    <string>anileridine hydrochloride (tablet)</string>
+    <string>anileridine phosphate (injectable)</string>
+    <string>anisindione (tablet)</string>
+    <string>anisotropine methylbromide (tablet)</string>
+    <string>antazoline phosphate</string>
+    <string>apomorphine hydrochloride (injectable)</string>
+    <string>apraclonidine hydrochloride (solution/drops)</string>
+    <string>aprepitant (capsule)</string>
+    <string>aprotinin (injectable)</string>
+    <string>arbutamine hydrochloride (injectable)</string>
+    <string>ardeparin sodium (injectable)</string>
+    <string>arformoterol tartrate (solution)</string>
+    <string>argatroban (injectable)</string>
+    <string>arginine hydrochloride (injectable)</string>
+    <string>aripiprazole (injectable)</string>
+    <string>aripiprazole (solution)</string>
+    <string>aripiprazole (tablet, orally disintegrating)</string>
+    <string>aripiprazole (tablet)</string>
+    <string>armodafinil (tablet)</string>
+    <string>arsenic trioxide (injectable)</string>
+    <string>articaine hydrochloride</string>
+    <string>ascorbic acid</string>
+    <string>aspirin (tablet, extended release)</string>
+    <string>aspirin (tablet)</string>
+    <string>aspirin</string>
+    <string>atazanavir sulfate (capsule)</string>
+    <string>atenolol (injectable)</string>
+    <string>atenolol (tablet)</string>
+    <string>atenolol</string>
+    <string>atomoxetine hydrochloride (capsule)</string>
+    <string>atorvastatin calcium (tablet)</string>
+    <string>atovaquone (suspension)</string>
+    <string>atovaquone (tablet)</string>
+    <string>atovaquone</string>
+    <string>atracurium besylate (injectable)</string>
+    <string>atropine (injectable)</string>
+    <string>atropine sulfate (aerosol, metered)</string>
+    <string>atropine sulfate (injectable)</string>
+    <string>atropine sulfate</string>
+    <string>atropine</string>
+    <string>auranofin (capsule)</string>
+    <string>avobenzone</string>
+    <string>azacitidine (injectable)</string>
+    <string>azatadine maleate (tablet)</string>
+    <string>azatadine maleate</string>
+    <string>azathioprine (tablet)</string>
+    <string>azathioprine sodium (injectable)</string>
+    <string>azelaic acid (cream)</string>
+    <string>azelaic acid (gel)</string>
+    <string>azelastine hydrochloride (solution/drops)</string>
+    <string>azelastine hydrochloride (spray, metered)</string>
+    <string>azithromycin (capsule)</string>
+    <string>azithromycin (for suspension, extended release)</string>
+    <string>azithromycin (for suspension)</string>
+    <string>azithromycin (injectable)</string>
+    <string>azithromycin (solution/drops)</string>
+    <string>azithromycin (tablet)</string>
+    <string>azithromycin dihydrate</string>
+    <string>azlocillin sodium (injectable)</string>
+    <string>aztreonam (injectable)</string>
+  </array>
+  <key>B</key>
+  <array>
+    <string>bacampicillin hydrochloride (for suspension)</string>
+    <string>bacampicillin hydrochloride (tablet)</string>
+    <string>bacitracin (injectable)</string>
+    <string>bacitracin (ointment)</string>
+    <string>bacitracin (powder)</string>
+    <string>bacitracin zinc (powder)</string>
+    <string>bacitracin zinc</string>
+    <string>bacitracin</string>
+    <string>baclofen (injectable)</string>
+    <string>baclofen (tablet, orally disintegrating)</string>
+    <string>baclofen (tablet)</string>
+    <string>balsalazide disodium (capsule)</string>
+    <string>beclomethasone dipropionate (aerosol, metered)</string>
+    <string>beclomethasone dipropionate monohydrate (spray, metered)</string>
+    <string>benazepril hydrochloride (tablet)</string>
+    <string>benazepril hydrochloride</string>
+    <string>bendamustine hydrochloride (powder)</string>
+    <string>bendroflumethiazide (tablet)</string>
+    <string>bendroflumethiazide</string>
+    <string>benoxinate hydrochloride (solution/drops)</string>
+    <string>bentiromide (solution)</string>
+    <string>bentoquatam (lotion)</string>
+    <string>benzonatate (capsule)</string>
+    <string>benzoyl peroxide</string>
+    <string>benzphetamine hydrochloride (tablet)</string>
+    <string>benzquinamide hydrochloride (injectable)</string>
+    <string>benzquinamide hydrochloride (suppository)</string>
+    <string>benzthiazide (tablet)</string>
+    <string>benztropine mesylate (injectable)</string>
+    <string>benztropine mesylate (tablet)</string>
+    <string>benzyl benzoate (emulsion)</string>
+    <string>benzyl penicilloyl-polylysine (injectable)</string>
+    <string>bepridil hydrochloride (tablet)</string>
+    <string>beractant (suspension)</string>
+    <string>beta carotene (capsule)</string>
+    <string>betaine hydrochloride (for solution)</string>
+    <string>betamethasone (cream)</string>
+    <string>betamethasone (syrup)</string>
+    <string>betamethasone (tablet)</string>
+    <string>betamethasone acetate</string>
+    <string>betamethasone benzoate (cream)</string>
+    <string>betamethasone benzoate (gel)</string>
+    <string>betamethasone benzoate (lotion)</string>
+    <string>betamethasone benzoate (ointment)</string>
+    <string>betamethasone dipropionate (cream, augmented)</string>
+    <string>betamethasone dipropionate (cream)</string>
+    <string>betamethasone dipropionate (disc)</string>
+    <string>betamethasone dipropionate (gel, augmented)</string>
+    <string>betamethasone dipropionate (lotion, augmented)</string>
+    <string>betamethasone dipropionate (lotion)</string>
+    <string>betamethasone dipropionate (ointment, augmented)</string>
+    <string>betamethasone dipropionate (ointment)</string>
+    <string>betamethasone dipropionate</string>
+    <string>betamethasone sodium phosphate (injectable)</string>
+    <string>betamethasone valerate (aerosol, foam)</string>
+    <string>betamethasone valerate (cream)</string>
+    <string>betamethasone valerate (lotion)</string>
+    <string>betamethasone valerate (ointment)</string>
+    <string>betaxolol hydrochloride (solution/drops)</string>
+    <string>betaxolol hydrochloride (suspension/drops)</string>
+    <string>betaxolol hydrochloride (tablet)</string>
+    <string>betaxolol hydrochloride</string>
+    <string>betazole hydrochloride (injectable)</string>
+    <string>bethanechol chloride (injectable)</string>
+    <string>bethanechol chloride (tablet)</string>
+    <string>bethanidine sulfate (tablet)</string>
+    <string>bexarotene (capsule)</string>
+    <string>bexarotene (gel)</string>
+    <string>bicalutamide (tablet)</string>
+    <string>bimatoprost (solution/drops)</string>
+    <string>biperiden hydrochloride (tablet)</string>
+    <string>biperiden lactate (injectable)</string>
+    <string>bisacodyl</string>
+    <string>bismuth subcitrate potassium</string>
+    <string>bismuth subsalicylate</string>
+    <string>bisoprolol fumarate (tablet)</string>
+    <string>bisoprolol fumarate</string>
+    <string>bitolterol mesylate (aerosol, metered)</string>
+    <string>bitolterol mesylate (solution)</string>
+    <string>bivalirudin (injectable)</string>
+    <string>bleomycin sulfate (injectable)</string>
+    <string>bortezomib (injectable)</string>
+    <string>bosentan (tablet)</string>
+    <string>bretylium tosylate (injectable)</string>
+    <string>brimonidine tartrate (solution/drops)</string>
+    <string>brimonidine tartrate</string>
+    <string>brinzolamide (suspension/drops)</string>
+    <string>bromfenac sodium (solution/drops)</string>
+    <string>bromocriptine mesylate (capsule)</string>
+    <string>bromocriptine mesylate (tablet)</string>
+    <string>bromodiphenhydramine hydrochloride (capsule)</string>
+    <string>bromodiphenhydramine hydrochloride</string>
+    <string>brompheniramine maleate (elixir)</string>
+    <string>brompheniramine maleate (injectable)</string>
+    <string>brompheniramine maleate (tablet, extended release)</string>
+    <string>brompheniramine maleate (tablet)</string>
+    <string>brompheniramine maleate</string>
+    <string>buclizine hydrochloride (tablet)</string>
+    <string>budesonide (aerosol, metered)</string>
+    <string>budesonide (capsule)</string>
+    <string>budesonide (powder, metered)</string>
+    <string>budesonide (spray, metered)</string>
+    <string>budesonide (suspension)</string>
+    <string>budesonide</string>
+    <string>bumetanide (injectable)</string>
+    <string>bumetanide (tablet)</string>
+    <string>bupivacaine hydrochloride (injectable)</string>
+    <string>bupivacaine hydrochloride</string>
+    <string>buprenorphine hydrochloride (injectable)</string>
+    <string>buprenorphine hydrochloride (tablet)</string>
+    <string>buprenorphine hydrochloride</string>
+    <string>bupropion hydrobromide (tablet, extended release)</string>
+    <string>bupropion hydrochloride (tablet, extended release)</string>
+    <string>bupropion hydrochloride (tablet)</string>
+    <string>buspirone hydrochloride (capsule)</string>
+    <string>buspirone hydrochloride (tablet)</string>
+    <string>busulfan (injectable)</string>
+    <string>busulfan (tablet)</string>
+    <string>butabarbital sodium (capsule)</string>
+    <string>butabarbital sodium (elixir)</string>
+    <string>butabarbital sodium (tablet)</string>
+    <string>butenafine hydrochloride (cream)</string>
+    <string>butoconazole nitrate (cream)</string>
+    <string>butoconazole nitrate (suppository)</string>
+    <string>butorphanol tartrate (injectable)</string>
+    <string>butorphanol tartrate (spray, metered)</string>
+  </array>
+  <key>C</key>
+  <array>
+    <string>cabergoline (tablet)</string>
+    <string>caffeine citrate (solution)</string>
+    <string>caffeine</string>
+    <string>calcifediol (capsule)</string>
+    <string>calcipotriene (cream)</string>
+    <string>calcipotriene (ointment)</string>
+    <string>calcipotriene (solution)</string>
+    <string>calcitonin human (injectable)</string>
+    <string>calcitonin salmon recombinant (spray, metered)</string>
+    <string>calcitonin, salmon (injectable)</string>
+    <string>calcitonin, salmon (spray, metered)</string>
+    <string>calcitriol (capsule)</string>
+    <string>calcitriol (injectable)</string>
+    <string>calcitriol (ointment)</string>
+    <string>calcitriol (solution)</string>
+    <string>calcium acetate (capsule)</string>
+    <string>calcium acetate (tablet)</string>
+    <string>calcium carbonate</string>
+    <string>calcium chloride (injectable)</string>
+    <string>calcium chloride</string>
+    <string>calcium gluceptate (injectable)</string>
+    <string>calcium metrizoate</string>
+    <string>calcium</string>
+    <string>calfactant (suspension)</string>
+    <string>candesartan cilexetil (tablet)</string>
+    <string>candesartan cilexetil</string>
+    <string>candicidin (ointment)</string>
+    <string>candicidin (tablet)</string>
+    <string>capecitabine (tablet)</string>
+    <string>capreomycin sulfate (injectable)</string>
+    <string>captopril (tablet)</string>
+    <string>captopril</string>
+    <string>carbachol (solution)</string>
+    <string>carbamazepine (capsule, extended release)</string>
+    <string>carbamazepine (suspension)</string>
+    <string>carbamazepine (tablet, chewable)</string>
+    <string>carbamazepine (tablet, extended release)</string>
+    <string>carbamazepine (tablet)</string>
+    <string>carbenicillin disodium (injectable)</string>
+    <string>carbenicillin indanyl sodium (tablet)</string>
+    <string>carbidopa (tablet)</string>
+    <string>carbidopa</string>
+    <string>carbinoxamine maleate (elixir)</string>
+    <string>carbinoxamine maleate (solution)</string>
+    <string>carbinoxamine maleate (tablet)</string>
+    <string>carboplatin (injectable)</string>
+    <string>carboprost tromethamine (injectable)</string>
+    <string>carisoprodol (capsule)</string>
+    <string>carisoprodol (tablet)</string>
+    <string>carmustine (implant)</string>
+    <string>carmustine (injectable)</string>
+    <string>carphenazine maleate (concentrate)</string>
+    <string>carphenazine maleate (tablet)</string>
+    <string>carprofen (tablet)</string>
+    <string>carteolol hydrochloride (solution/drops)</string>
+    <string>carteolol hydrochloride (tablet)</string>
+    <string>carvedilol (tablet)</string>
+    <string>carvedilol phosphate (capsule, extended release)</string>
+    <string>caspofungin acetate (injectable)</string>
+    <string>cefaclor (capsule)</string>
+    <string>cefaclor (for suspension)</string>
+    <string>cefaclor (tablet, chewable)</string>
+    <string>cefaclor (tablet, extended release)</string>
+    <string>cefadroxil anhydrous (for suspension)</string>
+    <string>cefadroxil/cefadroxil hemihydrate (capsule)</string>
+    <string>cefadroxil/cefadroxil hemihydrate (for suspension)</string>
+    <string>cefadroxil/cefadroxil hemihydrate (tablet)</string>
+    <string>cefamandole nafate (injectable)</string>
+    <string>cefazolin sodium (injectable)</string>
+    <string>cefdinir (capsule)</string>
+    <string>cefdinir (for suspension)</string>
+    <string>cefditoren pivoxil (tablet)</string>
+    <string>cefepime hydrochloride (injectable)</string>
+    <string>cefixime (for suspension)</string>
+    <string>cefixime (suspension)</string>
+    <string>cefixime (tablet)</string>
+    <string>cefmenoxime hydrochloride (injectable)</string>
+    <string>cefmetazole sodium (injectable)</string>
+    <string>cefonicid sodium (injectable)</string>
+    <string>cefoperazone sodium (injectable)</string>
+    <string>ceforanide (injectable)</string>
+    <string>cefotaxime sodium (injectable)</string>
+    <string>cefotetan disodium (injectable)</string>
+    <string>cefotiam hydrochloride (injectable)</string>
+    <string>cefoxitin sodium (injectable)</string>
+    <string>cefpiramide sodium (injectable)</string>
+    <string>cefpodoxime proxetil (for suspension)</string>
+    <string>cefpodoxime proxetil (tablet)</string>
+    <string>cefprozil (for suspension)</string>
+    <string>cefprozil (tablet)</string>
+    <string>ceftazidime (injectable)</string>
+    <string>ceftazidime sodium (injectable)</string>
+    <string>ceftibuten dihydrate (capsule)</string>
+    <string>ceftibuten dihydrate (for suspension)</string>
+    <string>ceftizoxime sodium (injectable)</string>
+    <string>ceftriaxone sodium (injectable)</string>
+    <string>ceftriaxone sodium</string>
+    <string>cefuroxime axetil (for suspension)</string>
+    <string>cefuroxime axetil (tablet)</string>
+    <string>cefuroxime sodium (injectable)</string>
+    <string>celecoxib (capsule)</string>
+    <string>cellulose sodium phosphate (powder)</string>
+    <string>cephalexin (capsule)</string>
+    <string>cephalexin (for suspension)</string>
+    <string>cephalexin (tablet, for suspension)</string>
+    <string>cephalexin (tablet)</string>
+    <string>cephalexin hydrochloride (tablet)</string>
+    <string>cephaloglycin (capsule)</string>
+    <string>cephalothin sodium (injectable)</string>
+    <string>cephapirin sodium (injectable)</string>
+    <string>cephradine (capsule)</string>
+    <string>cephradine (for suspension)</string>
+    <string>cephradine (injectable)</string>
+    <string>cephradine (tablet)</string>
+    <string>cerivastatin sodium (tablet)</string>
+    <string>ceruletide diethylamine (injectable)</string>
+    <string>cetirizine hydrochloride (syrup)</string>
+    <string>cetirizine hydrochloride (tablet, chewable)</string>
+    <string>cetirizine hydrochloride (tablet)</string>
+    <string>cetirizine hydrochloride</string>
+    <string>cetrorelix (injectable)</string>
+    <string>cetyl alcohol</string>
+    <string>cevimeline hydrochloride (capsule)</string>
+    <string>chenodiol (tablet)</string>
+    <string>chlophedianol hydrochloride (syrup)</string>
+    <string>chlorambucil (tablet)</string>
+    <string>chloramphenicol (capsule)</string>
+    <string>chloramphenicol (cream)</string>
+    <string>chloramphenicol (for solution)</string>
+    <string>chloramphenicol (injectable)</string>
+    <string>chloramphenicol (ointment)</string>
+    <string>chloramphenicol (solution/drops)</string>
+    <string>chloramphenicol palmitate (suspension)</string>
+    <string>chloramphenicol sodium succinate (injectable)</string>
+    <string>chloramphenicol</string>
+    <string>chlordiazepoxide (capsule, extended release)</string>
+    <string>chlordiazepoxide (tablet)</string>
+    <string>chlordiazepoxide hydrochloride (capsule)</string>
+    <string>chlordiazepoxide hydrochloride (injectable)</string>
+    <string>chlordiazepoxide</string>
+    <string>chlorhexidine gluconate (aerosol, metered)</string>
+    <string>chlorhexidine gluconate (cloth)</string>
+    <string>chlorhexidine gluconate (solution)</string>
+    <string>chlorhexidine gluconate (sponge)</string>
+    <string>chlorhexidine gluconate (tablet)</string>
+    <string>chlorhexidine gluconate</string>
+    <string>chlormerodrin, hg-197 (injectable)</string>
+    <string>chlormezanone (tablet)</string>
+    <string>chloroprocaine hydrochloride (injectable)</string>
+    <string>chloroquine hydrochloride (injectable)</string>
+    <string>chloroquine phosphate (tablet)</string>
+    <string>chloroquine phosphate</string>
+    <string>chlorothiazide (suspension)</string>
+    <string>chlorothiazide (tablet)</string>
+    <string>chlorothiazide sodium (injectable)</string>
+    <string>chlorothiazide</string>
+    <string>chlorotrianisene (capsule)</string>
+    <string>chloroxine (shampoo)</string>
+    <string>chlorphenesin carbamate (tablet)</string>
+    <string>chlorpheniramine maleate (capsule, extended release)</string>
+    <string>chlorpheniramine maleate (injectable)</string>
+    <string>chlorpheniramine maleate (syrup)</string>
+    <string>chlorpheniramine maleate (tablet, extended release)</string>
+    <string>chlorpheniramine maleate (tablet)</string>
+    <string>chlorpheniramine maleate</string>
+    <string>chlorpheniramine polistirex</string>
+    <string>chlorphentermine hydrochloride (tablet)</string>
+    <string>chlorpromazine (suppository)</string>
+    <string>chlorpromazine hydrochloride (capsule, extended release)</string>
+    <string>chlorpromazine hydrochloride (concentrate)</string>
+    <string>chlorpromazine hydrochloride (injectable)</string>
+    <string>chlorpromazine hydrochloride (syrup)</string>
+    <string>chlorpromazine hydrochloride (tablet)</string>
+    <string>chlorpropamide (tablet)</string>
+    <string>chlorprothixene (concentrate)</string>
+    <string>chlorprothixene (injectable)</string>
+    <string>chlorprothixene (tablet)</string>
+    <string>chlortetracycline hydrochloride (ointment)</string>
+    <string>chlorthalidone (tablet)</string>
+    <string>chlorthalidone</string>
+    <string>chlorzoxazone (tablet)</string>
+    <string>cholestyramine (bar, chewable)</string>
+    <string>cholestyramine (powder)</string>
+    <string>cholestyramine (tablet)</string>
+    <string>choline fenofibrate (capsule, delayed release)</string>
+    <string>choriogonadotropin alfa (injectable)</string>
+    <string>chromic chloride (injectable)</string>
+    <string>chromic phosphate p 32 (injectable)</string>
+    <string>chymopapain (injectable)</string>
+    <string>chymotrypsin (for solution)</string>
+    <string>ciclesonide (aerosol, metered)</string>
+    <string>ciclesonide (spray, metered)</string>
+    <string>ciclopirox (cream)</string>
+    <string>ciclopirox (gel)</string>
+    <string>ciclopirox (shampoo)</string>
+    <string>ciclopirox (solution)</string>
+    <string>ciclopirox (suspension)</string>
+    <string>cidofovir (injectable)</string>
+    <string>cilastatin sodium</string>
+    <string>cilostazol (tablet)</string>
+    <string>cimetidine (suspension)</string>
+    <string>cimetidine (tablet)</string>
+    <string>cimetidine hydrochloride (injectable)</string>
+    <string>cimetidine hydrochloride (solution)</string>
+    <string>cinacalcet hydrochloride (tablet)</string>
+    <string>cinoxacin (capsule)</string>
+    <string>ciprofloxacin (for suspension)</string>
+    <string>ciprofloxacin (injectable)</string>
+    <string>ciprofloxacin (solution/drops)</string>
+    <string>ciprofloxacin hydrochloride (ointment)</string>
+    <string>ciprofloxacin hydrochloride (solution/drops)</string>
+    <string>ciprofloxacin hydrochloride (tablet, extended release)</string>
+    <string>ciprofloxacin hydrochloride (tablet)</string>
+    <string>ciprofloxacin hydrochloride</string>
+    <string>ciprofloxacin</string>
+    <string>cisapride monohydrate (suspension)</string>
+    <string>cisapride monohydrate (tablet, orally disintegrating)</string>
+    <string>cisapride monohydrate (tablet)</string>
+    <string>cisatracurium besylate (injectable)</string>
+    <string>cisplatin (injectable)</string>
+    <string>citalopram hydrobromide (capsule)</string>
+    <string>citalopram hydrobromide (solution)</string>
+    <string>citalopram hydrobromide (tablet, orally disintegrating)</string>
+    <string>citalopram hydrobromide (tablet)</string>
+    <string>citric acid</string>
+    <string>cladribine (injectable)</string>
+    <string>clarithromycin (for suspension)</string>
+    <string>clarithromycin (tablet, extended release)</string>
+    <string>clarithromycin (tablet)</string>
+    <string>clavulanate potassium</string>
+    <string>clemastine fumarate (syrup)</string>
+    <string>clemastine fumarate (tablet)</string>
+    <string>clemastine fumarate</string>
+    <string>clevidipine butyrate (emulsion)</string>
+    <string>clidinium bromide (capsule)</string>
+    <string>clindamycin hydrochloride (capsule)</string>
+    <string>clindamycin palmitate hydrochloride (for solution)</string>
+    <string>clindamycin phosphate (aerosol, foam)</string>
+    <string>clindamycin phosphate (cream)</string>
+    <string>clindamycin phosphate (gel)</string>
+    <string>clindamycin phosphate (injectable)</string>
+    <string>clindamycin phosphate (lotion)</string>
+    <string>clindamycin phosphate (solution)</string>
+    <string>clindamycin phosphate (suppository)</string>
+    <string>clindamycin phosphate (swab)</string>
+    <string>clindamycin phosphate</string>
+    <string>clioquinol</string>
+    <string>clobetasol propionate (aerosol, foam)</string>
+    <string>clobetasol propionate (cream)</string>
+    <string>clobetasol propionate (gel)</string>
+    <string>clobetasol propionate (lotion)</string>
+    <string>clobetasol propionate (ointment)</string>
+    <string>clobetasol propionate (shampoo)</string>
+    <string>clobetasol propionate (solution)</string>
+    <string>clobetasol propionate (spray)</string>
+    <string>clocortolone pivalate (cream)</string>
+    <string>clofarabine (injectable)</string>
+    <string>clofazimine (capsule)</string>
+    <string>clofibrate (capsule)</string>
+    <string>clomiphene citrate (tablet)</string>
+    <string>clomipramine hydrochloride (capsule)</string>
+    <string>clonazepam (tablet, orally disintegrating)</string>
+    <string>clonazepam (tablet)</string>
+    <string>clonidine (film, extended release)</string>
+    <string>clonidine hydrochloride (injectable)</string>
+    <string>clonidine hydrochloride (tablet)</string>
+    <string>clopidogrel bisulfate (tablet)</string>
+    <string>clorazepate dipotassium (capsule)</string>
+    <string>clorazepate dipotassium (tablet)</string>
+    <string>clotrimazole (cream, tablet)</string>
+    <string>clotrimazole (cream)</string>
+    <string>clotrimazole (lotion)</string>
+    <string>clotrimazole (solution)</string>
+    <string>clotrimazole (tablet)</string>
+    <string>clotrimazole (troche/lozenge)</string>
+    <string>cloxacillin sodium (capsule)</string>
+    <string>cloxacillin sodium (for solution)</string>
+    <string>clozapine (tablet, orally disintegrating)</string>
+    <string>clozapine (tablet)</string>
+    <string>cobalt chloride, co-57</string>
+    <string>cobalt chloride, co-60</string>
+    <string>codeine phosphate</string>
+    <string>colchicine</string>
+    <string>colesevelam hydrochloride (capsule)</string>
+    <string>colesevelam hydrochloride (tablet)</string>
+    <string>colestipol hydrochloride (granule)</string>
+    <string>colestipol hydrochloride (tablet)</string>
+    <string>colistimethate sodium (injectable)</string>
+    <string>colistin sulfate (suspension)</string>
+    <string>colistin sulfate</string>
+    <string>conivaptan hydrochloride (injectable)</string>
+    <string>copper (intrauterine device)</string>
+    <string>corticorelin ovine triflutate (injectable)</string>
+    <string>corticotropin (injectable)</string>
+    <string>corticotropin-zinc hydroxide (injectable)</string>
+    <string>cortisone acetate (injectable)</string>
+    <string>cortisone acetate (tablet)</string>
+    <string>cosyntropin (injectable)</string>
+    <string>cosyntropin (solution)</string>
+    <string>cromolyn sodium (aerosol, metered)</string>
+    <string>cromolyn sodium (capsule)</string>
+    <string>cromolyn sodium (concentrate)</string>
+    <string>cromolyn sodium (solution/drops)</string>
+    <string>cromolyn sodium (solution)</string>
+    <string>cromolyn sodium (spray, metered)</string>
+    <string>crotamiton (cream)</string>
+    <string>crotamiton (lotion)</string>
+    <string>cryptenamine acetates (injectable)</string>
+    <string>cryptenamine tannates (tablet)</string>
+    <string>cupric chloride (injectable)</string>
+    <string>cupric sulfate (injectable)</string>
+    <string>cyanocobalamin (gel, metered)</string>
+    <string>cyanocobalamin (injectable)</string>
+    <string>cyanocobalamin (spray, metered)</string>
+    <string>cyanocobalamin (tablet)</string>
+    <string>cyanocobalamin, co-57 (capsule)</string>
+    <string>cyanocobalamin, co-60 (capsule)</string>
+    <string>cyanocobalamin</string>
+    <string>cyclacillin (for suspension)</string>
+    <string>cyclacillin (tablet)</string>
+    <string>cyclizine lactate (injectable)</string>
+    <string>cyclobenzaprine hydrochloride (capsule, extended release)</string>
+    <string>cyclobenzaprine hydrochloride (tablet)</string>
+    <string>cyclopentolate hydrochloride (solution/drops)</string>
+    <string>cyclopentolate hydrochloride</string>
+    <string>cyclophosphamide (injectable)</string>
+    <string>cyclophosphamide (tablet)</string>
+    <string>cycloserine (capsule)</string>
+    <string>cyclosporine (capsule)</string>
+    <string>cyclosporine (emulsion)</string>
+    <string>cyclosporine (injectable)</string>
+    <string>cyclosporine (solution)</string>
+    <string>cyclothiazide (tablet)</string>
+    <string>cycrimine hydrochloride (tablet)</string>
+    <string>cyproheptadine hydrochloride (syrup)</string>
+    <string>cyproheptadine hydrochloride (tablet)</string>
+    <string>cysteamine bitartrate (capsule)</string>
+    <string>cysteine hydrochloride (injectable)</string>
+    <string>cytarabine (injectable, liposomal)</string>
+    <string>cytarabine (injectable)</string>
+  </array>
+  <key>D</key>
+  <array>
+    <string>dacarbazine (injectable)</string>
+    <string>dactinomycin (injectable)</string>
+    <string>dalfopristin</string>
+    <string>dalteparin sodium (injectable)</string>
+    <string>danaparoid sodium (injectable)</string>
+    <string>danazol (capsule)</string>
+    <string>dantrolene sodium (capsule)</string>
+    <string>dantrolene sodium (injectable)</string>
+    <string>dapiprazole hydrochloride (solution/drops)</string>
+    <string>dapsone (gel)</string>
+    <string>dapsone (tablet)</string>
+    <string>daptomycin (injectable)</string>
+    <string>darifenacin hydrobromide (tablet, extended release)</string>
+    <string>darunavir ethanolate (tablet)</string>
+    <string>dasatinib (tablet)</string>
+    <string>daunorubicin citrate (injectable, liposomal)</string>
+    <string>daunorubicin hydrochloride (injectable)</string>
+    <string>decamethonium bromide (injectable)</string>
+    <string>decitabine (injectable)</string>
+    <string>deferasirox (tablet, for suspension)</string>
+    <string>deferoxamine mesylate (injectable)</string>
+    <string>degarelix acetate (powder)</string>
+    <string>delavirdine mesylate (tablet)</string>
+    <string>demecarium bromide (solution/drops)</string>
+    <string>demeclocycline hydrochloride (capsule)</string>
+    <string>demeclocycline hydrochloride (syrup)</string>
+    <string>demeclocycline hydrochloride (tablet)</string>
+    <string>deserpidine (tablet)</string>
+    <string>deserpidine</string>
+    <string>desflurane (liquid)</string>
+    <string>desipramine hydrochloride (capsule)</string>
+    <string>desipramine hydrochloride (tablet)</string>
+    <string>desirudin recombinant (injectable)</string>
+    <string>deslanoside (injectable)</string>
+    <string>desloratadine (syrup)</string>
+    <string>desloratadine (tablet, orally disintegrating)</string>
+    <string>desloratadine (tablet)</string>
+    <string>desloratadine</string>
+    <string>desmopressin acetate (injectable)</string>
+    <string>desmopressin acetate (solution)</string>
+    <string>desmopressin acetate (spray, metered)</string>
+    <string>desmopressin acetate (tablet)</string>
+    <string>desogestrel</string>
+    <string>desonide (aerosol, foam)</string>
+    <string>desonide (cream)</string>
+    <string>desonide (gel)</string>
+    <string>desonide (lotion)</string>
+    <string>desonide (ointment)</string>
+    <string>desoximetasone (cream)</string>
+    <string>desoximetasone (gel)</string>
+    <string>desoximetasone (ointment)</string>
+    <string>desoxycorticosterone acetate (injectable)</string>
+    <string>desoxycorticosterone acetate (pellet)</string>
+    <string>desoxycorticosterone pivalate (injectable)</string>
+    <string>desvenlafaxine succinate (tablet, extended release)</string>
+    <string>dexamethasone (aerosol)</string>
+    <string>dexamethasone (concentrate)</string>
+    <string>dexamethasone (elixir)</string>
+    <string>dexamethasone (gel)</string>
+    <string>dexamethasone (solution)</string>
+    <string>dexamethasone (suspension/drops)</string>
+    <string>dexamethasone (tablet)</string>
+    <string>dexamethasone acetate (injectable)</string>
+    <string>dexamethasone sodium phosphate (aerosol, metered)</string>
+    <string>dexamethasone sodium phosphate (aerosol)</string>
+    <string>dexamethasone sodium phosphate (cream)</string>
+    <string>dexamethasone sodium phosphate (injectable)</string>
+    <string>dexamethasone sodium phosphate (ointment)</string>
+    <string>dexamethasone sodium phosphate (solution/drops)</string>
+    <string>dexamethasone sodium phosphate</string>
+    <string>dexamethasone</string>
+    <string>dexbrompheniramine maleate (syrup)</string>
+    <string>dexbrompheniramine maleate (tablet)</string>
+    <string>dexbrompheniramine maleate</string>
+    <string>dexchlorpheniramine maleate (syrup)</string>
+    <string>dexchlorpheniramine maleate (tablet)</string>
+    <string>dexlansoprazole (capsule, delayed release)</string>
+    <string>dexmedetomidine (injectable)</string>
+    <string>dexmethylphenidate hydrochloride (capsule, extended release)</string>
+    <string>dexmethylphenidate hydrochloride (tablet)</string>
+    <string>dexrazoxane hydrochloride (injectable)</string>
+    <string>dextroamphetamine sulfate (capsule, extended release)</string>
+    <string>dextroamphetamine sulfate (capsule)</string>
+    <string>dextroamphetamine sulfate (elixir)</string>
+    <string>dextroamphetamine sulfate (solution)</string>
+    <string>dextroamphetamine sulfate (tablet)</string>
+    <string>dextromethorphan hydrobromide</string>
+    <string>dextromethorphan polistirex (suspension, extended release)</string>
+    <string>dextrose (injectable)</string>
+    <string>dextrose</string>
+    <string>dextrothyroxine sodium (tablet)</string>
+    <string>dezocine (injectable)</string>
+    <string>diatrizoate meglumine (injectable)</string>
+    <string>diatrizoate meglumine (solution)</string>
+    <string>diatrizoate meglumine</string>
+    <string>diatrizoate sodium (for solution)</string>
+    <string>diatrizoate sodium (injectable)</string>
+    <string>diatrizoate sodium (solution)</string>
+    <string>diazepam (capsule, extended release)</string>
+    <string>diazepam (concentrate)</string>
+    <string>diazepam (gel)</string>
+    <string>diazepam (injectable)</string>
+    <string>diazepam (solution)</string>
+    <string>diazepam (tablet)</string>
+    <string>diazoxide (capsule)</string>
+    <string>diazoxide (injectable)</string>
+    <string>diazoxide (suspension)</string>
+    <string>dibucaine hydrochloride (injectable)</string>
+    <string>dichlorphenamide (tablet)</string>
+    <string>diclofenac epolamine (patch)</string>
+    <string>diclofenac potassium (tablet)</string>
+    <string>diclofenac sodium (gel)</string>
+    <string>diclofenac sodium (solution/drops)</string>
+    <string>diclofenac sodium (tablet, delayed release)</string>
+    <string>diclofenac sodium (tablet, extended release)</string>
+    <string>diclofenac sodium</string>
+    <string>dicloxacillin sodium (capsule)</string>
+    <string>dicloxacillin sodium (for suspension)</string>
+    <string>dicumarol (capsule)</string>
+    <string>dicumarol (tablet)</string>
+    <string>dicyclomine hydrochloride (capsule)</string>
+    <string>dicyclomine hydrochloride (injectable)</string>
+    <string>dicyclomine hydrochloride (syrup)</string>
+    <string>dicyclomine hydrochloride (tablet)</string>
+    <string>didanosine (capsule, delayed rel pellets)</string>
+    <string>didanosine (for solution)</string>
+    <string>didanosine (tablet, chewable)</string>
+    <string>dienestrol (cream)</string>
+    <string>dienestrol (suppository)</string>
+    <string>diethylcarbamazine citrate (tablet)</string>
+    <string>diethylpropion hydrochloride (tablet, extended release)</string>
+    <string>diethylpropion hydrochloride (tablet)</string>
+    <string>diethylstilbestrol (injectable)</string>
+    <string>diethylstilbestrol (suppository)</string>
+    <string>diethylstilbestrol (tablet, delayed release)</string>
+    <string>diethylstilbestrol (tablet)</string>
+    <string>diethylstilbestrol diphosphate (injectable)</string>
+    <string>diethylstilbestrol diphosphate (tablet)</string>
+    <string>diflorasone diacetate (cream)</string>
+    <string>diflorasone diacetate (ointment)</string>
+    <string>diflunisal (tablet)</string>
+    <string>difluprednate (emulsion)</string>
+    <string>digitoxin (injectable)</string>
+    <string>digoxin (capsule)</string>
+    <string>digoxin (elixir)</string>
+    <string>digoxin (injectable)</string>
+    <string>digoxin (tablet)</string>
+    <string>dihydroergotamine mesylate (injectable)</string>
+    <string>dihydroergotamine mesylate (spray, metered)</string>
+    <string>dihydroergotamine mesylate</string>
+    <string>diltiazem hydrochloride (capsule, extended release)</string>
+    <string>diltiazem hydrochloride (injectable)</string>
+    <string>diltiazem hydrochloride (tablet, extended release)</string>
+    <string>diltiazem hydrochloride (tablet)</string>
+    <string>diltiazem malate (tablet, extended release)</string>
+    <string>diltiazem malate</string>
+    <string>dimenhydrinate (injectable)</string>
+    <string>dimenhydrinate (liquid)</string>
+    <string>dimenhydrinate (tablet)</string>
+    <string>dimercaprol (injectable)</string>
+    <string>dimethyl sulfoxide (solution)</string>
+    <string>dimyristoyl lecithin</string>
+    <string>dinoprost tromethamine (injectable)</string>
+    <string>dinoprostone (gel)</string>
+    <string>dinoprostone (insert, extended release)</string>
+    <string>dinoprostone (suppository)</string>
+    <string>diphemanil methylsulfate (tablet)</string>
+    <string>diphenhydramine citrate</string>
+    <string>diphenhydramine hydrochloride (capsule)</string>
+    <string>diphenhydramine hydrochloride (elixir)</string>
+    <string>diphenhydramine hydrochloride (injectable)</string>
+    <string>diphenhydramine hydrochloride (syrup)</string>
+    <string>diphenhydramine hydrochloride</string>
+    <string>diphenidol hydrochloride (tablet)</string>
+    <string>diphenylpyraline hydrochloride (capsule, extended release)</string>
+    <string>dipivefrin hydrochloride (solution/drops)</string>
+    <string>dipyridamole (injectable)</string>
+    <string>dipyridamole (tablet)</string>
+    <string>dirithromycin (tablet, delayed release)</string>
+    <string>disopyramide phosphate (capsule, extended release)</string>
+    <string>disopyramide phosphate (capsule)</string>
+    <string>disulfiram (tablet)</string>
+    <string>divalproex sodium (capsule, delayed rel pellets)</string>
+    <string>divalproex sodium (tablet, delayed release)</string>
+    <string>divalproex sodium (tablet, extended release)</string>
+    <string>dobutamine hydrochloride (injectable)</string>
+    <string>docetaxel (injectable)</string>
+    <string>docosanol (cream)</string>
+    <string>dofetilide (capsule)</string>
+    <string>dolasetron mesylate (injectable)</string>
+    <string>dolasetron mesylate (tablet)</string>
+    <string>donepezil hydrochloride (solution)</string>
+    <string>donepezil hydrochloride (tablet, orally disintegrating)</string>
+    <string>donepezil hydrochloride (tablet)</string>
+    <string>dopamine hydrochloride (injectable)</string>
+    <string>doripenem (injectable)</string>
+    <string>dorzolamide hydrochloride (solution/drops)</string>
+    <string>dorzolamide hydrochloride</string>
+    <string>doxacurium chloride (injectable)</string>
+    <string>doxapram hydrochloride (injectable)</string>
+    <string>doxazosin mesylate (tablet, extended release)</string>
+    <string>doxazosin mesylate (tablet)</string>
+    <string>doxepin hydrochloride (capsule)</string>
+    <string>doxepin hydrochloride (concentrate)</string>
+    <string>doxepin hydrochloride (cream)</string>
+    <string>doxercalciferol (capsule)</string>
+    <string>doxercalciferol (injectable)</string>
+    <string>doxorubicin hydrochloride (injectable, liposomal)</string>
+    <string>doxorubicin hydrochloride (injectable)</string>
+    <string>doxycycline (capsule, delayed release)</string>
+    <string>doxycycline (capsule)</string>
+    <string>doxycycline (for suspension)</string>
+    <string>doxycycline (tablet)</string>
+    <string>doxycycline calcium (suspension)</string>
+    <string>doxycycline hyclate (capsule, coated pellets)</string>
+    <string>doxycycline hyclate (capsule, delayed release)</string>
+    <string>doxycycline hyclate (capsule)</string>
+    <string>doxycycline hyclate (injectable)</string>
+    <string>doxycycline hyclate (system, extended release)</string>
+    <string>doxycycline hyclate (tablet, delayed release)</string>
+    <string>doxycycline hyclate (tablet)</string>
+    <string>doxylamine succinate (capsule)</string>
+    <string>doxylamine succinate (tablet)</string>
+    <string>doxylamine succinate</string>
+    <string>dromostanolone propionate (injectable)</string>
+    <string>dronabinol (capsule)</string>
+    <string>droperidol (injectable)</string>
+    <string>droperidol</string>
+    <string>drospirenone</string>
+    <string>duloxetine hydrochloride (capsule, delayed rel pellets)</string>
+    <string>dutasteride (capsule)</string>
+    <string>dyclonine hydrochloride (solution)</string>
+    <string>dydrogesterone (tablet)</string>
+    <string>dyphylline (elixir)</string>
+    <string>dyphylline (injectable)</string>
+    <string>dyphylline (tablet)</string>
+  </array>
+  <key>E</key>
+  <array>
+    <string>echothiophate iodide (for solution)</string>
+    <string>econazole nitrate (cream)</string>
+    <string>edetate calcium disodium (injectable)</string>
+    <string>edetate calcium disodium (tablet)</string>
+    <string>edetate disodium (injectable)</string>
+    <string>edrophonium chloride (injectable)</string>
+    <string>efavirenz (capsule)</string>
+    <string>efavirenz (tablet)</string>
+    <string>efavirenz</string>
+    <string>eflornithine hydrochloride (cream)</string>
+    <string>eflornithine hydrochloride (injectable)</string>
+    <string>eletriptan hydrobromide (tablet)</string>
+    <string>eltrombopag olamine (tablet)</string>
+    <string>emedastine difumarate (solution/drops)</string>
+    <string>emtricitabine (capsule)</string>
+    <string>emtricitabine (solution)</string>
+    <string>emtricitabine</string>
+    <string>enalapril maleate (tablet)</string>
+    <string>enalapril maleate</string>
+    <string>enalaprilat (injectable)</string>
+    <string>enflurane (liquid)</string>
+    <string>enfuvirtide (injectable)</string>
+    <string>enoxacin (tablet)</string>
+    <string>enoxaparin sodium (injectable)</string>
+    <string>entacapone (tablet)</string>
+    <string>entecavir (solution)</string>
+    <string>entecavir (tablet)</string>
+    <string>epinastine hydrochloride (solution/drops)</string>
+    <string>epinephrine (aerosol, metered)</string>
+    <string>epinephrine (injectable)</string>
+    <string>epinephrine bitartrate (aerosol, metered)</string>
+    <string>epinephrine bitartrate</string>
+    <string>epinephrine</string>
+    <string>epirubicin hydrochloride (injectable)</string>
+    <string>eplerenone (tablet)</string>
+    <string>epoprostenol sodium (injectable)</string>
+    <string>eprosartan mesylate (tablet)</string>
+    <string>eprosartan mesylate</string>
+    <string>eptifibatide (injectable)</string>
+    <string>ergocalciferol (capsule)</string>
+    <string>ergoloid mesylates (capsule)</string>
+    <string>ergoloid mesylates (solution)</string>
+    <string>ergoloid mesylates (tablet)</string>
+    <string>ergotamine tartrate (aerosol, metered)</string>
+    <string>ergotamine tartrate (tablet)</string>
+    <string>erlotinib hydrochloride (tablet)</string>
+    <string>ertapenem sodium (injectable)</string>
+    <string>erythromycin (capsule, delayed rel pellets)</string>
+    <string>erythromycin (gel)</string>
+    <string>erythromycin (lotion)</string>
+    <string>erythromycin (ointment)</string>
+    <string>erythromycin (powder)</string>
+    <string>erythromycin (solution)</string>
+    <string>erythromycin (swab)</string>
+    <string>erythromycin (tablet, coated particles)</string>
+    <string>erythromycin (tablet, delayed release)</string>
+    <string>erythromycin (tablet)</string>
+    <string>erythromycin estolate (capsule)</string>
+    <string>erythromycin estolate (for suspension)</string>
+    <string>erythromycin estolate (suspension/drops)</string>
+    <string>erythromycin estolate (suspension)</string>
+    <string>erythromycin estolate (tablet, chewable)</string>
+    <string>erythromycin estolate (tablet)</string>
+    <string>erythromycin estolate</string>
+    <string>erythromycin ethylsuccinate (granule)</string>
+    <string>erythromycin ethylsuccinate (suspension/drops)</string>
+    <string>erythromycin ethylsuccinate (suspension)</string>
+    <string>erythromycin ethylsuccinate (tablet, chewable)</string>
+    <string>erythromycin ethylsuccinate (tablet)</string>
+    <string>erythromycin ethylsuccinate</string>
+    <string>erythromycin gluceptate (injectable)</string>
+    <string>erythromycin lactobionate (injectable)</string>
+    <string>erythromycin stearate (tablet)</string>
+    <string>escitalopram oxalate (capsule)</string>
+    <string>escitalopram oxalate (solution)</string>
+    <string>escitalopram oxalate (tablet)</string>
+    <string>esmolol hydrochloride (injectable)</string>
+    <string>esomeprazole magnesium (capsule, delayed rel pellets)</string>
+    <string>esomeprazole magnesium (for suspension, delayed release)</string>
+    <string>esomeprazole sodium (injectable)</string>
+    <string>estazolam (tablet)</string>
+    <string>estradiol (cream)</string>
+    <string>estradiol (film, extended release)</string>
+    <string>estradiol (gel, metered)</string>
+    <string>estradiol (gel)</string>
+    <string>estradiol (insert, extended release)</string>
+    <string>estradiol (spray)</string>
+    <string>estradiol (tablet)</string>
+    <string>estradiol acetate (insert, extended release)</string>
+    <string>estradiol acetate (tablet)</string>
+    <string>estradiol cypionate (injectable)</string>
+    <string>estradiol cypionate</string>
+    <string>estradiol hemihydrate (emulsion)</string>
+    <string>estradiol valerate (injectable)</string>
+    <string>estradiol valerate</string>
+    <string>estradiol</string>
+    <string>estramustine phosphate sodium (capsule)</string>
+    <string>estrogens, conjugated (cream)</string>
+    <string>estrogens, conjugated (injectable)</string>
+    <string>estrogens, conjugated (tablet)</string>
+    <string>estrogens, conjugated synthetic a (cream)</string>
+    <string>estrogens, conjugated synthetic a (tablet)</string>
+    <string>estrogens, conjugated synthetic b (tablet)</string>
+    <string>estrogens, conjugated</string>
+    <string>estrogens, esterified (tablet)</string>
+    <string>estrone (injectable)</string>
+    <string>estropipate (cream)</string>
+    <string>estropipate (tablet)</string>
+    <string>eszopiclone (tablet)</string>
+    <string>ethacrynate sodium (injectable)</string>
+    <string>ethacrynic acid (tablet)</string>
+    <string>ethambutol hydrochloride (tablet)</string>
+    <string>ethanolamine oleate (injectable)</string>
+    <string>ethchlorvynol (capsule)</string>
+    <string>ethinamate (capsule)</string>
+    <string>ethinyl estradiol (tablet)</string>
+    <string>ethinyl estradiol</string>
+    <string>ethiodized oil (oil)</string>
+    <string>ethionamide (tablet)</string>
+    <string>ethopropazine hydrochloride (tablet)</string>
+    <string>ethosuximide (capsule)</string>
+    <string>ethosuximide (syrup)</string>
+    <string>ethotoin (tablet)</string>
+    <string>ethoxzolamide (tablet)</string>
+    <string>ethylestrenol (elixir)</string>
+    <string>ethylestrenol (tablet)</string>
+    <string>ethynodiol diacetate</string>
+    <string>etidocaine hydrochloride (injectable)</string>
+    <string>etidronate disodium (injectable)</string>
+    <string>etidronate disodium (tablet)</string>
+    <string>etodolac (capsule)</string>
+    <string>etodolac (tablet, extended release)</string>
+    <string>etodolac (tablet)</string>
+    <string>etomidate (injectable)</string>
+    <string>etonogestrel (implant)</string>
+    <string>etoposide (capsule)</string>
+    <string>etoposide (injectable)</string>
+    <string>etoposide phosphate (injectable)</string>
+    <string>etravirine (tablet)</string>
+    <string>etretinate (capsule)</string>
+    <string>evans blue (injectable)</string>
+    <string>exemestane (tablet)</string>
+    <string>exenatide synthetic (injectable)</string>
+    <string>ezetimibe (tablet)</string>
+    <string>ezetimibe</string>
+  </array>
+  <key>F</key>
+  <array>
+    <string>famciclovir (tablet)</string>
+    <string>famotidine (for suspension)</string>
+    <string>famotidine (injectable)</string>
+    <string>famotidine (tablet, chewable)</string>
+    <string>famotidine (tablet, orally disintegrating)</string>
+    <string>famotidine (tablet)</string>
+    <string>felbamate (suspension)</string>
+    <string>felbamate (tablet)</string>
+    <string>felodipine (tablet, extended release)</string>
+    <string>fenofibrate (capsule)</string>
+    <string>fenofibrate (tablet)</string>
+    <string>fenoldopam mesylate (injectable)</string>
+    <string>fenoprofen calcium (capsule)</string>
+    <string>fenoprofen calcium (tablet)</string>
+    <string>fentanyl (film, extended release)</string>
+    <string>fentanyl citrate (injectable)</string>
+    <string>fentanyl citrate (tablet)</string>
+    <string>fentanyl citrate (troche/lozenge)</string>
+    <string>fentanyl hydrochloride (system)</string>
+    <string>ferric ammonium citrate (for solution)</string>
+    <string>ferric hexacyanoferrate(ii) (capsule)</string>
+    <string>ferrous citrate, fe-59 (injectable)</string>
+    <string>ferrous sulfate</string>
+    <string>ferumoxides (injectable)</string>
+    <string>ferumoxsil (suspension)</string>
+    <string>fesoterodine fumarate (tablet, extended release)</string>
+    <string>fexofenadine hydrochloride (capsule)</string>
+    <string>fexofenadine hydrochloride (suspension)</string>
+    <string>fexofenadine hydrochloride (tablet, orally disintegrating)</string>
+    <string>fexofenadine hydrochloride (tablet)</string>
+    <string>fexofenadine hydrochloride</string>
+    <string>fibrinogen, i-125 (injectable)</string>
+    <string>finasteride (tablet)</string>
+    <string>flavoxate hydrochloride (tablet)</string>
+    <string>flecainide acetate (tablet)</string>
+    <string>floxuridine (injectable)</string>
+    <string>fluconazole (for suspension)</string>
+    <string>fluconazole (injectable)</string>
+    <string>fluconazole (tablet)</string>
+    <string>flucytosine (capsule)</string>
+    <string>fludarabine phosphate (injectable)</string>
+    <string>fludarabine phosphate (tablet)</string>
+    <string>fludeoxyglucose f-18 (injectable)</string>
+    <string>fludrocortisone acetate (tablet)</string>
+    <string>flumazenil (injectable)</string>
+    <string>flumethasone pivalate (cream)</string>
+    <string>flunisolide (aerosol, metered)</string>
+    <string>flunisolide (spray, metered)</string>
+    <string>fluocinolone acetonide (cream)</string>
+    <string>fluocinolone acetonide (gel)</string>
+    <string>fluocinolone acetonide (implant)</string>
+    <string>fluocinolone acetonide (oil/drops)</string>
+    <string>fluocinolone acetonide (oil)</string>
+    <string>fluocinolone acetonide (ointment)</string>
+    <string>fluocinolone acetonide (shampoo)</string>
+    <string>fluocinolone acetonide (solution)</string>
+    <string>fluocinolone acetonide</string>
+    <string>fluocinonide (cream)</string>
+    <string>fluocinonide (gel)</string>
+    <string>fluocinonide (ointment)</string>
+    <string>fluocinonide (solution)</string>
+    <string>fluorescein sodium (injectable)</string>
+    <string>fluorometholone (cream)</string>
+    <string>fluorometholone (ointment)</string>
+    <string>fluorometholone (suspension/drops)</string>
+    <string>fluorometholone acetate (suspension/drops)</string>
+    <string>fluorometholone acetate</string>
+    <string>fluorometholone</string>
+    <string>fluorouracil (cream)</string>
+    <string>fluorouracil (injectable)</string>
+    <string>fluorouracil (solution)</string>
+    <string>fluoxetine hydrochloride (capsule, delayed rel pellets)</string>
+    <string>fluoxetine hydrochloride (capsule)</string>
+    <string>fluoxetine hydrochloride (solution)</string>
+    <string>fluoxetine hydrochloride (tablet)</string>
+    <string>fluoxetine hydrochloride</string>
+    <string>fluoxymesterone (tablet)</string>
+    <string>fluphenazine decanoate (injectable)</string>
+    <string>fluphenazine enanthate (injectable)</string>
+    <string>fluphenazine hydrochloride (concentrate)</string>
+    <string>fluphenazine hydrochloride (elixir)</string>
+    <string>fluphenazine hydrochloride (injectable)</string>
+    <string>fluphenazine hydrochloride (tablet, extended release)</string>
+    <string>fluphenazine hydrochloride (tablet)</string>
+    <string>fluprednisolone (tablet)</string>
+    <string>flurandrenolide (cream)</string>
+    <string>flurandrenolide (lotion)</string>
+    <string>flurandrenolide (ointment)</string>
+    <string>flurandrenolide (tape)</string>
+    <string>flurandrenolide</string>
+    <string>flurazepam hydrochloride (capsule)</string>
+    <string>flurbiprofen (tablet)</string>
+    <string>flurbiprofen sodium (solution/drops)</string>
+    <string>flutamide (capsule)</string>
+    <string>fluticasone furoate (spray, metered)</string>
+    <string>fluticasone propionate (aerosol, metered)</string>
+    <string>fluticasone propionate (cream)</string>
+    <string>fluticasone propionate (lotion)</string>
+    <string>fluticasone propionate (ointment)</string>
+    <string>fluticasone propionate (powder)</string>
+    <string>fluticasone propionate (spray, metered)</string>
+    <string>fluticasone propionate</string>
+    <string>fluvastatin sodium (capsule)</string>
+    <string>fluvastatin sodium (tablet, extended release)</string>
+    <string>fluvoxamine maleate (capsule, extended release)</string>
+    <string>fluvoxamine maleate (tablet)</string>
+    <string>folic acid (injectable)</string>
+    <string>folic acid (tablet)</string>
+    <string>follitropin alfa/beta (injectable)</string>
+    <string>fomepizole (injectable)</string>
+    <string>fomivirsen sodium (injectable)</string>
+    <string>fondaparinux sodium (injectable)</string>
+    <string>formoterol fumarate (powder)</string>
+    <string>formoterol fumarate (solution)</string>
+    <string>fosamprenavir calcium (suspension)</string>
+    <string>fosamprenavir calcium (tablet)</string>
+    <string>fosaprepitant dimeglumine (powder)</string>
+    <string>foscarnet sodium (injectable)</string>
+    <string>fosfomycin tromethamine (for suspension)</string>
+    <string>fosinopril sodium (tablet)</string>
+    <string>fosinopril sodium</string>
+    <string>fosphenytoin sodium (injectable)</string>
+    <string>fospropofol disodium (solution)</string>
+    <string>frovatriptan succinate (tablet)</string>
+    <string>fulvestrant (injectable)</string>
+    <string>furazolidone (suspension)</string>
+    <string>furazolidone (tablet)</string>
+    <string>furosemide (injectable)</string>
+    <string>furosemide (solution)</string>
+    <string>furosemide (tablet)</string>
+  </array>
+  <key>G</key>
+  <array>
+    <string>gabapentin (capsule)</string>
+    <string>gabapentin (solution)</string>
+    <string>gabapentin (tablet)</string>
+    <string>gadobenate dimeglumine (injectable)</string>
+    <string>gadodiamide (injectable)</string>
+    <string>gadofosveset trisodium (solution)</string>
+    <string>gadopentetate dimeglumine (injectable)</string>
+    <string>gadoteridol (injectable)</string>
+    <string>gadoversetamide (injectable)</string>
+    <string>gadoxetate disodium (solution)</string>
+    <string>galantamine hydrobromide (capsule, extended release)</string>
+    <string>galantamine hydrobromide (solution)</string>
+    <string>galantamine hydrobromide (tablet)</string>
+    <string>gallamine triethiodide (injectable)</string>
+    <string>gallium citrate, ga-67 (injectable)</string>
+    <string>gallium nitrate (injectable)</string>
+    <string>ganciclovir (capsule)</string>
+    <string>ganciclovir (implant)</string>
+    <string>ganciclovir sodium (injectable)</string>
+    <string>ganirelix acetate (injectable)</string>
+    <string>gatifloxacin (solution/drops)</string>
+    <string>gefitinib (tablet)</string>
+    <string>gemcitabine hydrochloride (injectable)</string>
+    <string>gemfibrozil (capsule)</string>
+    <string>gemfibrozil (tablet)</string>
+    <string>gemifloxacin mesylate (tablet)</string>
+    <string>gemtuzumab ozogamicin (injectable)</string>
+    <string>gentamicin sulfate (cream)</string>
+    <string>gentamicin sulfate (injectable)</string>
+    <string>gentamicin sulfate (ointment)</string>
+    <string>gentamicin sulfate (solution/drops)</string>
+    <string>gentamicin sulfate</string>
+    <string>gentian violet (suppository)</string>
+    <string>gentian violet (tampon)</string>
+    <string>glatiramer acetate (for solution)</string>
+    <string>glatiramer acetate (injectable)</string>
+    <string>glimepiride (tablet)</string>
+    <string>glimepiride</string>
+    <string>glipizide (tablet, extended release)</string>
+    <string>glipizide (tablet)</string>
+    <string>glipizide</string>
+    <string>glucagon hydrochloride (injectable)</string>
+    <string>glucagon hydrochloride recombinant (injectable)</string>
+    <string>glucagon recombinant (injectable)</string>
+    <string>glutamine (for solution)</string>
+    <string>glutethimide (capsule)</string>
+    <string>glutethimide (tablet)</string>
+    <string>glyburide (tablet)</string>
+    <string>glyburide</string>
+    <string>glycine (solution)</string>
+    <string>glycopyrrolate (injectable)</string>
+    <string>glycopyrrolate (tablet)</string>
+    <string>gonadorelin acetate (injectable)</string>
+    <string>gonadorelin hydrochloride (injectable)</string>
+    <string>gonadotropin, chorionic (injectable)</string>
+    <string>goserelin acetate (implant)</string>
+    <string>gramicidin</string>
+    <string>granisetron (film, extended release)</string>
+    <string>granisetron hydrochloride (injectable)</string>
+    <string>granisetron hydrochloride (solution)</string>
+    <string>granisetron hydrochloride (tablet)</string>
+    <string>grepafloxacin hydrochloride (tablet)</string>
+    <string>griseofulvin, microcrystalline (capsule)</string>
+    <string>griseofulvin, microcrystalline (suspension)</string>
+    <string>griseofulvin, microcrystalline (tablet)</string>
+    <string>griseofulvin, ultramicrocrystalline (tablet)</string>
+    <string>guaifenesin (tablet, extended release)</string>
+    <string>guaifenesin</string>
+    <string>guanabenz acetate (tablet)</string>
+    <string>guanadrel sulfate (tablet)</string>
+    <string>guanethidine monosulfate (tablet)</string>
+    <string>guanethidine monosulfate</string>
+    <string>guanfacine hydrochloride (tablet)</string>
+    <string>guanidine hydrochloride (tablet)</string>
+  </array>
+  <key>H</key>
+  <array>
+    <string>halazepam (tablet)</string>
+    <string>halcinonide (cream)</string>
+    <string>halcinonide (ointment)</string>
+    <string>halcinonide (solution)</string>
+    <string>halobetasol propionate (cream)</string>
+    <string>halobetasol propionate (ointment)</string>
+    <string>halofantrine hydrochloride (tablet)</string>
+    <string>haloperidol (tablet)</string>
+    <string>haloperidol decanoate (injectable)</string>
+    <string>haloperidol lactate (concentrate)</string>
+    <string>haloperidol lactate (injectable)</string>
+    <string>haloperidol lactate (solution)</string>
+    <string>haloprogin (cream)</string>
+    <string>haloprogin (solution)</string>
+    <string>halothane (liquid)</string>
+    <string>heparin calcium (injectable)</string>
+    <string>heparin sodium (injectable)</string>
+    <string>hetacillin (for suspension)</string>
+    <string>hetacillin potassium (capsule)</string>
+    <string>hexachlorophene (aerosol)</string>
+    <string>hexachlorophene (emulsion)</string>
+    <string>hexachlorophene (soap)</string>
+    <string>hexachlorophene (solution)</string>
+    <string>hexachlorophene (sponge)</string>
+    <string>hexafluorenium bromide (injectable)</string>
+    <string>hexocyclium methylsulfate (tablet)</string>
+    <string>hexylcaine hydrochloride (solution)</string>
+    <string>histamine phosphate (injectable)</string>
+    <string>histrelin acetate (implant)</string>
+    <string>histrelin acetate (injectable)</string>
+    <string>homatropine methylbromide (tablet, chewable)</string>
+    <string>homatropine methylbromide (tablet)</string>
+    <string>homatropine methylbromide</string>
+    <string>hyaluronidase (injectable)</string>
+    <string>hyaluronidase recombinant human (injectable)</string>
+    <string>hydralazine hydrochloride (injectable)</string>
+    <string>hydralazine hydrochloride (tablet)</string>
+    <string>hydralazine hydrochloride</string>
+    <string>hydrochlorothiazide (capsule)</string>
+    <string>hydrochlorothiazide (solution)</string>
+    <string>hydrochlorothiazide (tablet)</string>
+    <string>hydrochlorothiazide</string>
+    <string>hydrocodone bitartrate</string>
+    <string>hydrocortamate hydrochloride (ointment)</string>
+    <string>hydrocortisone (aerosol)</string>
+    <string>hydrocortisone (cream)</string>
+    <string>hydrocortisone (enema)</string>
+    <string>hydrocortisone (gel)</string>
+    <string>hydrocortisone (injectable)</string>
+    <string>hydrocortisone (lotion)</string>
+    <string>hydrocortisone (ointment)</string>
+    <string>hydrocortisone (powder)</string>
+    <string>hydrocortisone (solution)</string>
+    <string>hydrocortisone (tablet)</string>
+    <string>hydrocortisone acetate (aerosol, metered)</string>
+    <string>hydrocortisone acetate (cream)</string>
+    <string>hydrocortisone acetate (injectable)</string>
+    <string>hydrocortisone acetate (lotion)</string>
+    <string>hydrocortisone acetate (ointment)</string>
+    <string>hydrocortisone acetate (paste)</string>
+    <string>hydrocortisone acetate (powder)</string>
+    <string>hydrocortisone acetate</string>
+    <string>hydrocortisone butyrate (cream)</string>
+    <string>hydrocortisone butyrate (lotion)</string>
+    <string>hydrocortisone butyrate (ointment)</string>
+    <string>hydrocortisone butyrate (solution)</string>
+    <string>hydrocortisone cypionate (suspension)</string>
+    <string>hydrocortisone probutate (cream)</string>
+    <string>hydrocortisone sodium phosphate (injectable)</string>
+    <string>hydrocortisone sodium succinate (injectable)</string>
+    <string>hydrocortisone valerate (cream)</string>
+    <string>hydrocortisone valerate (ointment)</string>
+    <string>hydrocortisone</string>
+    <string>hydroflumethiazide (tablet)</string>
+    <string>hydroflumethiazide</string>
+    <string>hydromorphone hydrochloride (capsule, extended release)</string>
+    <string>hydromorphone hydrochloride (injectable)</string>
+    <string>hydromorphone hydrochloride (solution)</string>
+    <string>hydromorphone hydrochloride (tablet)</string>
+    <string>hydroxocobalamin (injectable)</string>
+    <string>hydroxyamphetamine hydrobromide (solution/drops)</string>
+    <string>hydroxyamphetamine hydrobromide</string>
+    <string>hydroxychloroquine sulfate (tablet)</string>
+    <string>hydroxyprogesterone caproate (injectable)</string>
+    <string>hydroxypropyl cellulose (insert)</string>
+    <string>hydroxystilbamidine isethionate (injectable)</string>
+    <string>hydroxyurea (capsule)</string>
+    <string>hydroxyurea (tablet)</string>
+    <string>hydroxyzine hydrochloride (injectable)</string>
+    <string>hydroxyzine hydrochloride (syrup)</string>
+    <string>hydroxyzine hydrochloride (tablet)</string>
+    <string>hydroxyzine pamoate (capsule)</string>
+    <string>hydroxyzine pamoate (suspension)</string>
+  </array>
+  <key>I</key>
+  <array>
+    <string>ibandronate sodium (injectable)</string>
+    <string>ibandronate sodium (tablet)</string>
+    <string>ibuprofen (capsule)</string>
+    <string>ibuprofen (suspension/drops)</string>
+    <string>ibuprofen (suspension)</string>
+    <string>ibuprofen (tablet, chewable)</string>
+    <string>ibuprofen (tablet)</string>
+    <string>ibuprofen lysine (injectable)</string>
+    <string>ibuprofen</string>
+    <string>ibutilide fumarate (injectable)</string>
+    <string>icodextrin (solution)</string>
+    <string>idarubicin hydrochloride (injectable)</string>
+    <string>idoxuridine (ointment)</string>
+    <string>idoxuridine (solution/drops)</string>
+    <string>ifosfamide (injectable)</string>
+    <string>ifosfamide</string>
+    <string>iloprost (solution)</string>
+    <string>imatinib mesylate (capsule)</string>
+    <string>imatinib mesylate (tablet)</string>
+    <string>imiglucerase (injectable)</string>
+    <string>imipramine hydrochloride (concentrate)</string>
+    <string>imipramine hydrochloride (injectable)</string>
+    <string>imipramine hydrochloride (tablet)</string>
+    <string>imipramine pamoate (capsule)</string>
+    <string>imiquimod (cream)</string>
+    <string>inamrinone lactate (injectable)</string>
+    <string>indapamide (tablet)</string>
+    <string>indecainide hydrochloride (tablet, extended release)</string>
+    <string>indinavir sulfate (capsule)</string>
+    <string>indium in-111 chloride (injectable)</string>
+    <string>indium in-111 oxyquinoline (injectable)</string>
+    <string>indium in-111 pentetate disodium (injectable)</string>
+    <string>indium in-111 pentetreotide kit (injectable)</string>
+    <string>indocyanine green (injectable)</string>
+    <string>indomethacin (capsule, extended release)</string>
+    <string>indomethacin (capsule)</string>
+    <string>indomethacin (suppository)</string>
+    <string>indomethacin (suspension)</string>
+    <string>indomethacin sodium (injectable)</string>
+    <string>insulin aspart protamine recombinant</string>
+    <string>insulin aspart recombinant (injectable)</string>
+    <string>insulin detemir recombinant (injectable)</string>
+    <string>insulin glargine recombinant (injectable)</string>
+    <string>insulin glulisine recombinant (injectable)</string>
+    <string>insulin lispro protamine recombinant</string>
+    <string>insulin lispro recombinant (injectable)</string>
+    <string>insulin pork (injectable)</string>
+    <string>insulin purified beef (injectable)</string>
+    <string>insulin purified pork (injectable)</string>
+    <string>insulin purified pork</string>
+    <string>insulin recombinant human (injectable)</string>
+    <string>insulin recombinant human (powder)</string>
+    <string>insulin recombinant human</string>
+    <string>insulin recombinant purified human (injectable)</string>
+    <string>insulin recombinant purified human</string>
+    <string>insulin susp isophane beef (injectable)</string>
+    <string>insulin susp isophane beef/pork (injectable)</string>
+    <string>insulin susp isophane purified beef (injectable)</string>
+    <string>insulin susp isophane purified pork (injectable)</string>
+    <string>insulin susp isophane recombinant human (injectable)</string>
+    <string>insulin susp isophane semisynthetic purified human (injectable)</string>
+    <string>insulin susp protamine zinc beef/pork (injectable)</string>
+    <string>insulin susp protamine zinc purified beef (injectable)</string>
+    <string>insulin susp protamine zinc purified pork (injectable)</string>
+    <string>insulin zinc susp beef (injectable)</string>
+    <string>insulin zinc susp extended beef (injectable)</string>
+    <string>insulin zinc susp extended purified beef (injectable)</string>
+    <string>insulin zinc susp extended recombinant human (injectable)</string>
+    <string>insulin zinc susp prompt beef (injectable)</string>
+    <string>insulin zinc susp prompt purified pork (injectable)</string>
+    <string>insulin zinc susp purified beef (injectable)</string>
+    <string>insulin zinc susp purified beef/pork (injectable)</string>
+    <string>insulin zinc susp purified pork (injectable)</string>
+    <string>insulin zinc susp recombinant human (injectable)</string>
+    <string>insulin zinc susp semisynthetic purified human (injectable)</string>
+    <string>inulin (injectable)</string>
+    <string>invert sugar (injectable)</string>
+    <string>iobenguane sulfate i 123 (solution)</string>
+    <string>iobenguane sulfate i 131 (injectable)</string>
+    <string>iocetamic acid (tablet)</string>
+    <string>iodamide meglumine (injectable)</string>
+    <string>iodine povacrylex</string>
+    <string>iodipamide meglumine (injectable)</string>
+    <string>iodipamide sodium (injectable)</string>
+    <string>iodixanol (injectable)</string>
+    <string>iodohippurate sodium, i-123 (injectable)</string>
+    <string>iodohippurate sodium, i-131 (injectable)</string>
+    <string>iodoxamate meglumine (injectable)</string>
+    <string>iofetamine hydrochloride i-123 (injectable)</string>
+    <string>iohexol (injectable)</string>
+    <string>iohexol (solution)</string>
+    <string>iopamidol (injectable)</string>
+    <string>iopanoic acid (tablet)</string>
+    <string>iophendylate (injectable)</string>
+    <string>iopromide (injectable)</string>
+    <string>iothalamate meglumine (injectable)</string>
+    <string>iothalamate meglumine (solution)</string>
+    <string>iothalamate meglumine</string>
+    <string>iothalamate sodium (injectable)</string>
+    <string>iothalamate sodium, i-125 (injectable)</string>
+    <string>iotrolan (injectable)</string>
+    <string>ioversol (injectable)</string>
+    <string>ioxaglate meglumine</string>
+    <string>ioxilan (injectable)</string>
+    <string>ipodate calcium (granule)</string>
+    <string>ipodate sodium (capsule)</string>
+    <string>ipratropium bromide (aerosol, metered)</string>
+    <string>ipratropium bromide (solution)</string>
+    <string>ipratropium bromide (spray, metered)</string>
+    <string>irbesartan (tablet)</string>
+    <string>irinotecan hydrochloride (injectable)</string>
+    <string>iron dextran (injectable)</string>
+    <string>iron sucrose (injectable)</string>
+    <string>isocarboxazid (tablet)</string>
+    <string>isoetharine hydrochloride (solution)</string>
+    <string>isoetharine mesylate (aerosol, metered)</string>
+    <string>isoflurane (liquid)</string>
+    <string>isoflurophate (ointment)</string>
+    <string>isoniazid (injectable)</string>
+    <string>isoniazid (syrup)</string>
+    <string>isoniazid (tablet)</string>
+    <string>isoniazid</string>
+    <string>isopropamide iodide (tablet)</string>
+    <string>isoproterenol hydrochloride (aerosol, metered)</string>
+    <string>isoproterenol hydrochloride (disc)</string>
+    <string>isoproterenol hydrochloride (injectable)</string>
+    <string>isoproterenol hydrochloride (solution)</string>
+    <string>isoproterenol hydrochloride (tablet)</string>
+    <string>isoproterenol hydrochloride</string>
+    <string>isoproterenol sulfate (aerosol, metered)</string>
+    <string>isoproterenol sulfate (powder)</string>
+    <string>isosorbide (solution)</string>
+    <string>isosorbide dinitrate (capsule, extended release)</string>
+    <string>isosorbide dinitrate (tablet, chewable)</string>
+    <string>isosorbide dinitrate (tablet, extended release)</string>
+    <string>isosorbide dinitrate (tablet)</string>
+    <string>isosorbide mononitrate (tablet, extended release)</string>
+    <string>isosorbide mononitrate (tablet)</string>
+    <string>isosulfan blue (injectable)</string>
+    <string>isotretinoin (capsule)</string>
+    <string>isradipine (capsule)</string>
+    <string>isradipine (tablet, extended release)</string>
+    <string>itraconazole (capsule)</string>
+    <string>itraconazole (injectable)</string>
+    <string>itraconazole (solution)</string>
+    <string>ivermectin (tablet)</string>
+    <string>ixabepilone (injectable)</string>
+  </array>
+  <key>K</key>
+  <array>
+    <string>kanamycin sulfate (capsule)</string>
+    <string>kanamycin sulfate (injectable)</string>
+    <string>ketamine hydrochloride (injectable)</string>
+    <string>ketoconazole (aerosol, foam)</string>
+    <string>ketoconazole (cream)</string>
+    <string>ketoconazole (gel)</string>
+    <string>ketoconazole (shampoo)</string>
+    <string>ketoconazole (suspension)</string>
+    <string>ketoconazole (tablet)</string>
+    <string>ketoprofen (capsule, extended release)</string>
+    <string>ketoprofen (capsule)</string>
+    <string>ketoprofen (tablet)</string>
+    <string>ketorolac tromethamine (injectable)</string>
+    <string>ketorolac tromethamine (solution/drops)</string>
+    <string>ketorolac tromethamine (tablet)</string>
+    <string>ketotifen fumarate (solution/drops)</string>
+    <string>krypton, kr-81m (gas)</string>
+  </array>
+  <key>L</key>
+  <array>
+    <string>labetalol hydrochloride (injectable)</string>
+    <string>labetalol hydrochloride (tablet)</string>
+    <string>lacosamide (solution)</string>
+    <string>lacosamide (tablet)</string>
+    <string>lactulose (for solution)</string>
+    <string>lactulose (solution)</string>
+    <string>lamivudine (solution)</string>
+    <string>lamivudine (tablet)</string>
+    <string>lamivudine</string>
+    <string>lamotrigine (tablet, chewable)</string>
+    <string>lamotrigine (tablet)</string>
+    <string>lanreotide acetate (injectable)</string>
+    <string>lansoprazole (capsule, delayed rel pellets)</string>
+    <string>lansoprazole (for suspension, delayed release)</string>
+    <string>lansoprazole (injectable)</string>
+    <string>lansoprazole (tablet, delayed release, orally disintegrating)</string>
+    <string>lansoprazole</string>
+    <string>lanthanum carbonate (tablet, chewable)</string>
+    <string>lapatinib ditosylate (tablet)</string>
+    <string>latanoprost (solution/drops)</string>
+    <string>leflunomide (tablet)</string>
+    <string>lenalidomide (capsule)</string>
+    <string>lepirudin recombinant (injectable)</string>
+    <string>letrozole (tablet)</string>
+    <string>leucovorin calcium (for solution)</string>
+    <string>leucovorin calcium (injectable)</string>
+    <string>leucovorin calcium (tablet)</string>
+    <string>leuprolide acetate (implant)</string>
+    <string>leuprolide acetate (injectable)</string>
+    <string>levalbuterol hydrochloride (solution)</string>
+    <string>levalbuterol tartrate (aerosol, metered)</string>
+    <string>levallorphan tartrate (injectable)</string>
+    <string>levamisole hydrochloride (tablet)</string>
+    <string>levetiracetam (injectable)</string>
+    <string>levetiracetam (solution)</string>
+    <string>levetiracetam (tablet, extended release)</string>
+    <string>levetiracetam (tablet)</string>
+    <string>levobetaxolol hydrochloride (suspension/drops)</string>
+    <string>levobunolol hydrochloride (solution/drops)</string>
+    <string>levobupivacaine hydrochloride (injectable)</string>
+    <string>levocabastine hydrochloride (suspension/drops)</string>
+    <string>levocarnitine (injectable)</string>
+    <string>levocarnitine (solution)</string>
+    <string>levocarnitine (tablet)</string>
+    <string>levocetirizine dihydrochloride (solution)</string>
+    <string>levocetirizine dihydrochloride (tablet)</string>
+    <string>levodopa (capsule)</string>
+    <string>levodopa (tablet)</string>
+    <string>levofloxacin (injectable)</string>
+    <string>levofloxacin (solution/drops)</string>
+    <string>levofloxacin (solution)</string>
+    <string>levofloxacin (tablet)</string>
+    <string>levoleucovorin calcium (powder)</string>
+    <string>levomepromazine (injectable)</string>
+    <string>levomethadyl acetate hydrochloride (concentrate)</string>
+    <string>levonordefrin</string>
+    <string>levonorgestrel (implant)</string>
+    <string>levonorgestrel (intrauterine device)</string>
+    <string>levonorgestrel (tablet)</string>
+    <string>levopropoxyphene napsylate anhydrous (capsule)</string>
+    <string>levopropoxyphene napsylate anhydrous (suspension)</string>
+    <string>levorphanol tartrate (injectable)</string>
+    <string>levorphanol tartrate (tablet)</string>
+    <string>levothyroxine sodium (capsule)</string>
+    <string>levothyroxine sodium (tablet)</string>
+    <string>lidocaine (aerosol)</string>
+    <string>lidocaine (film, extended release)</string>
+    <string>lidocaine (ointment)</string>
+    <string>lidocaine (patch)</string>
+    <string>lidocaine (solution)</string>
+    <string>lidocaine (suppository)</string>
+    <string>lidocaine hydrochloride (gel)</string>
+    <string>lidocaine hydrochloride (injectable)</string>
+    <string>lidocaine hydrochloride (jelly)</string>
+    <string>lidocaine hydrochloride (solution)</string>
+    <string>lidocaine hydrochloride (system)</string>
+    <string>lidocaine hydrochloride</string>
+    <string>lidocaine</string>
+    <string>lincomycin hydrochloride (capsule)</string>
+    <string>lincomycin hydrochloride (injectable)</string>
+    <string>lindane (cream)</string>
+    <string>lindane (lotion)</string>
+    <string>lindane (shampoo)</string>
+    <string>linezolid (for suspension)</string>
+    <string>linezolid (injectable)</string>
+    <string>linezolid (tablet)</string>
+    <string>liothyronine sodium (injectable)</string>
+    <string>liothyronine sodium (tablet)</string>
+    <string>liotrix (t4</string>
+    <string>lisdexamfetamine dimesylate (capsule)</string>
+    <string>lisinopril (tablet)</string>
+    <string>lithium carbonate (capsule)</string>
+    <string>lithium carbonate (tablet, extended release)</string>
+    <string>lithium carbonate (tablet)</string>
+    <string>lithium citrate (syrup)</string>
+    <string>lodoxamide tromethamine (solution/drops)</string>
+    <string>lomefloxacin hydrochloride (tablet)</string>
+    <string>lomustine (capsule)</string>
+    <string>loperamide hydrochloride (capsule)</string>
+    <string>loperamide hydrochloride (solution)</string>
+    <string>loperamide hydrochloride (suspension)</string>
+    <string>loperamide hydrochloride (tablet, chewable)</string>
+    <string>loperamide hydrochloride (tablet)</string>
+    <string>loperamide hydrochloride</string>
+    <string>lopinavir</string>
+    <string>loracarbef (capsule)</string>
+    <string>loracarbef (for suspension)</string>
+    <string>loratadine (capsule)</string>
+    <string>loratadine (suspension)</string>
+    <string>loratadine (syrup)</string>
+    <string>loratadine (tablet, chewable)</string>
+    <string>loratadine (tablet, orally disintegrating)</string>
+    <string>loratadine (tablet)</string>
+    <string>loratadine</string>
+    <string>lorazepam (concentrate)</string>
+    <string>lorazepam (injectable)</string>
+    <string>lorazepam (solution)</string>
+    <string>lorazepam (tablet)</string>
+    <string>losartan potassium (tablet)</string>
+    <string>loteprednol etabonate (suspension/drops)</string>
+    <string>loteprednol etabonate</string>
+    <string>lovastatin (tablet, extended release)</string>
+    <string>lovastatin (tablet)</string>
+    <string>lovastatin</string>
+    <string>loxapine hydrochloride (concentrate)</string>
+    <string>loxapine hydrochloride (injectable)</string>
+    <string>loxapine succinate (capsule)</string>
+    <string>loxapine succinate (tablet)</string>
+    <string>lubiprostone (capsule)</string>
+    <string>lutropin alfa (injectable)</string>
+    <string>lypressin (solution)</string>
+  </array>
+  <key>M</key>
+  <array>
+    <string>mafenide acetate (cream)</string>
+    <string>mafenide acetate (for solution)</string>
+    <string>magnesium acetate tetrahydrate</string>
+    <string>magnesium chloride</string>
+    <string>magnesium hydroxide</string>
+    <string>magnesium sulfate (injectable)</string>
+    <string>magnesium sulfate</string>
+    <string>malathion (lotion)</string>
+    <string>mangafodipir trisodium (injectable)</string>
+    <string>manganese chloride (injectable)</string>
+    <string>manganese chloride tetrahydrate (for solution)</string>
+    <string>manganese sulfate (injectable)</string>
+    <string>mannitol (injectable)</string>
+    <string>mannitol (solution)</string>
+    <string>mannitol</string>
+    <string>maprotiline hydrochloride (tablet)</string>
+    <string>maraviroc (tablet)</string>
+    <string>masoprocol (cream)</string>
+    <string>mazindol (tablet)</string>
+    <string>mebendazole (tablet, chewable)</string>
+    <string>mebutamate (tablet)</string>
+    <string>mecamylamine hydrochloride (tablet)</string>
+    <string>mecasermin recombinant (injectable)</string>
+    <string>mecasermin rinfabate recombinant (injectable)</string>
+    <string>mechlorethamine hydrochloride (injectable)</string>
+    <string>meclizine hydrochloride (tablet, chewable)</string>
+    <string>meclizine hydrochloride (tablet)</string>
+    <string>meclocycline sulfosalicylate (cream)</string>
+    <string>meclofenamate sodium (capsule)</string>
+    <string>medroxyprogesterone acetate (injectable)</string>
+    <string>medroxyprogesterone acetate (tablet)</string>
+    <string>medrysone (suspension)</string>
+    <string>mefenamic acid (capsule)</string>
+    <string>mefloquine hydrochloride (tablet)</string>
+    <string>megestrol acetate (suspension)</string>
+    <string>megestrol acetate (tablet)</string>
+    <string>meloxicam (suspension)</string>
+    <string>meloxicam (tablet)</string>
+    <string>melphalan (tablet)</string>
+    <string>melphalan hydrochloride (injectable)</string>
+    <string>memantine hydrochloride (solution)</string>
+    <string>memantine hydrochloride (tablet)</string>
+    <string>menadiol sodium diphosphate (injectable)</string>
+    <string>menadiol sodium diphosphate (tablet)</string>
+    <string>menadione (tablet)</string>
+    <string>menotropins (fsh</string>
+    <string>menthol</string>
+    <string>mepenzolate bromide (solution)</string>
+    <string>mepenzolate bromide (tablet)</string>
+    <string>meperidine hydrochloride (injectable)</string>
+    <string>meperidine hydrochloride (syrup)</string>
+    <string>meperidine hydrochloride (tablet)</string>
+    <string>meperidine hydrochloride</string>
+    <string>mephentermine sulfate (injectable)</string>
+    <string>mephenytoin (tablet)</string>
+    <string>mepivacaine hydrochloride (injectable)</string>
+    <string>meprednisone (tablet)</string>
+    <string>meprobamate (capsule, extended release)</string>
+    <string>meprobamate (capsule)</string>
+    <string>meprobamate (tablet)</string>
+    <string>mequinol</string>
+    <string>mercaptopurine (tablet)</string>
+    <string>meropenem (injectable)</string>
+    <string>mersalyl sodium</string>
+    <string>mesalamine (capsule, extended release)</string>
+    <string>mesalamine (enema)</string>
+    <string>mesalamine (suppository)</string>
+    <string>mesalamine (tablet, delayed release)</string>
+    <string>mesna (injectable)</string>
+    <string>mesna (tablet)</string>
+    <string>mesoridazine besylate (concentrate)</string>
+    <string>mesoridazine besylate (injectable)</string>
+    <string>mesoridazine besylate (tablet)</string>
+    <string>mestranol</string>
+    <string>metaproterenol sulfate (aerosol, metered)</string>
+    <string>metaproterenol sulfate (solution)</string>
+    <string>metaproterenol sulfate (syrup)</string>
+    <string>metaproterenol sulfate (tablet)</string>
+    <string>metaraminol bitartrate (injectable)</string>
+    <string>metaxalone (tablet)</string>
+    <string>metformin hydrochloride (solution)</string>
+    <string>metformin hydrochloride (tablet, extended release)</string>
+    <string>metformin hydrochloride (tablet)</string>
+    <string>metformin hydrochloride</string>
+    <string>methacholine chloride (for solution)</string>
+    <string>methacycline hydrochloride (capsule)</string>
+    <string>methacycline hydrochloride (syrup)</string>
+    <string>methadone hydrochloride (concentrate)</string>
+    <string>methadone hydrochloride (injectable)</string>
+    <string>methadone hydrochloride (powder)</string>
+    <string>methadone hydrochloride (solution)</string>
+    <string>methadone hydrochloride (syrup)</string>
+    <string>methadone hydrochloride (tablet, dispersible)</string>
+    <string>methadone hydrochloride (tablet, effervescent)</string>
+    <string>methadone hydrochloride (tablet)</string>
+    <string>methamphetamine hydrochloride (tablet, extended release)</string>
+    <string>methamphetamine hydrochloride (tablet)</string>
+    <string>methantheline bromide (tablet)</string>
+    <string>metharbital (tablet)</string>
+    <string>methazolamide (tablet)</string>
+    <string>methdilazine (tablet, chewable)</string>
+    <string>methdilazine hydrochloride (syrup)</string>
+    <string>methdilazine hydrochloride (tablet)</string>
+    <string>methenamine hippurate (tablet)</string>
+    <string>methicillin sodium (injectable)</string>
+    <string>methimazole (tablet)</string>
+    <string>methixene hydrochloride (tablet)</string>
+    <string>methocarbamol (injectable)</string>
+    <string>methocarbamol (tablet)</string>
+    <string>methohexital sodium (injectable)</string>
+    <string>methotrexate sodium (injectable)</string>
+    <string>methotrexate sodium (tablet)</string>
+    <string>methoxamine hydrochloride (injectable)</string>
+    <string>methoxsalen (capsule)</string>
+    <string>methoxsalen (injectable)</string>
+    <string>methoxsalen (lotion)</string>
+    <string>methscopolamine bromide (tablet)</string>
+    <string>methsuximide (capsule)</string>
+    <string>methyclothiazide (tablet)</string>
+    <string>methyclothiazide</string>
+    <string>methyl aminolevulinate hydrochloride (cream)</string>
+    <string>methyldopa (suspension)</string>
+    <string>methyldopa (tablet)</string>
+    <string>methyldopate hydrochloride (injectable)</string>
+    <string>methylergonovine maleate (injectable)</string>
+    <string>methylergonovine maleate (tablet)</string>
+    <string>methylnaltrexone bromide (solution)</string>
+    <string>methylphenidate (film, extended release)</string>
+    <string>methylphenidate hydrochloride (capsule, extended release)</string>
+    <string>methylphenidate hydrochloride (solution)</string>
+    <string>methylphenidate hydrochloride (tablet, chewable)</string>
+    <string>methylphenidate hydrochloride (tablet, extended release)</string>
+    <string>methylphenidate hydrochloride (tablet)</string>
+    <string>methylprednisolone (tablet)</string>
+    <string>methylprednisolone acetate (enema)</string>
+    <string>methylprednisolone acetate (injectable)</string>
+    <string>methylprednisolone acetate (ointment)</string>
+    <string>methylprednisolone acetate</string>
+    <string>methylprednisolone sodium succinate (injectable)</string>
+    <string>methylprednisolone</string>
+    <string>methyltestosterone (capsule)</string>
+    <string>methyltestosterone (tablet)</string>
+    <string>methyprylon (capsule)</string>
+    <string>methyprylon (elixir)</string>
+    <string>methyprylon (tablet)</string>
+    <string>methysergide maleate (tablet)</string>
+    <string>metipranolol hydrochloride (solution/drops)</string>
+    <string>metoclopramide hydrochloride (concentrate)</string>
+    <string>metoclopramide hydrochloride (injectable)</string>
+    <string>metoclopramide hydrochloride (solution)</string>
+    <string>metoclopramide hydrochloride (tablet, orally disintegrating)</string>
+    <string>metoclopramide hydrochloride (tablet)</string>
+    <string>metocurine iodide (injectable)</string>
+    <string>metolazone (tablet)</string>
+    <string>metoprolol fumarate (tablet, extended release)</string>
+    <string>metoprolol succinate (tablet, extended release)</string>
+    <string>metoprolol tartrate (injectable)</string>
+    <string>metoprolol tartrate (tablet)</string>
+    <string>metrizamide (injectable)</string>
+    <string>metronidazole (capsule)</string>
+    <string>metronidazole (cream)</string>
+    <string>metronidazole (gel)</string>
+    <string>metronidazole (injectable)</string>
+    <string>metronidazole (lotion)</string>
+    <string>metronidazole (tablet, extended release)</string>
+    <string>metronidazole (tablet)</string>
+    <string>metronidazole hydrochloride (injectable)</string>
+    <string>metyrapone (capsule)</string>
+    <string>metyrapone (tablet)</string>
+    <string>metyrosine (capsule)</string>
+    <string>mexiletine hydrochloride (capsule)</string>
+    <string>mezlocillin sodium monohydrate (injectable)</string>
+    <string>micafungin sodium (injectable)</string>
+    <string>miconazole (injectable)</string>
+    <string>miconazole nitrate (cream, suppository)</string>
+    <string>miconazole nitrate (cream)</string>
+    <string>miconazole nitrate (lotion)</string>
+    <string>miconazole nitrate (suppository)</string>
+    <string>miconazole nitrate (tampon)</string>
+    <string>miconazole nitrate</string>
+    <string>midazolam hydrochloride (injectable)</string>
+    <string>midazolam hydrochloride (syrup)</string>
+    <string>midodrine hydrochloride (tablet)</string>
+    <string>mifepristone (tablet)</string>
+    <string>miglitol (tablet)</string>
+    <string>miglustat (capsule)</string>
+    <string>milnacipran hydrochloride (tablet)</string>
+    <string>milrinone lactate (injectable)</string>
+    <string>minocycline hydrochloride (capsule)</string>
+    <string>minocycline hydrochloride (injectable)</string>
+    <string>minocycline hydrochloride (powder, extended release)</string>
+    <string>minocycline hydrochloride (suspension)</string>
+    <string>minocycline hydrochloride (tablet, extended release)</string>
+    <string>minocycline hydrochloride (tablet)</string>
+    <string>minoxidil (aerosol, foam)</string>
+    <string>minoxidil (solution)</string>
+    <string>minoxidil (tablet)</string>
+    <string>mirtazapine (tablet, orally disintegrating)</string>
+    <string>mirtazapine (tablet)</string>
+    <string>misoprostol (tablet)</string>
+    <string>mitomycin (injectable)</string>
+    <string>mitotane (tablet)</string>
+    <string>mitoxantrone hydrochloride (injectable)</string>
+    <string>mivacurium chloride (injectable)</string>
+    <string>modafinil (tablet)</string>
+    <string>moexipril hydrochloride (tablet)</string>
+    <string>molindone hydrochloride (capsule)</string>
+    <string>molindone hydrochloride (concentrate)</string>
+    <string>molindone hydrochloride (tablet)</string>
+    <string>mometasone furoate (cream)</string>
+    <string>mometasone furoate (lotion)</string>
+    <string>mometasone furoate (ointment)</string>
+    <string>mometasone furoate (powder)</string>
+    <string>mometasone furoate monohydrate (spray, metered)</string>
+    <string>monobenzone (cream)</string>
+    <string>monoctanoin (liquid)</string>
+    <string>montelukast sodium (granule)</string>
+    <string>montelukast sodium (tablet, chewable)</string>
+    <string>montelukast sodium (tablet)</string>
+    <string>moricizine hydrochloride (tablet)</string>
+    <string>morphine sulfate (capsule, extended release)</string>
+    <string>morphine sulfate (injectable, liposomal)</string>
+    <string>morphine sulfate (injectable)</string>
+    <string>morphine sulfate (solution)</string>
+    <string>morphine sulfate (tablet, extended release)</string>
+    <string>morphine sulfate (tablet)</string>
+    <string>moxalactam disodium (injectable)</string>
+    <string>moxifloxacin hydrochloride (injectable)</string>
+    <string>moxifloxacin hydrochloride (solution/drops)</string>
+    <string>moxifloxacin hydrochloride (tablet)</string>
+    <string>mupirocin (ointment)</string>
+    <string>mupirocin calcium (cream, augmented)</string>
+    <string>mupirocin calcium (ointment)</string>
+    <string>mycophenolate mofetil (capsule)</string>
+    <string>mycophenolate mofetil (suspension)</string>
+    <string>mycophenolate mofetil (tablet)</string>
+    <string>mycophenolate mofetil hydrochloride (injectable)</string>
+    <string>mycophenolic acid (tablet, delayed release)</string>
+  </array>
+  <key>N</key>
+  <array>
+    <string>nabilone (capsule)</string>
+    <string>nabumetone (tablet)</string>
+    <string>nadolol (tablet)</string>
+    <string>nafarelin acetate (spray, metered)</string>
+    <string>nafcillin sodium (capsule)</string>
+    <string>nafcillin sodium (for solution)</string>
+    <string>nafcillin sodium (injectable)</string>
+    <string>nafcillin sodium (tablet)</string>
+    <string>naftifine hydrochloride (cream)</string>
+    <string>naftifine hydrochloride (gel)</string>
+    <string>nalbuphine hydrochloride (injectable)</string>
+    <string>nalidixic acid (suspension)</string>
+    <string>nalidixic acid (tablet)</string>
+    <string>nalmefene hydrochloride (injectable)</string>
+    <string>naloxone hydrochloride (injectable)</string>
+    <string>naloxone hydrochloride</string>
+    <string>naltrexone (for suspension, extended release)</string>
+    <string>naltrexone hydrochloride (tablet)</string>
+    <string>nandrolone decanoate (injectable)</string>
+    <string>nandrolone phenpropionate (injectable)</string>
+    <string>naphazoline hydrochloride (solution/drops)</string>
+    <string>naphazoline hydrochloride</string>
+    <string>naproxen (suspension)</string>
+    <string>naproxen (tablet, delayed release)</string>
+    <string>naproxen (tablet)</string>
+    <string>naproxen sodium (capsule)</string>
+    <string>naproxen sodium (tablet, extended release)</string>
+    <string>naproxen sodium (tablet)</string>
+    <string>naproxen sodium</string>
+    <string>naratriptan hydrochloride (tablet)</string>
+    <string>natamycin (suspension)</string>
+    <string>nateglinide (tablet)</string>
+    <string>nebivolol hydrochloride (tablet)</string>
+    <string>nedocromil sodium (aerosol, metered)</string>
+    <string>nedocromil sodium (solution/drops)</string>
+    <string>nedocromil sodium (solution)</string>
+    <string>nefazodone hydrochloride (tablet)</string>
+    <string>nelarabine (injectable)</string>
+    <string>nelfinavir mesylate (powder)</string>
+    <string>nelfinavir mesylate (tablet)</string>
+    <string>neomycin sulfate (powder)</string>
+    <string>neomycin sulfate (solution)</string>
+    <string>neomycin sulfate (tablet)</string>
+    <string>neomycin sulfate</string>
+    <string>nepafenac (suspension/drops)</string>
+    <string>nesiritide recombinant (for solution)</string>
+    <string>netilmicin sulfate (injectable)</string>
+    <string>nevirapine (suspension)</string>
+    <string>nevirapine (tablet)</string>
+    <string>niacin (capsule)</string>
+    <string>niacin (tablet, extended release)</string>
+    <string>niacin (tablet)</string>
+    <string>niacin</string>
+    <string>niacinamide</string>
+    <string>nicardipine hydrochloride (capsule, extended release)</string>
+    <string>nicardipine hydrochloride (capsule)</string>
+    <string>nicardipine hydrochloride (injectable)</string>
+    <string>niclosamide (tablet, chewable)</string>
+    <string>nicotine (film, extended release)</string>
+    <string>nicotine (inhalant)</string>
+    <string>nicotine (spray, metered)</string>
+    <string>nicotine polacrilex (gum, chewing)</string>
+    <string>nicotine polacrilex (troche/lozenge)</string>
+    <string>nifedipine (capsule)</string>
+    <string>nifedipine (tablet, extended release)</string>
+    <string>nilotinib hydrochloride monohydrate (capsule)</string>
+    <string>nilutamide (tablet)</string>
+    <string>nimodipine (capsule)</string>
+    <string>nisoldipine (tablet, extended release)</string>
+    <string>nitazoxanide (for suspension)</string>
+    <string>nitazoxanide (tablet)</string>
+    <string>nitisinone (capsule)</string>
+    <string>nitric oxide (gas)</string>
+    <string>nitrofurantoin (capsule)</string>
+    <string>nitrofurantoin (suspension)</string>
+    <string>nitrofurantoin (tablet)</string>
+    <string>nitrofurantoin sodium (injectable)</string>
+    <string>nitrofurantoin, macrocrystalline (capsule)</string>
+    <string>nitrofurantoin</string>
+    <string>nitrofurazone (cream)</string>
+    <string>nitrofurazone (dressing)</string>
+    <string>nitrofurazone (ointment)</string>
+    <string>nitrofurazone (powder)</string>
+    <string>nitrofurazone (solution)</string>
+    <string>nitroglycerin (aerosol, metered)</string>
+    <string>nitroglycerin (aerosol)</string>
+    <string>nitroglycerin (film, extended release)</string>
+    <string>nitroglycerin (injectable)</string>
+    <string>nitroglycerin (ointment)</string>
+    <string>nitroglycerin (spray, metered)</string>
+    <string>nitroglycerin (tablet)</string>
+    <string>nizatidine (capsule)</string>
+    <string>nizatidine (solution)</string>
+    <string>nizatidine (tablet)</string>
+    <string>nonoxynol-9 (aerosol)</string>
+    <string>nonoxynol-9 (sponge)</string>
+    <string>norepinephrine bitartrate (injectable)</string>
+    <string>norepinephrine bitartrate</string>
+    <string>norethindrone (tablet)</string>
+    <string>norethindrone acetate (tablet)</string>
+    <string>norfloxacin (solution/drops)</string>
+    <string>norfloxacin (tablet)</string>
+    <string>norgestrel (tablet)</string>
+    <string>nortriptyline hydrochloride (capsule)</string>
+    <string>nortriptyline hydrochloride (solution)</string>
+    <string>novobiocin sodium (capsule)</string>
+    <string>nystatin (cream)</string>
+    <string>nystatin (lotion)</string>
+    <string>nystatin (ointment)</string>
+    <string>nystatin (pastille)</string>
+    <string>nystatin (powder)</string>
+    <string>nystatin (suppository)</string>
+    <string>nystatin (suspension)</string>
+    <string>nystatin (tablet)</string>
+    <string>nystatin</string>
+  </array>
+  <key>O</key>
+  <array>
+    <string>octreotide acetate (injectable)</string>
+    <string>ofloxacin (injectable)</string>
+    <string>ofloxacin (solution/drops)</string>
+    <string>ofloxacin (tablet)</string>
+    <string>olanzapine (injectable)</string>
+    <string>olanzapine (tablet, orally disintegrating)</string>
+    <string>olanzapine (tablet)</string>
+    <string>olmesartan medoxomil (tablet)</string>
+    <string>olopatadine hydrochloride (solution/drops)</string>
+    <string>olopatadine hydrochloride (spray, metered)</string>
+    <string>olsalazine sodium (capsule)</string>
+    <string>omega-3-acid ethyl esters (capsule)</string>
+    <string>omeprazole (capsule, delayed rel pellets)</string>
+    <string>omeprazole (tablet, delayed release)</string>
+    <string>omeprazole magnesium (for suspension, delayed release)</string>
+    <string>omeprazole magnesium (tablet, delayed release)</string>
+    <string>omeprazole</string>
+    <string>ondansetron (tablet, orally disintegrating)</string>
+    <string>ondansetron hydrochloride (injectable)</string>
+    <string>ondansetron hydrochloride (solution)</string>
+    <string>ondansetron hydrochloride (tablet)</string>
+    <string>orlistat (capsule)</string>
+    <string>orphenadrine citrate (injectable)</string>
+    <string>orphenadrine citrate (tablet, extended release)</string>
+    <string>orphenadrine hydrochloride (tablet)</string>
+    <string>oseltamivir phosphate (capsule)</string>
+    <string>oseltamivir phosphate (for suspension)</string>
+    <string>oxacillin sodium (capsule)</string>
+    <string>oxacillin sodium (for solution)</string>
+    <string>oxacillin sodium (injectable)</string>
+    <string>oxaliplatin (injectable)</string>
+    <string>oxamniquine (capsule)</string>
+    <string>oxandrolone (tablet)</string>
+    <string>oxaprozin (tablet)</string>
+    <string>oxaprozin potassium (tablet)</string>
+    <string>oxazepam (capsule)</string>
+    <string>oxazepam (tablet)</string>
+    <string>oxcarbazepine (suspension)</string>
+    <string>oxcarbazepine (tablet)</string>
+    <string>oxiconazole nitrate (cream)</string>
+    <string>oxiconazole nitrate (lotion)</string>
+    <string>oxprenolol hydrochloride (capsule)</string>
+    <string>oxtriphylline (solution)</string>
+    <string>oxtriphylline (syrup)</string>
+    <string>oxtriphylline (tablet, delayed release)</string>
+    <string>oxtriphylline (tablet, extended release)</string>
+    <string>oxybutynin (film, extended release)</string>
+    <string>oxybutynin chloride (gel)</string>
+    <string>oxybutynin chloride (syrup)</string>
+    <string>oxybutynin chloride (tablet, extended release)</string>
+    <string>oxybutynin chloride (tablet)</string>
+    <string>oxycodone hydrochloride (tablet, extended release)</string>
+    <string>oxycodone hydrochloride (tablet)</string>
+    <string>oxymetazoline hydrochloride (solution/drops)</string>
+    <string>oxymetholone (tablet)</string>
+    <string>oxymorphone hydrochloride (injectable)</string>
+    <string>oxymorphone hydrochloride (suppository)</string>
+    <string>oxymorphone hydrochloride (tablet, extended release)</string>
+    <string>oxymorphone hydrochloride (tablet)</string>
+    <string>oxyphenbutazone (tablet)</string>
+    <string>oxyphencyclimine hydrochloride (tablet)</string>
+    <string>oxyphenonium bromide (tablet)</string>
+    <string>oxytetracycline (tablet)</string>
+    <string>oxytetracycline calcium (syrup)</string>
+    <string>oxytetracycline hydrochloride (capsule)</string>
+    <string>oxytetracycline hydrochloride (injectable)</string>
+    <string>oxytetracycline hydrochloride</string>
+    <string>oxytocin (injectable)</string>
+    <string>oxytocin (solution)</string>
+  </array>
+  <key>P</key>
+  <array>
+    <string>paclitaxel (for suspension)</string>
+    <string>paclitaxel (injectable)</string>
+    <string>paliperidone (tablet, extended release)</string>
+    <string>palonosetron hydrochloride (capsule)</string>
+    <string>palonosetron hydrochloride (injectable)</string>
+    <string>pamidronate disodium (injectable)</string>
+    <string>pancrelipase (amylase</string>
+    <string>pancuronium bromide (injectable)</string>
+    <string>pantoprazole sodium (for suspension, delayed release)</string>
+    <string>pantoprazole sodium (injectable)</string>
+    <string>pantoprazole sodium (tablet, delayed release)</string>
+    <string>paramethadione (capsule)</string>
+    <string>paramethadione (solution)</string>
+    <string>paramethasone acetate (tablet)</string>
+    <string>pargyline hydrochloride (tablet)</string>
+    <string>paricalcitol (capsule)</string>
+    <string>paricalcitol (injectable)</string>
+    <string>paromomycin sulfate (capsule)</string>
+    <string>paromomycin sulfate (syrup)</string>
+    <string>paroxetine hydrochloride (capsule)</string>
+    <string>paroxetine hydrochloride (suspension)</string>
+    <string>paroxetine hydrochloride (tablet, extended release)</string>
+    <string>paroxetine hydrochloride (tablet)</string>
+    <string>paroxetine mesylate (tablet)</string>
+    <string>pegademase bovine (injectable)</string>
+    <string>pegaptanib sodium (injectable)</string>
+    <string>pegvisomant (injectable)</string>
+    <string>pemetrexed disodium (injectable)</string>
+    <string>pemirolast potassium (solution/drops)</string>
+    <string>pemoline (tablet, chewable)</string>
+    <string>pemoline (tablet)</string>
+    <string>penbutolol sulfate (tablet)</string>
+    <string>penciclovir sodium (cream)</string>
+    <string>penicillamine (capsule)</string>
+    <string>penicillamine (tablet)</string>
+    <string>penicillin g benzathine (injectable)</string>
+    <string>penicillin g benzathine (suspension)</string>
+    <string>penicillin g benzathine (tablet)</string>
+    <string>penicillin g benzathine</string>
+    <string>penicillin g potassium (for solution)</string>
+    <string>penicillin g potassium (injectable)</string>
+    <string>penicillin g potassium (tablet)</string>
+    <string>penicillin g procaine (injectable)</string>
+    <string>penicillin g sodium (injectable)</string>
+    <string>penicillin v (for suspension)</string>
+    <string>penicillin v potassium (for solution)</string>
+    <string>penicillin v potassium (tablet)</string>
+    <string>pentagastrin (injectable)</string>
+    <string>pentamidine isethionate (for solution)</string>
+    <string>pentamidine isethionate (injectable)</string>
+    <string>pentazocine hydrochloride (tablet)</string>
+    <string>pentazocine lactate (injectable)</string>
+    <string>pentetate calcium trisodium (solution)</string>
+    <string>pentetate calcium trisodium yb-169 (injectable)</string>
+    <string>pentetate zinc trisodium (solution)</string>
+    <string>pentobarbital (elixir)</string>
+    <string>pentobarbital sodium (capsule)</string>
+    <string>pentobarbital sodium (injectable)</string>
+    <string>pentobarbital sodium (suppository)</string>
+    <string>pentobarbital sodium (tablet)</string>
+    <string>pentolinium tartrate (injectable)</string>
+    <string>pentosan polysulfate sodium (capsule)</string>
+    <string>pentostatin (injectable)</string>
+    <string>pentoxifylline (tablet, extended release)</string>
+    <string>perflubron (liquid)</string>
+    <string>perfluoropolymethylisopropyl ether</string>
+    <string>perflutren (injectable)</string>
+    <string>pergolide mesylate (tablet)</string>
+    <string>perindopril erbumine (tablet)</string>
+    <string>permethrin (cream)</string>
+    <string>permethrin (lotion)</string>
+    <string>perphenazine (concentrate)</string>
+    <string>perphenazine (injectable)</string>
+    <string>perphenazine (syrup)</string>
+    <string>perphenazine (tablet, extended release)</string>
+    <string>perphenazine (tablet)</string>
+    <string>phenacemide (tablet)</string>
+    <string>phenazopyridine hydrochloride</string>
+    <string>phendimetrazine tartrate (capsule, extended release)</string>
+    <string>phendimetrazine tartrate (capsule)</string>
+    <string>phendimetrazine tartrate (tablet)</string>
+    <string>phenelzine sulfate (tablet)</string>
+    <string>phenindione (tablet)</string>
+    <string>phenmetrazine hydrochloride (tablet, extended release)</string>
+    <string>phenmetrazine hydrochloride (tablet)</string>
+    <string>phenoxybenzamine hydrochloride (capsule)</string>
+    <string>phenprocoumon (tablet)</string>
+    <string>phensuximide (capsule)</string>
+    <string>phentermine hydrochloride (capsule)</string>
+    <string>phentermine hydrochloride (tablet)</string>
+    <string>phentermine resin complex (capsule, extended release)</string>
+    <string>phentolamine mesylate (injectable)</string>
+    <string>phenyl aminosalicylate (powder)</string>
+    <string>phenyl aminosalicylate (tablet)</string>
+    <string>phenylbutazone (capsule)</string>
+    <string>phenylbutazone (tablet)</string>
+    <string>phenylephrine hydrochloride</string>
+    <string>phenytoin (suspension)</string>
+    <string>phenytoin (tablet, chewable)</string>
+    <string>phenytoin sodium (capsule)</string>
+    <string>phenytoin sodium (injectable)</string>
+    <string>phytonadione (injectable)</string>
+    <string>phytonadione (tablet)</string>
+    <string>pilocarpine (insert, extended release)</string>
+    <string>pilocarpine hydrochloride (gel)</string>
+    <string>pilocarpine hydrochloride (tablet)</string>
+    <string>pimecrolimus (cream)</string>
+    <string>pimozide (tablet)</string>
+    <string>pinacidil (capsule, extended release)</string>
+    <string>pindolol (tablet)</string>
+    <string>pioglitazone hydrochloride (tablet)</string>
+    <string>pipecuronium bromide (injectable)</string>
+    <string>piperacetazine (tablet)</string>
+    <string>piperacillin sodium (injectable)</string>
+    <string>piperacillin sodium</string>
+    <string>piperazine citrate (syrup)</string>
+    <string>piperazine citrate (tablet)</string>
+    <string>piperonyl butoxide</string>
+    <string>pipobroman (tablet)</string>
+    <string>pirbuterol acetate (aerosol, metered)</string>
+    <string>piroxicam (capsule)</string>
+    <string>plerixafor (solution)</string>
+    <string>plicamycin (injectable)</string>
+    <string>podofilox (gel)</string>
+    <string>podofilox (solution)</string>
+    <string>polyestradiol phosphate (injectable)</string>
+    <string>polyethylene glycol 3350 (for solution)</string>
+    <string>polyethylene glycol 3350</string>
+    <string>polymyxin b sulfate (injectable)</string>
+    <string>polymyxin b sulfate (powder)</string>
+    <string>polymyxin b sulfate</string>
+    <string>polythiazide (tablet)</string>
+    <string>polythiazide</string>
+    <string>poractant alfa (suspension)</string>
+    <string>porfimer sodium (injectable)</string>
+    <string>posaconazole (suspension)</string>
+    <string>potassium acetate (injectable)</string>
+    <string>potassium aminosalicylate (capsule)</string>
+    <string>potassium aminosalicylate (powder)</string>
+    <string>potassium aminosalicylate (tablet)</string>
+    <string>potassium chloride (capsule, extended release)</string>
+    <string>potassium chloride (for suspension, extended release)</string>
+    <string>potassium chloride (injectable)</string>
+    <string>potassium chloride (tablet, extended release)</string>
+    <string>potassium chloride</string>
+    <string>potassium citrate (for solution)</string>
+    <string>potassium citrate (tablet, extended release)</string>
+    <string>potassium iodide (solution)</string>
+    <string>potassium iodide (tablet)</string>
+    <string>potassium perchlorate (capsule)</string>
+    <string>povidone-iodine (solution/drops)</string>
+    <string>povidone-iodine (solution)</string>
+    <string>povidone-iodine (sponge)</string>
+    <string>pralidoxime chloride (injectable)</string>
+    <string>pralidoxime chloride (tablet)</string>
+    <string>pramipexole dihydrochloride (tablet)</string>
+    <string>pramlintide acetate (injectable)</string>
+    <string>pravastatin sodium (tablet)</string>
+    <string>prazepam (capsule)</string>
+    <string>prazepam (tablet)</string>
+    <string>praziquantel (tablet)</string>
+    <string>prazosin hydrochloride (capsule)</string>
+    <string>prazosin hydrochloride (tablet, extended release)</string>
+    <string>prednicarbate (cream)</string>
+    <string>prednicarbate (ointment)</string>
+    <string>prednisolone (cream)</string>
+    <string>prednisolone (syrup)</string>
+    <string>prednisolone (tablet)</string>
+    <string>prednisolone acetate (injectable)</string>
+    <string>prednisolone acetate (suspension/drops)</string>
+    <string>prednisolone acetate (suspension)</string>
+    <string>prednisolone acetate</string>
+    <string>prednisolone sodium phosphate (injectable)</string>
+    <string>prednisolone sodium phosphate (ointment)</string>
+    <string>prednisolone sodium phosphate (solution/drops)</string>
+    <string>prednisolone sodium phosphate (solution)</string>
+    <string>prednisolone sodium phosphate (tablet, orally disintegrating)</string>
+    <string>prednisolone sodium phosphate</string>
+    <string>prednisolone tebutate (injectable)</string>
+    <string>prednisone (solution)</string>
+    <string>prednisone (syrup)</string>
+    <string>prednisone (tablet)</string>
+    <string>pregabalin (capsule)</string>
+    <string>prilocaine hydrochloride (injectable)</string>
+    <string>primaquine phosphate (tablet)</string>
+    <string>primidone (suspension)</string>
+    <string>primidone (tablet)</string>
+    <string>probenecid (tablet)</string>
+    <string>probucol (tablet)</string>
+    <string>procainamide hydrochloride (capsule)</string>
+    <string>procainamide hydrochloride (injectable)</string>
+    <string>procainamide hydrochloride (tablet, extended release)</string>
+    <string>procainamide hydrochloride (tablet)</string>
+    <string>procaine hydrochloride (injectable)</string>
+    <string>procaine hydrochloride</string>
+    <string>procaine merethoxylline</string>
+    <string>procarbazine hydrochloride (capsule)</string>
+    <string>prochlorperazine (suppository)</string>
+    <string>prochlorperazine edisylate (concentrate)</string>
+    <string>prochlorperazine edisylate (injectable)</string>
+    <string>prochlorperazine edisylate (syrup)</string>
+    <string>prochlorperazine maleate (capsule, extended release)</string>
+    <string>prochlorperazine maleate (tablet)</string>
+    <string>procyclidine hydrochloride (tablet)</string>
+    <string>progesterone (capsule)</string>
+    <string>progesterone (gel)</string>
+    <string>progesterone (injectable)</string>
+    <string>progesterone (insert, extended release)</string>
+    <string>progesterone (insert)</string>
+    <string>promazine hydrochloride (concentrate)</string>
+    <string>promazine hydrochloride (injectable)</string>
+    <string>promazine hydrochloride (syrup)</string>
+    <string>promazine hydrochloride (tablet)</string>
+    <string>promethazine hydrochloride (injectable)</string>
+    <string>promethazine hydrochloride (suppository)</string>
+    <string>promethazine hydrochloride (syrup)</string>
+    <string>promethazine hydrochloride (tablet)</string>
+    <string>propafenone hydrochloride (capsule, extended release)</string>
+    <string>propafenone hydrochloride (tablet)</string>
+    <string>propantheline bromide (injectable)</string>
+    <string>propantheline bromide (tablet)</string>
+    <string>proparacaine hydrochloride (solution/drops)</string>
+    <string>propiolactone (solution)</string>
+    <string>propiomazine hydrochloride (injectable)</string>
+    <string>propofol (injectable)</string>
+    <string>propoxyphene hydrochloride (capsule)</string>
+    <string>propoxyphene napsylate (suspension)</string>
+    <string>propoxyphene napsylate (tablet)</string>
+    <string>propranolol hydrochloride (capsule, extended release)</string>
+    <string>propranolol hydrochloride (concentrate)</string>
+    <string>propranolol hydrochloride (injectable)</string>
+    <string>propranolol hydrochloride (solution)</string>
+    <string>propranolol hydrochloride (suspension)</string>
+    <string>propranolol hydrochloride (tablet)</string>
+    <string>propyliodone (suspension)</string>
+    <string>propylthiouracil (tablet)</string>
+    <string>protamine sulfate (injectable)</string>
+    <string>protein hydrolysate (injectable)</string>
+    <string>protirelin (injectable)</string>
+    <string>protokylol hydrochloride (tablet)</string>
+    <string>protriptyline hydrochloride (tablet)</string>
+    <string>pseudoephedrine hydrochloride (capsule, extended release)</string>
+    <string>pseudoephedrine hydrochloride (tablet, extended release)</string>
+    <string>pseudoephedrine hydrochloride</string>
+    <string>pseudoephedrine polistirex (suspension, extended release)</string>
+    <string>pseudoephedrine sulfate (tablet, extended release)</string>
+    <string>pyrazinamide (tablet)</string>
+    <string>pyridostigmine bromide (injectable)</string>
+    <string>pyridostigmine bromide (syrup)</string>
+    <string>pyridostigmine bromide (tablet, extended release)</string>
+    <string>pyridostigmine bromide (tablet)</string>
+    <string>pyridoxine hydrochloride (injectable)</string>
+    <string>pyrilamine maleate (tablet)</string>
+    <string>pyrimethamine (tablet)</string>
+    <string>pyrimethamine</string>
+    <string>pyrithione zinc (lotion)</string>
+    <string>pyrvinium pamoate (suspension)</string>
+    <string>pyrvinium pamoate (tablet)</string>
+  </array>
+  <key>Q</key>
+  <array>
+    <string>quazepam (tablet)</string>
+    <string>quetiapine fumarate (tablet, extended release)</string>
+    <string>quetiapine fumarate (tablet)</string>
+    <string>quinapril hydrochloride (tablet)</string>
+    <string>quinestrol (tablet)</string>
+    <string>quinethazone (tablet)</string>
+    <string>quinethazone</string>
+    <string>quinidine gluconate (injectable)</string>
+    <string>quinidine gluconate (tablet, extended release)</string>
+    <string>quinidine gluconate (tablet)</string>
+    <string>quinidine polygalacturonate (tablet)</string>
+    <string>quinidine sulfate (capsule)</string>
+    <string>quinidine sulfate (tablet, extended release)</string>
+    <string>quinidine sulfate (tablet)</string>
+    <string>quinine sulfate (capsule)</string>
+  </array>
+  <key>R</key>
+  <array>
+    <string>rabeprazole sodium (tablet, delayed release)</string>
+    <string>raloxifene hydrochloride (tablet)</string>
+    <string>raltegravir potassium (tablet)</string>
+    <string>ramelteon (tablet)</string>
+    <string>ramipril (capsule)</string>
+    <string>ramipril (tablet)</string>
+    <string>ranitidine bismuth citrate (tablet)</string>
+    <string>ranitidine hydrochloride (capsule)</string>
+    <string>ranitidine hydrochloride (granule, effervescent)</string>
+    <string>ranitidine hydrochloride (injectable)</string>
+    <string>ranitidine hydrochloride (syrup)</string>
+    <string>ranitidine hydrochloride (tablet, effervescent)</string>
+    <string>ranitidine hydrochloride (tablet)</string>
+    <string>ranolazine (tablet, extended release)</string>
+    <string>rapacuronium bromide (injectable)</string>
+    <string>rasagiline mesylate (tablet)</string>
+    <string>rauwolfia serpentina (tablet)</string>
+    <string>regadenoson (solution)</string>
+    <string>remifentanil hydrochloride (injectable)</string>
+    <string>repaglinide (tablet)</string>
+    <string>rescinnamine (capsule)</string>
+    <string>rescinnamine (tablet)</string>
+    <string>reserpine (elixir)</string>
+    <string>reserpine (injectable)</string>
+    <string>reserpine (tablet)</string>
+    <string>reserpine</string>
+    <string>retapamulin (ointment)</string>
+    <string>ribavirin (capsule)</string>
+    <string>ribavirin (for solution)</string>
+    <string>ribavirin (solution)</string>
+    <string>ribavirin (tablet)</string>
+    <string>rifabutin (capsule)</string>
+    <string>rifampin (capsule)</string>
+    <string>rifampin (injectable)</string>
+    <string>rifapentine (tablet)</string>
+    <string>rifaximin (tablet)</string>
+    <string>riluzole (tablet)</string>
+    <string>rimantadine hydrochloride (syrup)</string>
+    <string>rimantadine hydrochloride (tablet)</string>
+    <string>rimexolone (suspension/drops)</string>
+    <string>risedronate sodium (tablet)</string>
+    <string>risperidone (injectable)</string>
+    <string>risperidone (solution)</string>
+    <string>risperidone (tablet, orally disintegrating)</string>
+    <string>risperidone (tablet)</string>
+    <string>ritodrine hydrochloride (injectable)</string>
+    <string>ritodrine hydrochloride (tablet)</string>
+    <string>ritonavir (capsule)</string>
+    <string>ritonavir (solution)</string>
+    <string>rivastigmine (film, extended release)</string>
+    <string>rivastigmine tartrate (capsule)</string>
+    <string>rivastigmine tartrate (solution)</string>
+    <string>rizatriptan benzoate (tablet, orally disintegrating)</string>
+    <string>rizatriptan benzoate (tablet)</string>
+    <string>rocuronium bromide (injectable)</string>
+    <string>rofecoxib (suspension)</string>
+    <string>rofecoxib (tablet)</string>
+    <string>ropinirole hydrochloride (tablet, extended release)</string>
+    <string>ropinirole hydrochloride (tablet)</string>
+    <string>ropivacaine hydrochloride monohydrate (injectable)</string>
+    <string>rose bengal sodium, i-131 (injectable)</string>
+    <string>rosiglitazone maleate (tablet)</string>
+    <string>rosuvastatin calcium (tablet)</string>
+    <string>rotigotine (film, extended release)</string>
+    <string>rubidium chloride rb-82 (injectable)</string>
+    <string>rufinamide (tablet)</string>
+  </array>
+  <key>S</key>
+  <array>
+    <string>sacrosidase (solution)</string>
+    <string>safflower oil (injectable)</string>
+    <string>safflower oil</string>
+    <string>salmeterol xinafoate (aerosol, metered)</string>
+    <string>salmeterol xinafoate (powder)</string>
+    <string>samarium sm 153 lexidronam pentasodium (injectable)</string>
+    <string>sapropterin dihydrochloride (tablet)</string>
+    <string>saquinavir (capsule)</string>
+    <string>saquinavir mesylate (capsule)</string>
+    <string>saquinavir mesylate (tablet)</string>
+    <string>saralasin acetate (injectable)</string>
+    <string>scopolamine (film, extended release)</string>
+    <string>secobarbital sodium (capsule)</string>
+    <string>secobarbital sodium (injectable)</string>
+    <string>secobarbital sodium (suppository)</string>
+    <string>secretin (injectable)</string>
+    <string>secretin synthetic human (for solution)</string>
+    <string>secretin synthetic porcine (for solution)</string>
+    <string>selegiline (film, extended release)</string>
+    <string>selegiline hydrochloride (capsule)</string>
+    <string>selegiline hydrochloride (tablet, orally disintegrating)</string>
+    <string>selegiline hydrochloride (tablet)</string>
+    <string>selenium sulfide (lotion/shampoo)</string>
+    <string>selenomethionine, se-75 (injectable)</string>
+    <string>seractide acetate (injectable)</string>
+    <string>sermorelin acetate (injectable)</string>
+    <string>sertaconazole nitrate (cream)</string>
+    <string>sertraline hydrochloride (concentrate)</string>
+    <string>sertraline hydrochloride (tablet)</string>
+    <string>sevelamer carbonate (tablet)</string>
+    <string>sevelamer hydrochloride (capsule)</string>
+    <string>sevelamer hydrochloride (tablet)</string>
+    <string>sevoflurane (liquid)</string>
+    <string>sibutramine hydrochloride (capsule)</string>
+    <string>sildenafil citrate (tablet)</string>
+    <string>silodosin (capsule)</string>
+    <string>silver sulfadiazine (cream)</string>
+    <string>silver sulfadiazine (dressing)</string>
+    <string>simethicone-cellulose (suspension)</string>
+    <string>simvastatin (tablet, orally disintegrating)</string>
+    <string>simvastatin (tablet)</string>
+    <string>sincalide (injectable)</string>
+    <string>sinecatechins (ointment)</string>
+    <string>sirolimus (solution)</string>
+    <string>sirolimus (tablet)</string>
+    <string>sitagliptin phosphate (tablet)</string>
+    <string>sodium acetate anhydrous (injectable)</string>
+    <string>sodium benzoate</string>
+    <string>sodium bicarbonate (injectable)</string>
+    <string>sodium bicarbonate</string>
+    <string>sodium chloride (aerosol, metered)</string>
+    <string>sodium chloride (injectable)</string>
+    <string>sodium chloride (solution for slush)</string>
+    <string>sodium chloride (solution)</string>
+    <string>sodium chromate, cr-51 (injectable)</string>
+    <string>sodium ferric gluconate complex (injectable)</string>
+    <string>sodium fluoride, f-18 (injectable)</string>
+    <string>sodium fluoride</string>
+    <string>sodium iodide, i-123 (capsule)</string>
+    <string>sodium iodide, i-123 (solution)</string>
+    <string>sodium iodide, i-131 (capsule)</string>
+    <string>sodium iodide, i-131 (solution)</string>
+    <string>sodium lactate (injectable)</string>
+    <string>sodium monofluorophosphate (gel)</string>
+    <string>sodium monofluorophosphate (paste)</string>
+    <string>sodium nitroprusside (injectable)</string>
+    <string>sodium oxybate (solution)</string>
+    <string>sodium phenylbutyrate (powder)</string>
+    <string>sodium phenylbutyrate (tablet)</string>
+    <string>sodium phosphate, dibasic anhydrous</string>
+    <string>sodium phosphate, dibasic, heptahydrate</string>
+    <string>sodium phosphate, p-32 (solution)</string>
+    <string>sodium polystyrene sulfonate (powder)</string>
+    <string>sodium polystyrene sulfonate (suspension)</string>
+    <string>sodium succinate (injectable)</string>
+    <string>sodium tetradecyl sulfate (injectable)</string>
+    <string>sodium thiosulfate (injectable)</string>
+    <string>solifenacin succinate (tablet)</string>
+    <string>somatrem (injectable)</string>
+    <string>somatropin (injectable)</string>
+    <string>somatropin recombinant (injectable)</string>
+    <string>sorafenib tosylate (tablet)</string>
+    <string>sorbitol (solution)</string>
+    <string>sotalol hydrochloride (tablet)</string>
+    <string>soybean oil (injectable)</string>
+    <string>sparfloxacin (tablet)</string>
+    <string>spectinomycin hydrochloride (injectable)</string>
+    <string>spirapril hydrochloride (tablet)</string>
+    <string>spironolactone (tablet)</string>
+    <string>stanozolol (tablet)</string>
+    <string>stavudine (capsule, extended release)</string>
+    <string>stavudine (capsule)</string>
+    <string>stavudine (for solution)</string>
+    <string>streptomycin sulfate (injectable)</string>
+    <string>streptozocin (injectable)</string>
+    <string>strontium chloride, sr-89 (injectable)</string>
+    <string>succimer (capsule)</string>
+    <string>succinylcholine chloride (injectable)</string>
+    <string>sucralfate (suspension)</string>
+    <string>sucralfate (tablet)</string>
+    <string>sufentanil citrate (injectable)</string>
+    <string>sulconazole nitrate (cream)</string>
+    <string>sulconazole nitrate (solution)</string>
+    <string>sulfacetamide sodium (lotion)</string>
+    <string>sulfacetamide sodium (ointment)</string>
+    <string>sulfacetamide sodium (solution/drops)</string>
+    <string>sulfacytine (tablet)</string>
+    <string>sulfadiazine (tablet)</string>
+    <string>sulfadiazine sodium (injectable)</string>
+    <string>sulfadiazine</string>
+    <string>sulfameter (tablet)</string>
+    <string>sulfamethizole (tablet)</string>
+    <string>sulfamethoxazole (suspension)</string>
+    <string>sulfamethoxazole (tablet)</string>
+    <string>sulfamethoxazole</string>
+    <string>sulfanilamide (cream)</string>
+    <string>sulfanilamide (suppository)</string>
+    <string>sulfaphenazole (suspension)</string>
+    <string>sulfaphenazole (tablet)</string>
+    <string>sulfapyridine (tablet)</string>
+    <string>sulfasalazine (suspension)</string>
+    <string>sulfasalazine (tablet, delayed release)</string>
+    <string>sulfasalazine (tablet)</string>
+    <string>sulfinpyrazone (capsule)</string>
+    <string>sulfinpyrazone (tablet)</string>
+    <string>sulfisoxazole (tablet)</string>
+    <string>sulfisoxazole acetyl (emulsion)</string>
+    <string>sulfisoxazole acetyl (suspension)</string>
+    <string>sulfisoxazole acetyl (syrup)</string>
+    <string>sulfisoxazole diolamine (injectable)</string>
+    <string>sulfisoxazole diolamine (ointment)</string>
+    <string>sulfisoxazole diolamine (solution/drops)</string>
+    <string>sulfoxone sodium (tablet, delayed release)</string>
+    <string>sulfur (powder)</string>
+    <string>sulindac (tablet)</string>
+    <string>sumatriptan (spray)</string>
+    <string>sumatriptan succinate (injectable)</string>
+    <string>sumatriptan succinate (tablet)</string>
+    <string>sunitinib malate (capsule)</string>
+    <string>suprofen (solution/drops)</string>
+    <string>sutilains (ointment)</string>
+  </array>
+  <key>T</key>
+  <array>
+    <string>tacrine hydrochloride (capsule)</string>
+    <string>tacrolimus (capsule)</string>
+    <string>tacrolimus (injectable)</string>
+    <string>tacrolimus (ointment)</string>
+    <string>tadalafil (tablet)</string>
+    <string>talbutal (tablet)</string>
+    <string>talc (aerosol, metered)</string>
+    <string>talc (powder)</string>
+    <string>tamoxifen citrate (solution)</string>
+    <string>tamoxifen citrate (tablet)</string>
+    <string>tamsulosin hydrochloride (capsule)</string>
+    <string>tapentadol hydrochloride (tablet)</string>
+    <string>tazarotene (cream)</string>
+    <string>tazarotene (gel)</string>
+    <string>technetium tc-99m albumin aggregated (injectable)</string>
+    <string>technetium tc-99m albumin aggregated kit (injectable)</string>
+    <string>technetium tc-99m albumin colloid kit (injectable)</string>
+    <string>technetium tc-99m albumin kit (injectable)</string>
+    <string>technetium tc-99m albumin microspheres kit (injectable)</string>
+    <string>technetium tc-99m apcitide (injectable)</string>
+    <string>technetium tc-99m bicisate kit (injectable)</string>
+    <string>technetium tc-99m depreotide (injectable)</string>
+    <string>technetium tc-99m disofenin kit (injectable)</string>
+    <string>technetium tc-99m etidronate kit (injectable)</string>
+    <string>technetium tc-99m exametazime kit (injectable)</string>
+    <string>technetium tc-99m ferpentetate kit (injectable)</string>
+    <string>technetium tc-99m gluceptate kit (injectable)</string>
+    <string>technetium tc-99m lidofenin kit (injectable)</string>
+    <string>technetium tc-99m mebrofenin kit (injectable)</string>
+    <string>technetium tc-99m medronate kit (injectable)</string>
+    <string>technetium tc-99m mertiatide kit (injectable)</string>
+    <string>technetium tc-99m oxidronate kit (injectable)</string>
+    <string>technetium tc-99m pentetate kit (injectable)</string>
+    <string>technetium tc-99m polyphosphate kit (injectable)</string>
+    <string>technetium tc-99m pyro/trimeta phosphates kit (injectable)</string>
+    <string>technetium tc-99m pyrophosphate kit (injectable)</string>
+    <string>technetium tc-99m red blood cell kit (injectable)</string>
+    <string>technetium tc-99m sestamibi kit (injectable)</string>
+    <string>technetium tc-99m sodium pertechnetate (solution)</string>
+    <string>technetium tc-99m sodium pertechnetate generator (solution)</string>
+    <string>technetium tc-99m succimer kit (injectable)</string>
+    <string>technetium tc-99m sulfur colloid (solution)</string>
+    <string>technetium tc-99m sulfur colloid kit (solution)</string>
+    <string>technetium tc-99m teboroxime kit (injectable)</string>
+    <string>technetium tc-99m tetrofosmin kit (injectable)</string>
+    <string>tegaserod maleate (tablet)</string>
+    <string>telbivudine (tablet)</string>
+    <string>telithromycin (tablet)</string>
+    <string>telmisartan (tablet)</string>
+    <string>temazepam (capsule)</string>
+    <string>temozolomide (capsule)</string>
+    <string>temsirolimus (solution)</string>
+    <string>teniposide (injectable)</string>
+    <string>tenofovir disoproxil fumarate (tablet)</string>
+    <string>terazosin hydrochloride (capsule)</string>
+    <string>terazosin hydrochloride (tablet)</string>
+    <string>terbinafine (gel)</string>
+    <string>terbinafine hydrochloride (cream)</string>
+    <string>terbinafine hydrochloride (granule)</string>
+    <string>terbinafine hydrochloride (solution)</string>
+    <string>terbinafine hydrochloride (spray)</string>
+    <string>terbinafine hydrochloride (tablet)</string>
+    <string>terbutaline sulfate (aerosol, metered)</string>
+    <string>terbutaline sulfate (injectable)</string>
+    <string>terbutaline sulfate (tablet)</string>
+    <string>terconazole (cream)</string>
+    <string>terconazole (suppository)</string>
+    <string>teriparatide acetate (injectable)</string>
+    <string>teriparatide recombinant human (injectable)</string>
+    <string>testolactone (injectable)</string>
+    <string>testolactone (tablet)</string>
+    <string>testosterone (film, extended release)</string>
+    <string>testosterone (gel, metered)</string>
+    <string>testosterone (gel)</string>
+    <string>testosterone (injectable)</string>
+    <string>testosterone (pellet)</string>
+    <string>testosterone (tablet, extended release)</string>
+    <string>testosterone cypionate (injectable)</string>
+    <string>testosterone enanthate (injectable)</string>
+    <string>testosterone propionate (injectable)</string>
+    <string>tetrabenazine (tablet)</string>
+    <string>tetracycline hydrochloride (capsule)</string>
+    <string>tetracycline hydrochloride (fiber, extended release)</string>
+    <string>tetracycline hydrochloride (for solution)</string>
+    <string>tetracycline hydrochloride (injectable)</string>
+    <string>tetracycline hydrochloride (ointment)</string>
+    <string>tetracycline hydrochloride (suspension/drops)</string>
+    <string>tetracycline hydrochloride (suspension)</string>
+    <string>tetracycline hydrochloride (tablet)</string>
+    <string>tetracycline phosphate complex (capsule)</string>
+    <string>tetrahydrozoline hydrochloride (solution)</string>
+    <string>tetrahydrozoline hydrochloride (spray)</string>
+    <string>thalidomide (capsule)</string>
+    <string>thallous chloride, tl-201 (injectable)</string>
+    <string>theophylline (capsule, extended release)</string>
+    <string>theophylline (capsule)</string>
+    <string>theophylline (elixir)</string>
+    <string>theophylline (injectable)</string>
+    <string>theophylline (solution)</string>
+    <string>theophylline (suspension)</string>
+    <string>theophylline (syrup)</string>
+    <string>theophylline (tablet, chewable)</string>
+    <string>theophylline (tablet, extended release)</string>
+    <string>theophylline (tablet)</string>
+    <string>theophylline sodium glycinate (elixir)</string>
+    <string>theophylline sodium glycinate (tablet)</string>
+    <string>thiabendazole (suspension)</string>
+    <string>thiabendazole (tablet, chewable)</string>
+    <string>thiamine hydrochloride (injectable)</string>
+    <string>thiamylal sodium (injectable)</string>
+    <string>thiethylperazine malate (injectable)</string>
+    <string>thiethylperazine maleate (suppository)</string>
+    <string>thiethylperazine maleate (tablet)</string>
+    <string>thioguanine (tablet)</string>
+    <string>thiopental sodium (suspension)</string>
+    <string>thioridazine (suspension)</string>
+    <string>thioridazine hydrochloride (concentrate)</string>
+    <string>thioridazine hydrochloride (tablet)</string>
+    <string>thiotepa (injectable)</string>
+    <string>thiothixene (capsule)</string>
+    <string>thiothixene hydrochloride (concentrate)</string>
+    <string>thiothixene hydrochloride (injectable)</string>
+    <string>thyroglobulin (tablet)</string>
+    <string>thyrotropin (injectable)</string>
+    <string>thyrotropin alfa (injectable)</string>
+    <string>tiagabine hydrochloride (tablet)</string>
+    <string>ticarcillin disodium (injectable)</string>
+    <string>ticlopidine hydrochloride (tablet)</string>
+    <string>tigecycline (injectable)</string>
+    <string>tiludronate disodium (tablet)</string>
+    <string>timolol (solution/drops)</string>
+    <string>timolol maleate (solution, gel forming/drops)</string>
+    <string>timolol maleate (solution/drops)</string>
+    <string>timolol maleate (tablet)</string>
+    <string>tinidazole (tablet)</string>
+    <string>tinzaparin sodium (injectable)</string>
+    <string>tioconazole (cream)</string>
+    <string>tioconazole (ointment)</string>
+    <string>tiopronin (tablet)</string>
+    <string>tiotropium bromide monohydrate (powder)</string>
+    <string>tipranavir (capsule)</string>
+    <string>tipranavir (solution)</string>
+    <string>tirofiban hydrochloride (injectable)</string>
+    <string>tizanidine hydrochloride (capsule)</string>
+    <string>tizanidine hydrochloride (tablet)</string>
+    <string>tobramycin (ointment)</string>
+    <string>tobramycin (solution/drops)</string>
+    <string>tobramycin (solution)</string>
+    <string>tobramycin sulfate (injectable)</string>
+    <string>tocainide hydrochloride (tablet)</string>
+    <string>tolazamide (tablet)</string>
+    <string>tolazoline hydrochloride (injectable)</string>
+    <string>tolbutamide (tablet)</string>
+    <string>tolbutamide sodium (injectable)</string>
+    <string>tolcapone (tablet)</string>
+    <string>tolmetin sodium (capsule)</string>
+    <string>tolmetin sodium (tablet)</string>
+    <string>tolterodine tartrate (capsule, extended release)</string>
+    <string>tolterodine tartrate (tablet)</string>
+    <string>topiramate (capsule)</string>
+    <string>topiramate (tablet)</string>
+    <string>topotecan hydrochloride (capsule)</string>
+    <string>topotecan hydrochloride (injectable)</string>
+    <string>toremifene citrate (tablet)</string>
+    <string>torsemide (injectable)</string>
+    <string>torsemide (tablet)</string>
+    <string>tramadol hydrochloride (tablet, extended release)</string>
+    <string>tramadol hydrochloride (tablet, orally disintegrating)</string>
+    <string>tramadol hydrochloride (tablet)</string>
+    <string>trandolapril (tablet)</string>
+    <string>trandolapril</string>
+    <string>tranexamic acid (injectable)</string>
+    <string>tranexamic acid (tablet)</string>
+    <string>tranylcypromine sulfate (tablet)</string>
+    <string>travoprost (solution/drops)</string>
+    <string>trazodone hydrochloride (tablet)</string>
+    <string>treprostinil sodium (injectable)</string>
+    <string>tretinoin (capsule)</string>
+    <string>tretinoin (cream)</string>
+    <string>tretinoin (gel)</string>
+    <string>tretinoin (solution)</string>
+    <string>tretinoin (swab)</string>
+    <string>triamcinolone (tablet)</string>
+    <string>triamcinolone acetonide (aerosol, metered)</string>
+    <string>triamcinolone acetonide (cream)</string>
+    <string>triamcinolone acetonide (gel)</string>
+    <string>triamcinolone acetonide (injectable)</string>
+    <string>triamcinolone acetonide (lotion)</string>
+    <string>triamcinolone acetonide (ointment)</string>
+    <string>triamcinolone acetonide (paste)</string>
+    <string>triamcinolone acetonide (spray, metered)</string>
+    <string>triamcinolone acetonide (spray)</string>
+    <string>triamcinolone diacetate (injectable)</string>
+    <string>triamcinolone diacetate (syrup)</string>
+    <string>triamcinolone hexacetonide (injectable)</string>
+    <string>triamterene (capsule)</string>
+    <string>triazolam (tablet)</string>
+    <string>trichlormethiazide (tablet)</string>
+    <string>triclofos sodium (solution)</string>
+    <string>triclofos sodium (tablet)</string>
+    <string>tridihexethyl chloride (injectable)</string>
+    <string>tridihexethyl chloride (tablet)</string>
+    <string>trientine hydrochloride (capsule)</string>
+    <string>trifluoperazine hydrochloride (concentrate)</string>
+    <string>trifluoperazine hydrochloride (injectable)</string>
+    <string>trifluoperazine hydrochloride (tablet)</string>
+    <string>triflupromazine (suspension)</string>
+    <string>triflupromazine hydrochloride (injectable)</string>
+    <string>triflupromazine hydrochloride (tablet)</string>
+    <string>trifluridine (solution/drops)</string>
+    <string>trihexyphenidyl hydrochloride (capsule, extended release)</string>
+    <string>trihexyphenidyl hydrochloride (elixir)</string>
+    <string>trihexyphenidyl hydrochloride (tablet)</string>
+    <string>trilostane (capsule)</string>
+    <string>trimeprazine tartrate (capsule, extended release)</string>
+    <string>trimeprazine tartrate (syrup)</string>
+    <string>trimeprazine tartrate (tablet)</string>
+    <string>trimethadione (capsule)</string>
+    <string>trimethadione (solution)</string>
+    <string>trimethadione (tablet)</string>
+    <string>trimethaphan camsylate (injectable)</string>
+    <string>trimethobenzamide hydrochloride (capsule)</string>
+    <string>trimethobenzamide hydrochloride (injectable)</string>
+    <string>trimethoprim (tablet)</string>
+    <string>trimethoprim hydrochloride (solution)</string>
+    <string>trimetrexate glucuronate (injectable)</string>
+    <string>trimipramine maleate (capsule)</string>
+    <string>trioxsalen (tablet)</string>
+    <string>tripelennamine citrate (elixir)</string>
+    <string>tripelennamine hydrochloride (tablet, extended release)</string>
+    <string>tripelennamine hydrochloride (tablet)</string>
+    <string>triple sulfa (sulfabenzamide</string>
+    <string>triprolidine hydrochloride (syrup)</string>
+    <string>triprolidine hydrochloride (tablet)</string>
+    <string>triptorelin pamoate (injectable)</string>
+    <string>trisulfapyrimidines (sulfadiazine</string>
+    <string>troglitazone (tablet)</string>
+    <string>trolamine polypeptide oleate condensate (solution/drops)</string>
+    <string>troleandomycin (capsule)</string>
+    <string>troleandomycin (suspension)</string>
+    <string>tromethamine (injectable)</string>
+    <string>tropicamide (solution/drops)</string>
+    <string>trospium chloride (capsule, extended release)</string>
+    <string>trospium chloride (tablet)</string>
+    <string>trovafloxacin mesylate (tablet)</string>
+    <string>trypan blue (solution)</string>
+    <string>tubocurarine chloride (injectable)</string>
+    <string>tyropanoate sodium (capsule)</string>
+  </array>
+  <key>U</key>
+  <array>
+    <string>undecoylium chloride</string>
+    <string>unoprostone isopropyl (solution/drops)</string>
+    <string>uracil mustard (capsule)</string>
+    <string>urea (injectable)</string>
+    <string>urea, c-13 (for solution)</string>
+    <string>urea, c-14 (capsule)</string>
+    <string>urofollitropin (injectable)</string>
+    <string>urokinase (injectable)</string>
+    <string>ursodiol (capsule)</string>
+    <string>ursodiol (tablet)</string>
+  </array>
+  <key>V</key>
+  <array>
+    <string>valacyclovir hydrochloride (tablet)</string>
+    <string>valdecoxib (tablet)</string>
+    <string>valganciclovir hydrochloride (tablet)</string>
+    <string>valproate sodium (injectable)</string>
+    <string>valproic acid (capsule, delayed release)</string>
+    <string>valproic acid (capsule)</string>
+    <string>valproic acid (solution)</string>
+    <string>valproic acid (syrup)</string>
+    <string>valrubicin (solution)</string>
+    <string>valsartan (capsule)</string>
+    <string>valsartan (tablet)</string>
+    <string>vancomycin hydrochloride (capsule)</string>
+    <string>vancomycin hydrochloride (for solution)</string>
+    <string>vancomycin hydrochloride (injectable)</string>
+    <string>vardenafil hydrochloride (tablet)</string>
+    <string>varenicline tartrate (tablet)</string>
+    <string>vasopressin tannate (injectable)</string>
+    <string>vecuronium bromide (injectable)</string>
+    <string>venlafaxine hydrochloride (capsule, extended release)</string>
+    <string>venlafaxine hydrochloride (tablet, extended release)</string>
+    <string>venlafaxine hydrochloride (tablet)</string>
+    <string>verapamil hydrochloride (capsule, extended release)</string>
+    <string>verapamil hydrochloride (injectable)</string>
+    <string>verapamil hydrochloride (tablet, extended release)</string>
+    <string>verapamil hydrochloride (tablet)</string>
+    <string>veratrum viride (tablet)</string>
+    <string>verteporfin (injectable)</string>
+    <string>vidarabine (injectable)</string>
+    <string>vidarabine (ointment)</string>
+    <string>vinblastine sulfate (injectable)</string>
+    <string>vincristine sulfate (injectable)</string>
+    <string>vinorelbine tartrate (injectable)</string>
+    <string>viomycin sulfate (injectable)</string>
+    <string>vitamin a (capsule)</string>
+    <string>vitamin a palmitate (capsule)</string>
+    <string>vitamin a palmitate (injectable)</string>
+    <string>voriconazole (for suspension)</string>
+    <string>voriconazole (injectable)</string>
+    <string>voriconazole (tablet)</string>
+    <string>vorinostat (capsule)</string>
+  </array>
+  <key>W</key>
+  <array>
+    <string>warfarin potassium (tablet)</string>
+    <string>warfarin sodium (injectable)</string>
+    <string>warfarin sodium (tablet)</string>
+    <string>water for injection, sterile (liquid)</string>
+    <string>water for irrigation, sterile (liquid)</string>
+  </array>
+  <key>X</key>
+  <array>
+    <string>xenon xe 127 (gas)</string>
+    <string>xenon xe 133 (gas)</string>
+    <string>xenon xe 133 (injectable)</string>
+    <string>xenon xe 133 (solution)</string>
+    <string>xylose (powder)</string>
+  </array>
+  <key>Z</key>
+  <array>
+    <string>zafirlukast (tablet)</string>
+    <string>zalcitabine (tablet)</string>
+    <string>zaleplon (capsule)</string>
+    <string>zanamivir (powder)</string>
+    <string>ziconotide (injectable)</string>
+    <string>zidovudine (capsule)</string>
+    <string>zidovudine (injectable)</string>
+    <string>zidovudine (syrup)</string>
+    <string>zidovudine (tablet)</string>
+    <string>zileuton (tablet, extended release)</string>
+    <string>zileuton (tablet)</string>
+    <string>zinc acetate (capsule)</string>
+    <string>zinc chloride (injectable)</string>
+    <string>zinc sulfate (injectable)</string>
+    <string>ziprasidone hydrochloride (capsule)</string>
+    <string>ziprasidone hydrochloride (suspension)</string>
+    <string>ziprasidone mesylate (injectable)</string>
+    <string>zoledronic acid (injectable)</string>
+    <string>zolmitriptan (spray)</string>
+    <string>zolmitriptan (tablet, orally disintegrating)</string>
+    <string>zolmitriptan (tablet)</string>
+    <string>zolpidem tartrate (spray, metered)</string>
+    <string>zolpidem tartrate (tablet, extended release)</string>
+    <string>zolpidem tartrate (tablet, orally disintegrating)</string>
+    <string>zolpidem tartrate (tablet)</string>
+    <string>zonisamide (capsule)</string>
+  </array>
+</dict>
+</plist>
