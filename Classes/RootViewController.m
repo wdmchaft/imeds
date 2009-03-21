@@ -82,11 +82,17 @@ NSInteger medicationSort(id med1, id med2, void *context)
 }
 
 - (void)new {
-	MedicationNewController *newController = [[MedicationNewController alloc] initWithNibName:@"ReminderNew"
-																																								 bundle:nil];
-	
+//	MedicationNewController *newController = [[MedicationNewController alloc] initWithNibName:@"ReminderNew"
+//																																								 bundle:nil];
+//	
+//	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+//	[delegate.navigationController pushViewController:newController animated:YES];
+	MedicationDetailsController *newController = [[MedicationDetailsController alloc] initWithNibName:@"ReminderDetails"
+																																										 bundle:nil];
+	newController.medication = [[Medication alloc] init];
+	newController.title = @"New Medication";
 	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
-	[delegate.navigationController pushViewController:newController animated:YES];
+	[delegate.navigationController pushViewController:newController animated:YES];	
 }
 
 
