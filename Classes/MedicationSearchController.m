@@ -175,6 +175,7 @@ titleForHeaderInSection:(NSInteger)section
 {
 	NSString *searchTerm = [searchBar text];
 	[self handleSearchForTerm:searchTerm];
+	[searchBar resignFirstResponder];
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar

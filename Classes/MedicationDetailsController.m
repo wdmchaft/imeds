@@ -95,22 +95,23 @@
 																	 reuseIdentifier:MedicationCellIdentifier] autorelease];
 		
 		//Label
-		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 45, 25)];
+		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(2, 11, 45, 25)];
 		label.textAlignment = UITextAlignmentRight;
-		label.font = [UIFont boldSystemFontOfSize:14];
+		label.font = [UIFont boldSystemFontOfSize:12];
+		label.textColor = [UIColor darkGrayColor];
 		label.text = @"Name";
 		[cell.contentView addSubview:label];
 		[label release];
 		
 		//Name Field
-		nameField = [[UITextField alloc] initWithFrame:CGRectMake(60, 12, 210, 25)];
+		nameField = [[UITextField alloc] initWithFrame:CGRectMake(52, 11, 218, 25)];
 		nameField.clearsOnBeginEditing = NO;
-		[nameField setDelegate:self];
 		nameField.returnKeyType = UIReturnKeyDone;
+		nameField.clearButtonMode = UITextFieldViewModeAlways;
+		[nameField setDelegate:self];
 		[nameField addTarget:self 
 									action:@selector(textFieldDone:) 
 				forControlEvents:UIControlEventEditingDidEndOnExit];
-		nameField.clearButtonMode = UITextFieldViewModeAlways;
 		[cell.contentView addSubview:nameField];
 		
 		
@@ -119,7 +120,8 @@
 		// button normal state
 		[searchButton setFrame:CGRectMake(0, 0, 18, 19)];
 		UIImage *buttonImageNormal = [UIImage imageNamed:@"searchicon.png"];
-		[searchButton setBackgroundImage:buttonImageNormal forState:UIControlStateNormal];
+		[searchButton setImage:buttonImageNormal forState:UIControlStateNormal];
+		[searchButton setImage:buttonImageNormal forState:UIControlStateSelected];
 		[searchButton addTarget:self action:@selector(showSearch) forControlEvents:UIControlEventTouchUpInside];
 		
 		[cell setAccessoryView: searchButton];
