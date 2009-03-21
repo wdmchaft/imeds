@@ -7,10 +7,12 @@
 //
 
 #import "MedicationSearchController.h"
-#import  "NSDictionary-MutableDeepCopy.h"
+#import "Medication.h"
+#import "NSDictionary-MutableDeepCopy.h"
+#import "RegularReminderAppDelegate.h"
 
 @implementation MedicationSearchController
-@synthesize tableView, searchView, allMedicationNames, activeMedicationNames, medicationKeys;
+@synthesize tableView, searchView, allMedicationNames, activeMedicationNames, medicationKeys, medication;
 
 - (void)resetSearch 
 { 
@@ -34,7 +36,7 @@
 											options:NSCaseInsensitiveSearch].location == NSNotFound) 
 				[toRemove addObject:name]; 
 		} 
-		if ([array count] == [toRemove count]) 
+		if ([array count] == [toRemove count])
 			[sectionsToRemove addObject:key];
 		[array removeObjectsInArray:toRemove]; 
 		[toRemove release]; 
@@ -47,7 +49,7 @@
 #pragma mark - 
 #pragma mark UIViewController Methods 
 - (void)viewDidLoad { 
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"sortednames" 
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"medications" 
 																									 ofType:@"plist"]; 
 	NSDictionary *dict = [[NSDictionary alloc] 
 												initWithContentsOfFile:path]; 
@@ -138,6 +140,21 @@ titleForHeaderInSection:(NSInteger)section
 	return indexPath;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	NSUInteger section = [indexPath section]; 
+	NSUInteger row = [indexPath row]; 
+	NSString *key = [medicationKeys objectAtIndex:section]; 
+	NSArray *nameSection = [activeMedicationNames objectForKey:key]; 
+	NSString * medicationName = [nameSection objectAtIndex:row]; 
+	medication.name = medicationName;
+	self.parentViewController.title = medicationName;
+	
+	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	[delegate.navigationController popViewControllerAnimated:YES];
+}
+
+
 #pragma mark - 
 #pragma mark Search Bar Delegate Methods 
 
@@ -158,14 +175,6 @@ titleForHeaderInSection:(NSInteger)section
 {
 	NSString *searchTerm = [searchBar text];
 	[self handleSearchForTerm:searchTerm];
-}
-
-- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
-{
-	searchView.text = @"";
-	[self resetSearch];
-	[tableView reloadData];
-	[searchBar resignFirstResponder];
 }
 
 @end

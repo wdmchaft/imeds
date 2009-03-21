@@ -45,6 +45,7 @@
 		658354240F757EAF00CE5B54 /* MedicationSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658354230F757EAF00CE5B54 /* MedicationSearchController.m */; };
 		6583543A0F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 658354380F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m */; };
 		658354420F75817400CE5B54 /* MedicationSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658354410F75817400CE5B54 /* MedicationSearch.xib */; };
+		658354630F75874200CE5B54 /* searchicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 658354620F75874200CE5B54 /* searchicon.png */; };
 		65BC32620F4B9CF7007A38C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */; };
 		65FBB7990F6205AA000A43F1 /* MedicationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FBB7980F6205AA000A43F1 /* MedicationLog.m */; };
 /* End PBXBuildFile section */
@@ -115,6 +116,7 @@
 		658354380F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-MutableDeepCopy.m"; sourceTree = "<group>"; };
 		658354390F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-MutableDeepCopy.h"; sourceTree = "<group>"; };
 		658354410F75817400CE5B54 /* MedicationSearch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicationSearch.xib; sourceTree = "<group>"; };
+		658354620F75874200CE5B54 /* searchicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchicon.png; sourceTree = "<group>"; };
 		65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../Users/daniel/cocoa/iphone/RegularReminder/libsqlite3.dylib; sourceTree = SDKROOT; };
 		65FBB7970F6205AA000A43F1 /* MedicationLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationLog.h; sourceTree = "<group>"; };
 		65FBB7980F6205AA000A43F1 /* MedicationLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationLog.m; sourceTree = "<group>"; };
@@ -189,16 +191,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				658354650F75874900CE5B54 /* nibs */,
+				658354640F75874400CE5B54 /* images */,
 				658354200F757E5600CE5B54 /* medications.plist */,
-				654597D40F54FAC80098678A /* blueButton.png */,
 				6536BB9D0F502FFC00E381FD /* sqlite-persistent */,
-				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
-				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */,
-				651EAAD50F4BB2CC000D9C76 /* ReminderNew.xib */,
-				6536BEB70F506CBE00E381FD /* ReminderCell.xib */,
-				658354410F75817400CE5B54 /* MedicationSearch.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -274,6 +271,28 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		658354640F75874400CE5B54 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				654597D40F54FAC80098678A /* blueButton.png */,
+				658354620F75874200CE5B54 /* searchicon.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		658354650F75874900CE5B54 /* nibs */ = {
+			isa = PBXGroup;
+			children = (
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */,
+				651EAAD50F4BB2CC000D9C76 /* ReminderNew.xib */,
+				6536BEB70F506CBE00E381FD /* ReminderCell.xib */,
+				658354410F75817400CE5B54 /* MedicationSearch.xib */,
+			);
+			name = nibs;
+			sourceTree = "<group>";
+		};
 		65C34F2E0F5B903100D4A125 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,6 +361,7 @@
 				654597D50F54FAC80098678A /* blueButton.png in Resources */,
 				658354210F757E5600CE5B54 /* medications.plist in Resources */,
 				658354420F75817400CE5B54 /* MedicationSearch.xib in Resources */,
+				658354630F75874200CE5B54 /* searchicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

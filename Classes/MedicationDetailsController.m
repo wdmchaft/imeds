@@ -10,6 +10,7 @@
 #import "RegularReminderAppDelegate.h"
 #import "Medication.h"
 #import "ReminderIntervalPicker.h"
+#import "MedicationSearchController.h"
 
 @implementation MedicationDetailsController
 @synthesize medication;
@@ -93,14 +94,16 @@
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero 
 																	 reuseIdentifier:MedicationCellIdentifier] autorelease];
 		
-		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 75, 25)];
+		//Label
+		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 10, 45, 25)];
 		label.textAlignment = UITextAlignmentRight;
 		label.font = [UIFont boldSystemFontOfSize:14];
 		label.text = @"Name";
 		[cell.contentView addSubview:label];
 		[label release];
 		
-		nameField = [[UITextField alloc] initWithFrame:CGRectMake(90, 12, 200, 25)];
+		//Name Field
+		nameField = [[UITextField alloc] initWithFrame:CGRectMake(60, 12, 210, 25)];
 		nameField.clearsOnBeginEditing = NO;
 		[nameField setDelegate:self];
 		nameField.returnKeyType = UIReturnKeyDone;
@@ -108,16 +111,41 @@
 									action:@selector(textFieldDone:) 
 				forControlEvents:UIControlEventEditingDidEndOnExit];
 		[cell.contentView addSubview:nameField];
+		
+		
+		//Accessory Button
+		UIButton * searchButton = [UIButton buttonWithType:UIButtonTypeCustom];
+		// button normal state
+		[searchButton setFrame:CGRectMake(0, 0, 18, 19)];
+		UIImage *buttonImageNormal = [UIImage imageNamed:@"searchicon.png"];
+		[searchButton setBackgroundImage:buttonImageNormal forState:UIControlStateNormal];
+		[searchButton addTarget:self action:@selector(showSearch) forControlEvents:UIControlEventTouchUpInside];
+		
+		[cell setAccessoryView: searchButton];
 	}
 	
 	nameField.text = medication.name;
 	
 	return cell;
 }
+
+- (void)showSearch
+{
+	MedicationSearchController * medicationSearchController = [[MedicationSearchController alloc] initWithNibName:@"MedicationSearch" bundle:nil];
+	medicationSearchController.medication = medication;
+	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	[delegate.navigationController pushViewController:medicationSearchController animated:YES];
+}
+
 #pragma mark -
 #pragma mark Table Delegate Methods
 - (NSIndexPath *)tableView:(UITableView *)tableView 
   willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	MedicationSearchController * childController = [[MedicationSearchController alloc] initWithNibName:@"MedicationSearch"
+																																															bundle:nil];
+	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	[delegate.navigationController pushViewController:childController animated:YES];
+	[childController release];
 	return nil;
 }
 
