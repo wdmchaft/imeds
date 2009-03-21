@@ -33,7 +33,7 @@
 		NSMutableArray *toRemove = [[NSMutableArray alloc] init]; 
 		for (NSString *name in array) { 
 			if ([name rangeOfString:searchTerm 
-											options:NSCaseInsensitiveSearch].location == NSNotFound) 
+											options:NSCaseInsensitiveSearch].location != 0) 
 				[toRemove addObject:name]; 
 		} 
 		if ([array count] == [toRemove count])
