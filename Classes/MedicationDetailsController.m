@@ -110,6 +110,7 @@
 		[nameField addTarget:self 
 									action:@selector(textFieldDone:) 
 				forControlEvents:UIControlEventEditingDidEndOnExit];
+		nameField.clearButtonMode = UITextFieldViewModeAlways;
 		[cell.contentView addSubview:nameField];
 		
 		

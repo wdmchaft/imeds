@@ -16,7 +16,7 @@
 
 - (void)resetSearch 
 { 
-	self.activeMedicationNames = [self.allMedicationNames mutableDeepCopy]; 
+	self.activeMedicationNames = [self.allMedicationNames mutableDeepCopy];		
 	NSMutableArray *keyArray = [[NSMutableArray alloc] init]; 
 	[keyArray addObjectsFromArray:[[self.allMedicationNames allKeys] 
 																 sortedArrayUsingSelector:@selector(compare:)]]; 
@@ -29,7 +29,7 @@
 	NSMutableArray *sectionsToRemove = [[NSMutableArray alloc] init]; 
 	[self resetSearch]; 
 	for (NSString *key in self.medicationKeys) { 
-		NSMutableArray *array = [allMedicationNames valueForKey:key]; 
+		NSMutableArray *array = [activeMedicationNames valueForKey:key]; 
 		NSMutableArray *toRemove = [[NSMutableArray alloc] init]; 
 		for (NSString *name in array) { 
 			if ([name rangeOfString:searchTerm 
@@ -56,7 +56,7 @@
 	self.allMedicationNames = dict; 
 	[dict release]; 
 	
-	[self resetSearch]; 
+	[self resetSearch];
 	searchView.autocapitalizationType = UITextAutocapitalizationTypeNone; 
 	searchView.autocorrectionType = UITextAutocorrectionTypeNo;
 } 
@@ -175,6 +175,14 @@ titleForHeaderInSection:(NSInteger)section
 {
 	NSString *searchTerm = [searchBar text];
 	[self handleSearchForTerm:searchTerm];
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+	searchView.text = @"";
+	[self resetSearch];
+	[tableView reloadData];
+	[searchBar resignFirstResponder];
 }
 
 @end
