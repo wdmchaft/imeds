@@ -9,7 +9,6 @@
 #import "RootViewController.h"
 #import "RegularReminderAppDelegate.h"
 #import "MedicationDetailsController.h"
-#import "MedicationNewController.h"
 #import "Medication.h"
 #import "ReminderCell.h"
 
@@ -82,13 +81,9 @@ NSInteger medicationSort(id med1, id med2, void *context)
 }
 
 - (void)new {
-//	MedicationNewController *newController = [[MedicationNewController alloc] initWithNibName:@"ReminderNew"
-//																																								 bundle:nil];
-//	
-//	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
-//	[delegate.navigationController pushViewController:newController animated:YES];
 	MedicationDetailsController *newController = [[MedicationDetailsController alloc] initWithNibName:@"ReminderDetails"
 																																										 bundle:nil];
+	// TODO: Change for mem management
 	newController.medication = [[Medication alloc] init];
 	newController.title = @"New Medication";
 	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];

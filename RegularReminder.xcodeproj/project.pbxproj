@@ -39,12 +39,12 @@
 		654598820F55133F0098678A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654598810F55133F0098678A /* QuartzCore.framework */; };
 		656BC31D0F47A79800FF25A5 /* MedicationDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC31C0F47A79800FF25A5 /* MedicationDetailsController.m */; };
 		656BC3790F47AD1300FF25A5 /* ReminderDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */; };
-		658354210F757E5600CE5B54 /* medications.plist in Resources */ = {isa = PBXBuildFile; fileRef = 658354200F757E5600CE5B54 /* medications.plist */; };
 		658354240F757EAF00CE5B54 /* MedicationSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658354230F757EAF00CE5B54 /* MedicationSearchController.m */; };
 		6583543A0F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 658354380F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m */; };
 		658354420F75817400CE5B54 /* MedicationSearch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 658354410F75817400CE5B54 /* MedicationSearch.xib */; };
 		658354630F75874200CE5B54 /* searchicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 658354620F75874200CE5B54 /* searchicon.png */; };
 		65BC32620F4B9CF7007A38C6 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */; };
+		65E3FBBC0F7FE28F00EFD27D /* medications.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65E3FBBB0F7FE28F00EFD27D /* medications.plist */; };
 		65FBB7990F6205AA000A43F1 /* MedicationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FBB7980F6205AA000A43F1 /* MedicationLog.m */; };
 /* End PBXBuildFile section */
 
@@ -105,7 +105,6 @@
 		656BC31B0F47A79800FF25A5 /* MedicationDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationDetailsController.h; sourceTree = "<group>"; };
 		656BC31C0F47A79800FF25A5 /* MedicationDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationDetailsController.m; sourceTree = "<group>"; };
 		656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderDetails.xib; sourceTree = "<group>"; };
-		658354200F757E5600CE5B54 /* medications.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = medications.plist; sourceTree = "<group>"; };
 		658354220F757EAF00CE5B54 /* MedicationSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationSearchController.h; sourceTree = "<group>"; };
 		658354230F757EAF00CE5B54 /* MedicationSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationSearchController.m; sourceTree = "<group>"; };
 		658354380F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-MutableDeepCopy.m"; sourceTree = "<group>"; };
@@ -113,6 +112,7 @@
 		658354410F75817400CE5B54 /* MedicationSearch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicationSearch.xib; sourceTree = "<group>"; };
 		658354620F75874200CE5B54 /* searchicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = searchicon.png; sourceTree = "<group>"; };
 		65BC32610F4B9CF7007A38C6 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../Users/daniel/cocoa/iphone/RegularReminder/libsqlite3.dylib; sourceTree = SDKROOT; };
+		65E3FBBB0F7FE28F00EFD27D /* medications.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = medications.plist; sourceTree = "<group>"; };
 		65FBB7970F6205AA000A43F1 /* MedicationLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationLog.h; sourceTree = "<group>"; };
 		65FBB7980F6205AA000A43F1 /* MedicationLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationLog.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -184,9 +184,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				65E3FBBB0F7FE28F00EFD27D /* medications.plist */,
 				658354650F75874900CE5B54 /* nibs */,
 				658354640F75874400CE5B54 /* images */,
-				658354200F757E5600CE5B54 /* medications.plist */,
 				6536BB9D0F502FFC00E381FD /* sqlite-persistent */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 			);
@@ -350,9 +350,9 @@
 				656BC3790F47AD1300FF25A5 /* ReminderDetails.xib in Resources */,
 				6536BEB80F506CBE00E381FD /* ReminderCell.xib in Resources */,
 				654597D50F54FAC80098678A /* blueButton.png in Resources */,
-				658354210F757E5600CE5B54 /* medications.plist in Resources */,
 				658354420F75817400CE5B54 /* MedicationSearch.xib in Resources */,
 				658354630F75874200CE5B54 /* searchicon.png in Resources */,
+				65E3FBBC0F7FE28F00EFD27D /* medications.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
