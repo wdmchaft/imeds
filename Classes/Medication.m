@@ -47,7 +47,7 @@
 	} else {
     int dayDifference = [takeAgainDate timeIntervalSinceNow] / kDaySeconds;
     if(dayDifference > 0)
-      prefix = [NSString stringWithFormat:@"In %d days", dayDifference];
+      prefix = [NSString stringWithFormat:@"In %d days", dayDifference + 1];
     else
       prefix = [NSString stringWithFormat:@"%d days ago", (dayDifference * -1)];
 	}
