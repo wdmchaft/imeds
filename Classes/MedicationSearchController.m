@@ -79,6 +79,7 @@
 	[allMedicationNames release];
 	[activeMedicationNames release];
 	[medicationKeys release];
+	[medication release];
 	[super dealloc];
 }
 

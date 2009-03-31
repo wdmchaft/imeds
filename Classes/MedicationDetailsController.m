@@ -94,6 +94,8 @@
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero 
 																	 reuseIdentifier:MedicationCellIdentifier] autorelease];
 		
+		cell.selectionStyle = UITableViewCellSelectionStyleNone;
+		
 		//Label
 		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(2, 11, 45, 25)];
 		label.textAlignment = UITextAlignmentRight;
@@ -138,18 +140,14 @@
 	medicationSearchController.medication = medication;
 	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
 	[delegate.navigationController pushViewController:medicationSearchController animated:YES];
+	[medicationSearchController release];
 }
 
 #pragma mark -
 #pragma mark Table Delegate Methods
 - (NSIndexPath *)tableView:(UITableView *)tableView 
   willSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	MedicationSearchController * childController = [[MedicationSearchController alloc] initWithNibName:@"MedicationSearch"
-																																															bundle:nil];
-	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
-	[delegate.navigationController pushViewController:childController animated:YES];
-	[childController release];
-	return nil;
+	[self showSearch];
 }
 
 
