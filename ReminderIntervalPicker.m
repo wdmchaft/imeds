@@ -32,8 +32,6 @@
 	NSInteger hourSeconds = hourRow * 60 * 60;
 	NSInteger minuteSeconds = minuteRow * 5 * 60;
 	
-	NSLog(@"Day Minutes: %d, Hour Minutes: %d, Minute Minutes: %d", daySeconds, hourSeconds, minuteSeconds);
-	
 	if (daySeconds < 0)
 		daySeconds = 0;
 	if (hourSeconds < 0)
