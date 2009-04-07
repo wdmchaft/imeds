@@ -95,7 +95,7 @@
 																	 reuseIdentifier:MedicationCellIdentifier] autorelease];
 		
 		cell.selectionStyle = UITableViewCellSelectionStyleNone;
-		
+    
 		//Label
 		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(2, 11, 45, 25)];
 		label.textAlignment = UITextAlignmentRight;
