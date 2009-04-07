@@ -81,7 +81,7 @@ NSInteger medicationSort(id med1, id med2, void *context)
 }
 
 - (void)new {
-	MedicationEditController *newController = [[MedicationEditController alloc] initWithNibName:@"ReminderDetails"
+	MedicationEditController *newController = [[MedicationEditController alloc] initWithNibName:@"MedicationEdit"
 																																										 bundle:nil];
 	// TODO: Change for mem management
 	newController.medication = [[Medication alloc] init];
@@ -134,7 +134,7 @@ NSInteger medicationSort(id med1, id med2, void *context)
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	if (childController == nil)
 	{
-		childController = [[MedicationEditController alloc] initWithNibName:@"ReminderDetails"
+		childController = [[MedicationEditController alloc] initWithNibName:@"MedicationEdit"
 																																 bundle:nil];
 	}
 	NSUInteger row = [indexPath row];

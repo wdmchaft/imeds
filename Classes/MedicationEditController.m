@@ -1,5 +1,5 @@
 //
-//  ReminderDetails.m
+//  MedicationEditController.m
 //  RegularReminder
 //
 //  Created by Daniel Higginbotham on 2/14/09.
