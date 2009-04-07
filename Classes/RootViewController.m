@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "RegularReminderAppDelegate.h"
 #import "MedicationEditController.h"
+#import "MedicationDetailViewController.h"
 #import "Medication.h"
 #import "ReminderCell.h"
 
@@ -134,7 +135,7 @@ NSInteger medicationSort(id med1, id med2, void *context)
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	if (childController == nil)
 	{
-		childController = [[MedicationEditController alloc] initWithNibName:@"MedicationEdit"
+		childController = [[MedicationDetailViewController alloc] initWithNibName:@"MedicationDetails"
 																																 bundle:nil];
 	}
 	NSUInteger row = [indexPath row];

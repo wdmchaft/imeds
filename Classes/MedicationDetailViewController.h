@@ -11,9 +11,11 @@
 @class Medication;
 
 @interface MedicationDetailViewController : UIViewController {
-	Medication *medication;
+	Medication * medication;
+	UILabel * name;
 }
 
 @property (nonatomic, retain) Medication *medication;
+@property (nonatomic, retain) IBOutlet UILabel * name;
 
 @end
