@@ -11,21 +11,32 @@
 
 @implementation MedicationDetailViewController
 
-@synthesize medication, name;
+@synthesize medication, nameLabel, lastTakenExactLabel, lastTakenRelativeLabel, takeAgainExactLabel, takeAgainRelativeLabel;
 
 #pragma mark Standard
 -(void)viewDidLoad {
-	name.font = [UIFont systemFontOfSize:30];
+	nameLabel.font = [UIFont systemFontOfSize:30];
+}
+
+-(void)setupLabels
+{
+	takeAgainExactLabel.text = [medication takeAgain];
+	lastTakenRelativeLabel.text = [medication lastTakenString];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
-	name.text = medication.name;
+	nameLabel.text = medication.name;
 	self.title = medication.name;
+	[self setupLabels];
 }
 
 - (void)dealloc {
 	[medication release];
-	[name release];
+	[nameLabel release];
+	[lastTakenExactLabel release];
+	[lastTakenRelativeLabel release];
+	[takeAgainExactLabel release];
+	[takeAgainRelativeLabel release];
   [super dealloc];
 }
 
