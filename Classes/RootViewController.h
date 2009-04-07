@@ -12,15 +12,15 @@
 #import "/usr/include/sqlite3.h"
 
 
-@class MedicationDetailsController;
+@class MedicationEditController;
 
 @interface RootViewController : UITableViewController {
 	NSArray *medications;
-	MedicationDetailsController *childController;
+	MedicationEditController *childController;
 	NSTimer *refreshTimer;
 }
 @property (nonatomic, retain) NSArray *medications;
-@property (nonatomic, retain) MedicationDetailsController *childController;
+@property (nonatomic, retain) MedicationEditController *childController;
 
 -(void)loadMedications;
 -(void)refreshMedicationCells:(NSTimer *)theTimer;

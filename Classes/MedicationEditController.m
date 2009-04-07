@@ -6,13 +6,13 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import "MedicationDetailsController.h"
+#import "MedicationEditController.h"
 #import "RegularReminderAppDelegate.h"
 #import "Medication.h"
 #import "ReminderIntervalPicker.h"
 #import "MedicationSearchController.h"
 
-@implementation MedicationDetailsController
+@implementation MedicationEditController
 @synthesize medication;
 @synthesize nameField;
 @synthesize intervalPicker;

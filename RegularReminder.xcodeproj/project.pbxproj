@@ -37,7 +37,7 @@
 		6536BEB80F506CBE00E381FD /* ReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6536BEB70F506CBE00E381FD /* ReminderCell.xib */; };
 		654597D50F54FAC80098678A /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 654597D40F54FAC80098678A /* blueButton.png */; };
 		654598820F55133F0098678A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 654598810F55133F0098678A /* QuartzCore.framework */; };
-		656BC31D0F47A79800FF25A5 /* MedicationDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC31C0F47A79800FF25A5 /* MedicationDetailsController.m */; };
+		656BC31D0F47A79800FF25A5 /* MedicationEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 656BC31C0F47A79800FF25A5 /* MedicationEditController.m */; };
 		656BC3790F47AD1300FF25A5 /* ReminderDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */; };
 		658354240F757EAF00CE5B54 /* MedicationSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 658354230F757EAF00CE5B54 /* MedicationSearchController.m */; };
 		6583543A0F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 658354380F75800A00CE5B54 /* NSDictionary-MutableDeepCopy.m */; };
@@ -102,8 +102,8 @@
 		6536BEB70F506CBE00E381FD /* ReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderCell.xib; sourceTree = "<group>"; };
 		654597D40F54FAC80098678A /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
 		654598810F55133F0098678A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		656BC31B0F47A79800FF25A5 /* MedicationDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationDetailsController.h; sourceTree = "<group>"; };
-		656BC31C0F47A79800FF25A5 /* MedicationDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationDetailsController.m; sourceTree = "<group>"; };
+		656BC31B0F47A79800FF25A5 /* MedicationEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationEditController.h; sourceTree = "<group>"; };
+		656BC31C0F47A79800FF25A5 /* MedicationEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationEditController.m; sourceTree = "<group>"; };
 		656BC3780F47AD1300FF25A5 /* ReminderDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderDetails.xib; sourceTree = "<group>"; };
 		658354220F757EAF00CE5B54 /* MedicationSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicationSearchController.h; sourceTree = "<group>"; };
 		658354230F757EAF00CE5B54 /* MedicationSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicationSearchController.m; sourceTree = "<group>"; };
@@ -144,8 +144,8 @@
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* RegularReminderAppDelegate.h */,
 				1D3623250D0F684500981E51 /* RegularReminderAppDelegate.m */,
-				656BC31B0F47A79800FF25A5 /* MedicationDetailsController.h */,
-				656BC31C0F47A79800FF25A5 /* MedicationDetailsController.m */,
+				656BC31B0F47A79800FF25A5 /* MedicationEditController.h */,
+				656BC31C0F47A79800FF25A5 /* MedicationEditController.m */,
 				658354220F757EAF00CE5B54 /* MedicationSearchController.h */,
 				658354230F757EAF00CE5B54 /* MedicationSearchController.m */,
 			);
@@ -366,7 +366,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* RegularReminderAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
-				656BC31D0F47A79800FF25A5 /* MedicationDetailsController.m in Sources */,
+				656BC31D0F47A79800FF25A5 /* MedicationEditController.m in Sources */,
 				651EAA320F4BA068000D9C76 /* Medication.m in Sources */,
 				6536BCEB0F503B8D00E381FD /* NSData-SQLitePersistence.m in Sources */,
 				6536BCEC0F503B8D00E381FD /* NSDate-SQLitePersistence.m in Sources */,

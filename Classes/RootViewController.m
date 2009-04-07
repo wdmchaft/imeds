@@ -8,7 +8,7 @@
 
 #import "RootViewController.h"
 #import "RegularReminderAppDelegate.h"
-#import "MedicationDetailsController.h"
+#import "MedicationEditController.h"
 #import "Medication.h"
 #import "ReminderCell.h"
 
@@ -81,7 +81,7 @@ NSInteger medicationSort(id med1, id med2, void *context)
 }
 
 - (void)new {
-	MedicationDetailsController *newController = [[MedicationDetailsController alloc] initWithNibName:@"ReminderDetails"
+	MedicationEditController *newController = [[MedicationEditController alloc] initWithNibName:@"ReminderDetails"
 																																										 bundle:nil];
 	// TODO: Change for mem management
 	newController.medication = [[Medication alloc] init];
@@ -127,16 +127,15 @@ NSInteger medicationSort(id med1, id med2, void *context)
 - (UITableViewCellAccessoryType)tableView:(UITableView *)tableView
 				 accessoryTypeForRowWithIndexPath:(NSIndexPath *)indexPath
 {
-	return UITableViewCellAccessoryDetailDisclosureButton;
+	return UITableViewCellAccessoryDisclosureIndicator;
 }
 
-- (void)tableView:(UITableView *)tableView
-accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
-{
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	if (childController == nil)
 	{
-		childController = [[MedicationDetailsController alloc] initWithNibName:@"ReminderDetails"
-																																	 bundle:nil];
+		childController = [[MedicationEditController alloc] initWithNibName:@"ReminderDetails"
+																																 bundle:nil];
 	}
 	NSUInteger row = [indexPath row];
 	
@@ -148,17 +147,7 @@ accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath
 	[delegate.navigationController pushViewController:childController animated:YES];
 }
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-}
-
-#pragma mark Table Delegate Methods
-- (NSIndexPath *)tableView:(UITableView *)tableView 
-	willSelectRowAtIndexPath:(NSIndexPath *)indexPath { 
-	return nil; 
-} 
-
-- (CGFloat) 
-tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *) indexPath 
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *) indexPath 
 { 
 	return kTableViewRowHeight; 
 }
