@@ -7,12 +7,13 @@
 //
 
 #import "MedicationSearchController.h"
+#import "MedicationEditController.h"
 #import "Medication.h"
 #import "NSDictionary-MutableDeepCopy.h"
 #import "RegularReminderAppDelegate.h"
 
 @implementation MedicationSearchController
-@synthesize tableView, searchView, allMedicationNames, activeMedicationNames, medicationKeys, medication;
+@synthesize tableView, searchView, startingSearchText, allMedicationNames, activeMedicationNames, medicationKeys, medication;
 
 - (void)resetSearch 
 { 
@@ -56,10 +57,21 @@
 	self.allMedicationNames = dict; 
 	[dict release]; 
 	
-	[self resetSearch];
+	self.title = @"Search Medications";
+	
 	searchView.autocapitalizationType = UITextAutocapitalizationTypeNone; 
 	searchView.autocorrectionType = UITextAutocorrectionTypeNo;
 } 
+
+- (void)viewWillAppear:(BOOL)animated {
+	[self resetSearch];
+	
+	if(self.startingSearchText != nil && [self.startingSearchText length] > 0) {
+		self.searchView.text = self.startingSearchText;
+		[self handleSearchForTerm:searchView.text];
+		[self.searchView becomeFirstResponder];
+	}
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation: 
 (UIInterfaceOrientation)interfaceOrientation { 

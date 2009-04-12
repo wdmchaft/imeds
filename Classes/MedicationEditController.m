@@ -53,20 +53,13 @@
 	[intervalPicker selectRow:[intervalPicker selectedIntervalDayIndex] inComponent:kDaysComponent animated:NO];
 	[intervalPicker selectRow:[intervalPicker selectedIntervalHourIndex] inComponent:kHoursComponent animated:NO];
 	[intervalPicker selectRow:[intervalPicker selectedIntervalMinuteIndex] inComponent:kMinutesComponent animated:NO];
-	
-	NSString *messageString = [[NSString alloc] initWithFormat:@"It's %@ baby!", medication.name];
-	[messageString release];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
-    // Release anything that's not essential, such as cached data
 }
 
 
 - (void)dealloc {
-	[self.title release];
 	[self.nameField release];
+	[medication release];
+	[intervalPicker release];
 	[super dealloc];
 }
 
@@ -83,6 +76,16 @@
 	return 1;
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	if(section==1) {
+		return @"Schedule";
+	} else if (section == 2) {
+		return @"Times of Day";
+	} else {
+		return nil;
+	}
+}
+
 
 // Right now there's only one row, so this should be ok...
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -95,19 +98,11 @@
 																	 reuseIdentifier:MedicationCellIdentifier] autorelease];
 		
 		cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    
-		//Label
-		UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(2, 11, 45, 25)];
-		label.textAlignment = UITextAlignmentRight;
-		label.font = [UIFont boldSystemFontOfSize:12];
-		label.textColor = [UIColor darkGrayColor];
-		label.text = @"Name";
-		[cell.contentView addSubview:label];
-		[label release];
 		
 		//Name Field
-		nameField = [[UITextField alloc] initWithFrame:CGRectMake(52, 11, 218, 25)];
+		nameField = [[UITextField alloc] initWithFrame:CGRectMake(11, 11, 259, 25)];
 		nameField.clearsOnBeginEditing = NO;
+		nameField.placeholder = @"Name";
 		nameField.returnKeyType = UIReturnKeyDone;
 		nameField.clearButtonMode = UITextFieldViewModeAlways;
 		[nameField setDelegate:self];
@@ -138,6 +133,8 @@
 {
 	MedicationSearchController * medicationSearchController = [[MedicationSearchController alloc] initWithNibName:@"MedicationSearch" bundle:nil];
 	medicationSearchController.medication = medication;
+	medicationSearchController.startingSearchText = nameField.text;
+	
 	RegularReminderAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
 	[delegate.navigationController pushViewController:medicationSearchController animated:YES];
 	[medicationSearchController release];

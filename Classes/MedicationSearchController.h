@@ -15,6 +15,7 @@
 {
 	IBOutlet    UITableView *tableView;
 	IBOutlet    UISearchBar *searchView; 
+	NSString *startingSearchText;
 	NSDictionary *allMedicationNames; 
 	NSMutableDictionary *activeMedicationNames; 
 	NSMutableArray  *medicationKeys;
@@ -22,6 +23,7 @@
 }
 @property (nonatomic, retain) UITableView *tableView;
 @property (nonatomic, retain) UISearchBar *searchView; 
+@property (nonatomic, retain) NSString *startingSearchText;
 @property (nonatomic, retain) NSDictionary *allMedicationNames;
 @property (nonatomic, retain) NSMutableDictionary *activeMedicationNames;
 @property (nonatomic, retain) NSMutableArray *medicationKeys;
