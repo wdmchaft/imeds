@@ -73,12 +73,23 @@
 #pragma mark -
 #pragma mark Table Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return 1;
+	switch (section) {
+		case 0:
+			return 1;
+			break;
+		default:
+			return 7;
+			break;
+	}
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 2;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
 	if(section==1) {
-		return @"Schedule";
+		return @"Interval";
 	} else if (section == 2) {
 		return @"Times of Day";
 	} else {
@@ -86,10 +97,8 @@
 	}
 }
 
-
-// Right now there's only one row, so this should be ok...
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
+// Cells
+- (UITableViewCell *)nameFieldCell:(UITableView *)tableView {
 	static NSString *MedicationCellIdentifier = @"MedicationCellIdentifier";
 	
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:MedicationCellIdentifier];
@@ -128,6 +137,51 @@
 	
 	return cell;
 }
+
+- (UITableViewCell *)intervalCell:(NSInteger)row tableView:(UITableView *)tableView {
+	static NSString *IntervalCellIdentifier = @"IntervalCellIdentifier";
+	
+	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:IntervalCellIdentifier];
+	if (cell == nil) {
+		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero 
+																	 reuseIdentifier:IntervalCellIdentifier] autorelease];
+	}
+	switch(row) {
+		case 0:
+			cell.text = @"Every Day";
+			break;
+		case 1:
+			cell.text = @"Every Other Day";
+			break;
+		case 2:
+			cell.text = @"Once a Week";
+			break;
+		case 3:
+			cell.text = @"Every Two Weeks";
+			break;
+		case 4:
+			cell.text = @"Once a Month";
+			break;
+		case 5:
+			cell.text = @"On Specified Days";
+			break;
+		case 6:
+			cell.text = @"As Needed";
+			break;
+	}
+	
+	return cell;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	if(indexPath.section == 0)
+		return [self nameFieldCell:tableView];
+	else if(indexPath.section == 1) {
+		return [self intervalCell:indexPath.row	tableView:tableView];
+	}
+}
+
 
 - (void)showSearch
 {
