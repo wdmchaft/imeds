@@ -6,6 +6,11 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
+#define kSectionName 0
+#define kSectionInterval 1
+#define kSectionTimesOfDay 2
+#define kSectionMinimumTimeBetweenDoses 3
+
 #import <UIKit/UIKit.h>
 
 @class Medication;

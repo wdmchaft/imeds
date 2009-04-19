@@ -11,6 +11,7 @@
 #import "Medication.h"
 #import "ReminderIntervalPicker.h"
 #import "MedicationSearchController.h"
+#import "CellFactory.h"
 
 @implementation MedicationEditController
 @synthesize medication;
@@ -74,26 +75,43 @@
 #pragma mark Table Methods
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 	switch (section) {
-		case 0:
+		case kSectionName:
 			return 1;
 			break;
-		default:
+		case kSectionInterval:
 			return 7;
 			break;
+		case kSectionTimesOfDay:
+			return 1;
+			break;
+		case kSectionMinimumTimeBetweenDoses:
+			return 1;
+		default:
+			return 0;
 	}
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-	return 2;
+	return 4;
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-	if(section==1) {
-		return @"Interval";
-	} else if (section == 2) {
-		return @"Times of Day";
-	} else {
-		return nil;
+	switch (section) {
+		case kSectionName:
+			return nil;
+			break;
+		case kSectionInterval:
+			return @"Interval";
+			break;
+		case kSectionTimesOfDay:
+			return @"Times of Day";
+			break;
+		case kSectionMinimumTimeBetweenDoses:
+			return @"Minimum Time Between Doses";
+			break;
+		default:
+			return nil;
+			break;
 	}
 }
 
@@ -139,13 +157,7 @@
 }
 
 - (UITableViewCell *)intervalCell:(NSInteger)row tableView:(UITableView *)tableView {
-	static NSString *IntervalCellIdentifier = @"IntervalCellIdentifier";
-	
-	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:IntervalCellIdentifier];
-	if (cell == nil) {
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero 
-																	 reuseIdentifier:IntervalCellIdentifier] autorelease];
-	}
+	UITableViewCell *cell = [CellFactory cellWithIdentifier:@"IntervalCellIdentifier" tableView:tableView];
 	switch(row) {
 		case 0:
 			cell.text = @"Every Day";
@@ -173,13 +185,38 @@
 	return cell;
 }
 
+- (UITableViewCell *)timesOfDayCell:(NSInteger)row tableView:(UITableView *)tableView {
+	UITableViewCell *cell = [CellFactory cellWithIdentifier:@"TimeOfDayIdentifier" tableView:tableView];
+	cell.text = @"Time of Day";
+	return cell;
+}
+
+- (UITableViewCell *)minimumTimeBetweenDosesCell:(NSInteger)row tableView:(UITableView *)tableView {
+	UITableViewCell *cell = [CellFactory cellWithIdentifier:@"MinimumTimeBetweenDosesCell" tableView:tableView];
+	cell.text = @"Min time between doses";
+	return cell;
+}
+	
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	if(indexPath.section == 0)
-		return [self nameFieldCell:tableView];
-	else if(indexPath.section == 1) {
-		return [self intervalCell:indexPath.row	tableView:tableView];
+	UITableViewCell * returnCell;
+	
+	switch (indexPath.section) {
+		case kSectionName:
+			returnCell = [self nameFieldCell:tableView];
+			break;
+		case kSectionInterval:
+			returnCell = [self intervalCell:indexPath.row	tableView:tableView];
+			break;
+		case kSectionTimesOfDay:
+			returnCell = [self timesOfDayCell:indexPath.row tableView:tableView];
+			break;
+		case kSectionMinimumTimeBetweenDoses:
+			returnCell = [self minimumTimeBetweenDosesCell:indexPath.row tableView:tableView];
+			break;
 	}
+	
+	return returnCell;
 }
 
 
