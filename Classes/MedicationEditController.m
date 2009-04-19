@@ -195,11 +195,6 @@
 	UITableViewCell *cell = [CellFactory cellWithIdentifier:@"MinimumTimeBetweenDosesCell" tableView:tableView];
 	cell.text = @"Min time between doses";
 	
-	IntervalPicker * picker = [[IntervalPicker alloc] initWithFrame:CGRectZero];
-	picker.medication = medication;
-	
-	[cell addSubview:picker];
-	
 	return cell;
 }
 	
