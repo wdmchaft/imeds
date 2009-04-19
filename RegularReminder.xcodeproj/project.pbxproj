@@ -32,7 +32,7 @@
 		6536BCF80F503B8D00E381FD /* SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BCE60F503B8D00E381FD /* SQLitePersistentObject.m */; };
 		6536BCF90F503B8D00E381FD /* UIColor-SQLitePersistentObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BCE80F503B8D00E381FD /* UIColor-SQLitePersistentObject.m */; };
 		6536BCFA0F503B8D00E381FD /* UIImage-SQLitePersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BCEA0F503B8D00E381FD /* UIImage-SQLitePersistence.m */; };
-		6536BD440F50492300E381FD /* ReminderIntervalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BD430F50492300E381FD /* ReminderIntervalPicker.m */; };
+		6536BD440F50492300E381FD /* IntervalPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BD430F50492300E381FD /* IntervalPicker.m */; };
 		6536BEB60F506CA300E381FD /* ReminderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6536BEB50F506CA300E381FD /* ReminderCell.m */; };
 		6536BEB80F506CBE00E381FD /* ReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6536BEB70F506CBE00E381FD /* ReminderCell.xib */; };
 		654597D50F54FAC80098678A /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 654597D40F54FAC80098678A /* blueButton.png */; };
@@ -99,8 +99,8 @@
 		6536BCE80F503B8D00E381FD /* UIColor-SQLitePersistentObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-SQLitePersistentObject.m"; sourceTree = "<group>"; };
 		6536BCE90F503B8D00E381FD /* UIImage-SQLitePersistence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-SQLitePersistence.h"; sourceTree = "<group>"; };
 		6536BCEA0F503B8D00E381FD /* UIImage-SQLitePersistence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-SQLitePersistence.m"; sourceTree = "<group>"; };
-		6536BD420F50492300E381FD /* ReminderIntervalPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderIntervalPicker.h; path = ../ReminderIntervalPicker.h; sourceTree = "<group>"; };
-		6536BD430F50492300E381FD /* ReminderIntervalPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderIntervalPicker.m; path = ../ReminderIntervalPicker.m; sourceTree = "<group>"; };
+		6536BD420F50492300E381FD /* IntervalPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntervalPicker.h; path = ../IntervalPicker.h; sourceTree = "<group>"; };
+		6536BD430F50492300E381FD /* IntervalPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntervalPicker.m; path = ../IntervalPicker.m; sourceTree = "<group>"; };
 		6536BEB40F506CA300E381FD /* ReminderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReminderCell.h; path = ../ReminderCell.h; sourceTree = "<group>"; };
 		6536BEB50F506CA300E381FD /* ReminderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReminderCell.m; path = ../ReminderCell.m; sourceTree = "<group>"; };
 		6536BEB70F506CBE00E381FD /* ReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReminderCell.xib; sourceTree = "<group>"; };
@@ -261,8 +261,8 @@
 			children = (
 				6536BEB40F506CA300E381FD /* ReminderCell.h */,
 				6536BEB50F506CA300E381FD /* ReminderCell.m */,
-				6536BD420F50492300E381FD /* ReminderIntervalPicker.h */,
-				6536BD430F50492300E381FD /* ReminderIntervalPicker.m */,
+				6536BD420F50492300E381FD /* IntervalPicker.h */,
+				6536BD430F50492300E381FD /* IntervalPicker.m */,
 				65A1BD5F0F9B927A002B5758 /* CellFactory.h */,
 				65A1BD600F9B927A002B5758 /* CellFactory.m */,
 			);
@@ -402,7 +402,7 @@
 				6536BCF80F503B8D00E381FD /* SQLitePersistentObject.m in Sources */,
 				6536BCF90F503B8D00E381FD /* UIColor-SQLitePersistentObject.m in Sources */,
 				6536BCFA0F503B8D00E381FD /* UIImage-SQLitePersistence.m in Sources */,
-				6536BD440F50492300E381FD /* ReminderIntervalPicker.m in Sources */,
+				6536BD440F50492300E381FD /* IntervalPicker.m in Sources */,
 				6536BEB60F506CA300E381FD /* ReminderCell.m in Sources */,
 				65FBB7990F6205AA000A43F1 /* MedicationLog.m in Sources */,
 				658354240F757EAF00CE5B54 /* MedicationSearchController.m in Sources */,

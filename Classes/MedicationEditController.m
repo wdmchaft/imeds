@@ -9,8 +9,9 @@
 #import "MedicationEditController.h"
 #import "RegularReminderAppDelegate.h"
 #import "Medication.h"
-#import "ReminderIntervalPicker.h"
+#import "IntervalPicker.h"
 #import "MedicationSearchController.h"
+#import "IntervalPicker.h"
 #import "CellFactory.h"
 
 @implementation MedicationEditController
@@ -50,7 +51,7 @@
 	self.title = medication.name;
 	nameField.text = medication.name;
 	
-	intervalPicker.reminder = medication;
+	intervalPicker.medication = medication;
 	[intervalPicker selectRow:[intervalPicker selectedIntervalDayIndex] inComponent:kDaysComponent animated:NO];
 	[intervalPicker selectRow:[intervalPicker selectedIntervalHourIndex] inComponent:kHoursComponent animated:NO];
 	[intervalPicker selectRow:[intervalPicker selectedIntervalMinuteIndex] inComponent:kMinutesComponent animated:NO];
@@ -194,6 +195,12 @@
 - (UITableViewCell *)minimumTimeBetweenDosesCell:(NSInteger)row tableView:(UITableView *)tableView {
 	UITableViewCell *cell = [CellFactory cellWithIdentifier:@"MinimumTimeBetweenDosesCell" tableView:tableView];
 	cell.text = @"Min time between doses";
+	
+	IntervalPicker * picker = [[IntervalPicker alloc] initWithFrame:CGRectZero];
+	picker.medication = medication;
+	
+	[cell addSubview:picker];
+	
 	return cell;
 }
 	

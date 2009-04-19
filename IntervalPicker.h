@@ -14,13 +14,13 @@
 
 @class Medication;
 
-@interface ReminderIntervalPicker : UIPickerView
+@interface IntervalPicker : UIPickerView
 <UIPickerViewDelegate, UIPickerViewDataSource>
 {
-	Medication *reminder;
+	Medication *medication;
 }
 
-@property (nonatomic, retain) Medication *reminder;
+@property (nonatomic, retain) Medication *medication;
 
 -(NSInteger)valueInSeconds;
 

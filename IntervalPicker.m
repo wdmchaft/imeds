@@ -6,11 +6,11 @@
 //  Copyright 2009 __MyCompanyName__. All rights reserved.
 //
 
-#import "ReminderIntervalPicker.h"
+#import "IntervalPicker.h"
 #import "Medication.h"
 
-@implementation ReminderIntervalPicker
-@synthesize reminder;
+@implementation IntervalPicker
+@synthesize medication;
 
 - (id)initWithFrame:(CGRect)frame {
 	if (self = [super initWithFrame:frame]) {
@@ -81,15 +81,15 @@ numberOfRowsInComponent:(NSInteger)component
 #pragma mark Selected Rows
 -(int)selectedIntervalDayIndex
 {
-	return [reminder intervalDays];
+	return [medication intervalDays];
 }
 -(int)selectedIntervalHourIndex
 {
-	return [reminder intervalHours];
+	return [medication intervalHours];
 }
 -(int)selectedIntervalMinuteIndex
 {
-	return [reminder intervalMinutes] / 5;
+	return [medication intervalMinutes] / 5;
 }
 
 @end

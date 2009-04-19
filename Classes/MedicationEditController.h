@@ -14,18 +14,18 @@
 #import <UIKit/UIKit.h>
 
 @class Medication;
-@class ReminderIntervalPicker;
+@class IntervalPicker;
 
 @interface MedicationEditController : UIViewController
 	<UITextFieldDelegate, UITableViewDelegate, UITableViewDataSource> {
 		IBOutlet UITextField *nameField;
-		IBOutlet ReminderIntervalPicker *intervalPicker;
+		IBOutlet IntervalPicker *intervalPicker;
 		Medication *medication;
 		NSMutableDictionary *tempValues;
 }
 @property (nonatomic, retain) Medication *medication;
 @property (nonatomic, retain) UITextField *nameField;
-@property (nonatomic, retain) ReminderIntervalPicker *intervalPicker;
+@property (nonatomic, retain) IntervalPicker *intervalPicker;
 @property (nonatomic, retain) NSMutableDictionary *tempValues;
 
 -(IBAction)save:(id)sender;
