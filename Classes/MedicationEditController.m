@@ -11,7 +11,6 @@
 #import "Medication.h"
 #import "IntervalPicker.h"
 #import "MedicationSearchController.h"
-#import "IntervalPicker.h"
 #import "CellFactory.h"
 
 @implementation MedicationEditController

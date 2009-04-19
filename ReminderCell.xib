@@ -151,7 +151,7 @@
 								<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 							</object>
 						</object>
-						<string key="NSFrameSize">{281, 80}</string>
+						<string key="NSFrameSize">{297, 80}</string>
 						<reference key="NSSuperview" ref="835032153"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -172,7 +172,7 @@
 				<bool key="IBUIOpaque">NO</bool>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<int key="IBUISelectionStyle">0</int>
-				<int key="IBUIAccessoryType">2</int>
+				<int key="IBUIAccessoryType">1</int>
 				<reference key="IBUIContentView" ref="332668825"/>
 				<string key="IBUIReuseIdentifier">ReminderCellIdentifier</string>
 			</object>
